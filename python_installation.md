@@ -65,7 +65,7 @@ To make sure conda has latest version
 To make sure pip is update to date (pip is the Python installer and used internally by conda)  
 ```python –m pip install --upgrade pip```
 
-##python virtual environments  
+## python virtual environments  
 Miniconda is shared across environments. A good reference is: 
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
