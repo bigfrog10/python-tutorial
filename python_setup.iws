@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e47e8176-3293-4af7-aad9-dc1566e02573" name="Default Changelist" comment="initial version">
+      <change afterPath="$PROJECT_DIR$/python_setup.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_setup.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_setup.iws" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fTP5qzK1EilaIEVdu7zRBljUgL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e47e8176-3293-4af7-aad9-dc1566e02573" name="Default Changelist" comment="" />
+      <created>1596238928992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596238928992</updated>
+      <workItem from="1596238934592" duration="7502000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial version">
+      <created>1596327454016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596327454016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial version" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial version" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="384" key="SettingsEditor" timestamp="1596239812531">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="396" y="384" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1596239812531" />
+    <state x="668" y="493" width="540" height="524" key="StructurePopup" timestamp="1596239641197">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="668" y="493" width="540" height="524" key="StructurePopup/0.23.2560.1417@0.23.2560.1417" timestamp="1596239641197" />
+  </component>
+</project>
