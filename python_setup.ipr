@@ -3,28 +3,22 @@
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
+      <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+      <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+      <inspection_tool class="SqlStorageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
     </profile>
     <version value="1.0" />
   </component>
-  <component name="ProjectDictionaryState">
-    <dictionary name="yupingcui">
-      <words>
-        <w>miniconda</w>
-        <w>pypl</w>
-        <w>remoting</w>
-        <w>tiobe</w>
-      </words>
-    </dictionary>
-  </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/python_setup.iml" filepath="$PROJECT_DIR$/python_setup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flask_playground/flask_playground.iml" filepath="$PROJECT_DIR$/flask_playground/flask_playground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/python_playground/python_playground.iml" filepath="$PROJECT_DIR$/python_playground/python_playground.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (ashley1)" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>
