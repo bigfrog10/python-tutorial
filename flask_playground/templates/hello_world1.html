@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+    <link rel="icon" href="../static/favicon1.ico" type="image/x-icon">
+</head>
+<body>
+    <form action="/name" method="post">
+        <label for="fname">First name:</label><br/>
+        <input type="text" id="fname" name="fname"><br/>
+        <label for="lname">Last name:</label><br/>
+        <input type="text" id="lname" name="lname"><br/>
+        <input type="submit" value="hello world">
+    </form>
+    <p>
+        {{first}}, {{last}}
+    </p>
+</body>
+</html>

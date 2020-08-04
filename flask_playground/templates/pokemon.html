@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>For loop in Flask</title>
+    <link rel="icon" type="image/jpg" href="/static/fire.jpg">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+</head>
+<body style="background-color:gold;">
+
+<ol>
+    <!-- For loop logic of jinja template -->
+    {% for i in range(0, len) %}
+        <li>{{pokemons[i]}}</li>
+    {% endfor %}
+</ol>
+
+<div style="font-family: 'Dancing Script', serif; font-size: 72px; color: white; background-image: url('/static/panda.jpg');">
+    you choose: {{pokemons[num]}}<br/>
+</div>
+
+{% if num == 4 %}
+    good choice
+{% else %}
+    sorry dude
+{% endif %}
+
+</body>
+</html>

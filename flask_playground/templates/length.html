@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>word lengths</title>
+    <link rel="icon" type="image/png" href="/static/frog.png">
+</head>
+<body>
+<form action="/length" method="post">
+    <label for="first">first word:</label><br/>
+    <input type="text" id="first" name="first"><br/>
+    <label for="second">second word:</label><br/>
+    <input type="text" id="second" name="second"><br/>
+    <input type="submit" value="calculate">
+</form>
+
+<p>
+    {{first}} and {{second}}
+</p>
+</body>
+</html>
