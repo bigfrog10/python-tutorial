@@ -32,10 +32,10 @@ for i in e:
         # break
 print(r)
 
-r = all(x==e[0] for x in e)
+r = all(x == e[0] for x in e)
 print(r)
 
-r = any(x==1.5 for x in e)
+r = any(x == 1.5 for x in e)
 print(r)
 
 evens = list(map(lambda n: n*2, range(20)))

@@ -25,15 +25,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="refactor">
-      <change afterPath="$PROJECT_DIR$/python_playground/src/problems/24game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_setup.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_setup.iml" afterDir="false" />
+    <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="new code">
+      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/bowling/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/bowling/bowling_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/bowling/bowling_score_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/higher_order_func_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/higher_order_func_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_setup.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,83 +63,96 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
-  <component name="RunManager" selected="Python.24game">
-    <configuration name="24game" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in bowling_score_test.py">
+    <configuration name="Unittests for bowling_score_test.BowlingScoreTest.test_frame_count" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/problems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/problems/24game.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bowling_score_test.BowlingScoreTest.test_frame_count&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="flask_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="flask_playground" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/.conda/envs/ashley1/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_playground" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_playground/src/flask_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="polar_bar_plot_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for bowling_score_test.BowlingScoreTest.test_slot_count" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/mp_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/mp_test/polar_bar_plot_1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bowling_score_test.BowlingScoreTest.test_slot_count&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for bowling_score_test.BowlingScoreTest.test_spare" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python_playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bowling_score_test.BowlingScoreTest.test_spare&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for bowling_score_test.BowlingScoreTest.test_strike" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python_playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bowling_score_test.BowlingScoreTest.test_strike&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in bowling_score_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python_playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/python_playground/src/puzzles/bowling/bowling_score_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.flask_test" />
-      <item itemvalue="Python.polar_bar_plot_1" />
-      <item itemvalue="Python.24game" />
+      <item itemvalue="Python tests.Unittests for bowling_score_test.BowlingScoreTest.test_strike" />
+      <item itemvalue="Python tests.Unittests in bowling_score_test.py" />
+      <item itemvalue="Python tests.Unittests for bowling_score_test.BowlingScoreTest.test_spare" />
+      <item itemvalue="Python tests.Unittests for bowling_score_test.BowlingScoreTest.test_slot_count" />
+      <item itemvalue="Python tests.Unittests for bowling_score_test.BowlingScoreTest.test_frame_count" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.24game" />
-        <item itemvalue="Python.polar_bar_plot_1" />
-        <item itemvalue="Python.flask_test" />
+        <item itemvalue="Python tests.Unittests in bowling_score_test.py" />
+        <item itemvalue="Python tests.Unittests for bowling_score_test.BowlingScoreTest.test_frame_count" />
+        <item itemvalue="Python tests.Unittests for bowling_score_test.BowlingScoreTest.test_slot_count" />
+        <item itemvalue="Python tests.Unittests for bowling_score_test.BowlingScoreTest.test_strike" />
+        <item itemvalue="Python tests.Unittests for bowling_score_test.BowlingScoreTest.test_spare" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1596506791597</updated>
       <workItem from="1596506795460" duration="752000" />
-      <workItem from="1596759087155" duration="5395000" />
+      <workItem from="1596759087155" duration="6227000" />
+      <workItem from="1596912817376" duration="12908000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1596506997043</created>
@@ -168,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596507283670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new code">
+      <created>1596764516104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596764516104</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new code">
+      <created>1596764563454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596764563454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +237,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+    <MESSAGE value="new code" />
+    <option name="LAST_COMMIT_MESSAGE" value="new code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="218" key="#Project_Structure" timestamp="1596759127765">
@@ -211,46 +249,50 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="688" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1596506906415" />
-    <state width="2096" height="313" key="GridCell.Tab.0.bottom" timestamp="1596764480839">
+    <state x="1441" y="424" key="#xdebugger.evaluate" timestamp="1596925393433">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2096" height="313" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1596764480839" />
-    <state width="2096" height="313" key="GridCell.Tab.0.center" timestamp="1596764480838">
+    <state x="1441" y="424" key="#xdebugger.evaluate/0.23.2560.1417@0.23.2560.1417" timestamp="1596925393433" />
+    <state width="1678" height="260" key="GridCell.Tab.0.bottom" timestamp="1596928357547">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2096" height="313" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1596764480838" />
-    <state width="2096" height="313" key="GridCell.Tab.0.left" timestamp="1596764480838">
+    <state width="1678" height="260" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1596928357547" />
+    <state width="1678" height="260" key="GridCell.Tab.0.center" timestamp="1596928357547">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2096" height="313" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1596764480838" />
-    <state width="2096" height="313" key="GridCell.Tab.0.right" timestamp="1596764480838">
+    <state width="1678" height="260" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1596928357547" />
+    <state width="1678" height="260" key="GridCell.Tab.0.left" timestamp="1596928357546">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2096" height="313" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1596764480838" />
-    <state width="2096" height="387" key="GridCell.Tab.1.bottom" timestamp="1596763634935">
+    <state width="1678" height="260" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1596928357546" />
+    <state width="1678" height="260" key="GridCell.Tab.0.right" timestamp="1596928357547">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2096" height="387" key="GridCell.Tab.1.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1596763634935" />
-    <state width="2096" height="387" key="GridCell.Tab.1.center" timestamp="1596763634934">
+    <state width="1678" height="260" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1596928357547" />
+    <state width="1678" height="388" key="GridCell.Tab.1.bottom" timestamp="1596928190349">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2096" height="387" key="GridCell.Tab.1.center/0.23.2560.1417@0.23.2560.1417" timestamp="1596763634934" />
-    <state width="2096" height="387" key="GridCell.Tab.1.left" timestamp="1596763634934">
+    <state width="1678" height="388" key="GridCell.Tab.1.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1596928190349" />
+    <state width="1678" height="388" key="GridCell.Tab.1.center" timestamp="1596928190348">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2096" height="387" key="GridCell.Tab.1.left/0.23.2560.1417@0.23.2560.1417" timestamp="1596763634934" />
-    <state width="2096" height="387" key="GridCell.Tab.1.right" timestamp="1596763634935">
+    <state width="1678" height="388" key="GridCell.Tab.1.center/0.23.2560.1417@0.23.2560.1417" timestamp="1596928190348" />
+    <state width="1678" height="388" key="GridCell.Tab.1.left" timestamp="1596928190348">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2096" height="387" key="GridCell.Tab.1.right/0.23.2560.1417@0.23.2560.1417" timestamp="1596763634935" />
+    <state width="1678" height="388" key="GridCell.Tab.1.left/0.23.2560.1417@0.23.2560.1417" timestamp="1596928190348" />
+    <state width="1678" height="388" key="GridCell.Tab.1.right" timestamp="1596928190349">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1678" height="388" key="GridCell.Tab.1.right/0.23.2560.1417@0.23.2560.1417" timestamp="1596928190349" />
     <state x="725" y="275" key="SettingsEditor" timestamp="1596759534423">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="725" y="275" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1596759534423" />
-    <state x="824" y="376" key="Vcs.Push.Dialog.v2" timestamp="1596507304869">
+    <state x="824" y="376" key="Vcs.Push.Dialog.v2" timestamp="1596764583659">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="824" y="376" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1596507304869" />
+    <state x="824" y="376" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1596764583659" />
     <state x="858" y="235" key="new project wizard" timestamp="1596506840045">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -261,8 +303,15 @@
     <state x="923" y="430" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1596763463471" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_strike.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_strike Coverage Results" MODIFIED="1596927529619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_double.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_double Coverage Results" MODIFIED="1596926261871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_slot_count.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_slot_count Coverage Results" MODIFIED="1596928230828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_frame_count.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_frame_count Coverage Results" MODIFIED="1596928352404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
     <SUITE FILE_PATH="coverage/python_setup$flask_test.coverage" NAME="flask_test Coverage Results" MODIFIED="1596506908646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_playground" />
     <SUITE FILE_PATH="coverage/python_setup$24game.coverage" NAME="24game Coverage Results" MODIFIED="1596764099541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/problems" />
+    <SUITE FILE_PATH="coverage/python_setup$bowling_score.coverage" NAME="bowling_score Coverage Results" MODIFIED="1596925060713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
     <SUITE FILE_PATH="coverage/python_setup$polar_bar_plot_1.coverage" NAME="polar_bar_plot_1 Coverage Results" MODIFIED="1596507233760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/mp_test" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_spare.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_spare Coverage Results" MODIFIED="1596927273654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_in_bowling_score_test_py.coverage" NAME="Unittests in bowling_score_test.py Coverage Results" MODIFIED="1596928357493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
   </component>
 </project>
