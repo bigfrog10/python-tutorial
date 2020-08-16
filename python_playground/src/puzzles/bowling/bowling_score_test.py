@@ -56,3 +56,11 @@ class BowlingScoreTest(unittest.TestCase):
         except Exception as e:
             self.assertTrue(e.args[0] == 'frame 10 cannot have slot 3 if the'
                                          ' first two slots have sum less than 10')
+
+    def test_repr(self):
+        # import name bowling_score otherwise ScoreFrame repr is broken
+        bowling_frame = bowling_score.ScoreFrame(3, 6)
+        print(bowling_frame)
+        bf = repr(bowling_frame)
+        print(bf)
+        print(eval(bf))

@@ -24,6 +24,17 @@ class ScoreFrame:
         elif slot1 + slot2 == 10:
             self.bonus = ScoreFrame.SPARE
 
+    def __repr__(self):
+        # does not have bonus/score because of the __init__
+        # contract with eval (they are opposites) -> eval(repr())
+        return 'bowling_score.ScoreFrame({}, {}, {})'.format(self.slot1,
+                                                             self.slot2,
+                                                             self.slot3)
+
+    def __str__(self):
+        return 'ScoreFrame(slot1={}, slot2={}, slot3={}, bonus={}, score={})'\
+            .format(self.slot1, self.slot2, self.slot3, self.bonus, self.score)
+
     def is_strike(self):
         return self.bonus == ScoreFrame.STRIKE
 

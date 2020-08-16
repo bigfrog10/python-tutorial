@@ -1,5 +1,6 @@
 # binary number
 print(0b10)
+print("{0:010b}".format(0b011110))
 # hex number
 print(0xA)
 # octal number
