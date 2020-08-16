@@ -11,13 +11,13 @@ class MatchPosition(enum.Enum):
     #            -
     #          BOTTOM
 
-    TOP = 0
-    UPPER_LEFT = 1
-    UPPER_RIGHT = 2
-    MIDDLE = 3
-    LOWER_LEFT = 4
-    LOWER_RIGHT = 5
-    BOTTOM = 6
+    TOP         = 0b1000000
+    UPPER_LEFT  = 0b0100000
+    UPPER_RIGHT = 0b0010000
+    MIDDLE      = 0b0001000
+    LOWER_LEFT  = 0b0000100
+    LOWER_RIGHT = 0b0000010
+    BOTTOM      = 0b0000001
 
 
 class MatchDigit:
@@ -40,26 +40,20 @@ class MatchDigit:
         self._match_repr = self.match_repr[digit]
 
     def has_match(self, position: MatchPosition):
-        # shift to the left to kill positions after
-        mask_right = self._match_repr >> (MatchPosition.BOTTOM.value - position.value)
-        # mask to kill positions before
-        return mask_right & 1 == 1
+        return self._match_repr & position.value == position.value
 
     def set_match(self, position: MatchPosition):
         if self.has_match(position):
             return None
 
-        # compute position in bits
-        x = 1 << (MatchPosition.BOTTOM.value - position.value)
-        new_digit = self._match_repr + x
+        new_digit = self._match_repr + position.value
         return match_to_digit.get(new_digit, None)
 
     def remove_match(self, position: MatchPosition):
         if not self.has_match(position):
             return None
 
-        x = 1 << (MatchPosition.BOTTOM.value - position.value)
-        new_digit = self._match_repr - x
+        new_digit = self._match_repr - position.value
         return match_to_digit.get(new_digit, None)
 
     def digit(self):
@@ -68,7 +62,8 @@ class MatchDigit:
     def all_matches(self):
         return [p for p in MatchPosition if self.has_match(p)]
 
-    def _rep(self, c, d):
+    @staticmethod
+    def _rep(c, d):
         if c == '1':
             return d
         else:
