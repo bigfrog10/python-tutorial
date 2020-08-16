@@ -25,13 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="bowling">
-      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game/match_digits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game/match_digits_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/puzzles/bowling/bowling_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/puzzles/bowling/bowling_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/puzzles/bowling/bowling_score_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/puzzles/bowling/bowling_score_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/primitive_data_type_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/primitive_data_type_test.py" afterDir="false" />
+    <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="bowling update">
+      <change afterPath="$PROJECT_DIR$/intellij_coverage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/intellij_setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_setup.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +60,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
+  </component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/python_playground" />
+    </key>
   </component>
   <component name="RunManager" selected="Python tests.Unittests for match_digits_test.MathDigitsTest">
     <configuration name="Unittests for match_digits_test.MathDigitsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -178,7 +184,7 @@
       <workItem from="1597356506279" duration="7758000" />
       <workItem from="1597447347898" duration="2283000" />
       <workItem from="1597524930211" duration="4524000" />
-      <workItem from="1597532356750" duration="1197000" />
+      <workItem from="1597532356750" duration="3513000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1596506997043</created>
@@ -222,7 +228,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596928691993</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="matches">
+      <created>1597606257461</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597606257461</updated>
+    </task>
+    <task id="LOCAL-00008" summary="bowling update">
+      <created>1597606475778</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597606475778</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +256,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
               <option name="FILTERS">
@@ -261,7 +281,9 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="new code" />
     <MESSAGE value="bowling" />
-    <option name="LAST_COMMIT_MESSAGE" value="bowling" />
+    <MESSAGE value="matches" />
+    <MESSAGE value="bowling update" />
+    <option name="LAST_COMMIT_MESSAGE" value="bowling update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="218" key="#Project_Structure" timestamp="1596759127765">
@@ -308,14 +330,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state width="1742" height="434" key="GridCell.Tab.1.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597532088386" />
-    <state x="725" y="275" key="SettingsEditor" timestamp="1596759534423">
+    <state x="1082" y="559" key="SettingsEditor" timestamp="1597616085232">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="725" y="275" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1596759534423" />
-    <state x="824" y="376" key="Vcs.Push.Dialog.v2" timestamp="1596928701740">
+    <state x="1082" y="559" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1597616085232" />
+    <state x="824" y="376" key="Vcs.Push.Dialog.v2" timestamp="1597606485059">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="824" y="376" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1596928701740" />
+    <state x="824" y="376" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1597606485059" />
     <state x="845" y="466" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597099816526">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
