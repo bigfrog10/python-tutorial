@@ -1,13 +1,16 @@
+# https://blog.csdn.net/iteye_15612/article/details/81725858
+
+import puzzles.match_digits_game.match_digits as match_digits
+
 # for all digits
 #     for all matches
 #         take this match and move it to somewhere
 #             so that we have two new valid numbers
 #         check whether the equality holds
 #             if it holds, send out results.
-import puzzles.match_digits_game.match_digits as match_digits
 
 
-def f(s: str):
+def _index_to_digit(s: str):
     ret = {}
     for i in range(len(s)):
         if s[i].isnumeric():
@@ -16,8 +19,13 @@ def f(s: str):
     return ret
 
 
-def g(s: str, r: dict):
+def solve(s: str):
     ret = []
+    if _check_result(s):
+        ret.append(s)
+
+    r = _index_to_digit(s)
+
     for pos, md in r.items():
         for match in md.all_matches():
             new_md = md.remove_match(match)
@@ -33,24 +41,28 @@ def g(s: str, r: dict):
                     s1 = s[:pos] + str(new_md.digit()) + s[pos + 1:]
                     s1 = s1[:pos1] + str(new_md1.digit()) + s[pos1 + 1:]
 
-                    ind = s1.index('=')
-                    left = s1[:ind]
-                    right = s1[ind + 1:]
-
-                    lv = eval(left)
-                    rv = eval(right)
-                    if lv == rv:
+                    if _check_result(s1):
                         ret.append(s1)
+                        print('input expr: ' + s + ' new expr: ' + s1)
+                        print('    move match ' + match.name + ' in digit ' +
+                              str(md.digit()) + "(index: " + str(pos) +
+                              ') to the position ' + match1.name + ' in digit '
+                              + str(md1.digit()) + "(index: " + str(pos1) + ')')
 
     return ret
 
 
-def solver(equation: str):
-    pos_digits = f(equation)
-    solutions = g(equation, pos_digits)
-    print(solutions)
+def _check_result(s1):
+    ind = s1.index('=')
+    left = s1[:ind]
+    right = s1[ind + 1:]
+
+    lv = eval(left)
+    rv = eval(right)
+    return lv == rv
 
 
-# solver("9 + 5 = 9")
-# solver("19 + 5 = 19")
-solver("2 * (9 + 5) = 18")
+print(solve("9 + 5 = 9"))  # ['3 + 6 = 9', '3 + 5 = 8']
+print(solve("19 + 5 = 19"))  # ['13 + 6 = 19', '13 + 5 = 18']
+print(solve("2 * (9 + 5) = 18"))  # ['2 * (3 + 6) = 18']
+print(solve("4 + 5 = 9"))  # ['4 + 5 = 9']
