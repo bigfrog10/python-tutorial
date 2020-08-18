@@ -34,5 +34,5 @@ PYPL Index
 - pythonnet
 
 [Python Installation](python_installation.md)  
-[IntelliJ Setup](intellij_setup.md)
+[IntelliJ Setup](intellij_setup.md)  
 [Python Build](python_build.md)
