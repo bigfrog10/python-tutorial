@@ -14,12 +14,48 @@ import re
 # Arithmetic precedence is in increasing order: '+', '-', '*', '/';
 
 number_or_symbol = re.compile(r'(\d+|[^ 0-9])')
-tokens = re.findall(number_or_symbol, '(81 * 6) / 42 + (3 - 1)')
-stack = []
-output_queue = queue.Queue()
 
 
-def same_or_higher_priority(op1, op2):  # op1 is same or higher order than op2
+def eval_str_expr(str_expr: str):
+    tokens = re.findall(number_or_symbol, str_expr)
+    expr_queue = _process_tokens(tokens)
+    return _eval_postfix(expr_queue)
+
+
+def _process_tokens(tokens):
+    stack = []
+    output_queue = queue.Queue()
+
+    for token in tokens:
+        if token.isnumeric():
+            output_queue.put(token)
+        elif token in '+-*/^':  # operators
+            while stack:
+                item = stack.pop()
+                if item in '+-*/^' and _same_or_higher_priority(item, token):
+                    output_queue.put(item)
+                else:  # put it back into stack
+                    stack.append(item)
+                    break
+
+            stack.append(token)
+        elif token == '(':
+            stack.append(token)
+        elif token == ')':
+            # t := stack.pop() <- walrus operator in python 3.8
+            t = stack.pop()
+            while t != '(':
+                output_queue.put(t)
+                t = stack.pop()
+    # else such as ' ' will be ignored
+
+    while stack:
+        output_queue.put(stack.pop())
+
+    return output_queue
+
+
+def _same_or_higher_priority(op1, op2):  # op1 is same or higher order than op2
     if op2 in '+-':
         return True
     elif op2 in '*/':
@@ -28,36 +64,7 @@ def same_or_higher_priority(op1, op2):  # op1 is same or higher order than op2
         return op2 == '^' and op1 == '^'
 
 
-for token in tokens:
-    if token.isnumeric():
-        output_queue.put(token)
-    elif token in '+-*/^':  # operators
-        while stack:
-            item = stack.pop()
-            if item in '+-*/^' and same_or_higher_priority(item, token):
-                output_queue.put(item)
-            else:  # put it back into stack
-                stack.append(item)
-                break
-
-        stack.append(token)
-    elif token == '(':
-        stack.append(token)
-    elif token == ')':
-        # t := stack.pop() <- walrus operator in python 3.8
-        t = stack.pop()
-        while t != '(':
-            output_queue.put(t)
-            t = stack.pop()
-    # else such as ' ' will be ignored
-
-while stack:
-    output_queue.put(stack.pop())
-
-print(str(output_queue.queue))
-
-
-def eval_postfix(postfix_queue):
+def _eval_postfix(postfix_queue):
     operand_stack = []
     while not postfix_queue.empty():
         item = postfix_queue.get()
@@ -68,11 +75,11 @@ def eval_postfix(postfix_queue):
             second = operand_stack.pop()
 
             if item == '+':
-                operand_stack.append(first + second)
+                operand_stack.append(second + first)
             elif item == '-':
                 operand_stack.append(second - first)
             elif item == '*':
-                operand_stack.append(first * second)
+                operand_stack.append(second * first)
             elif item == '/':
                 operand_stack.append(second / first)
             elif item == '^':
@@ -81,4 +88,5 @@ def eval_postfix(postfix_queue):
     return operand_stack.pop()
 
 
-print(eval_postfix(output_queue))
+print(eval_str_expr('(81 * 6) / 42 + (3 - 1)'))
+print(eval('(81 * 6) / 42 + (3 - 1)'))
