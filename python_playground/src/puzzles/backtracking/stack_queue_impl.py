@@ -6,13 +6,13 @@ class MyStack:
         self._storage.append(item)
 
     def pop(self):
-        self._storage.pop()
+        return self._storage.pop()
 
     def peek(self):
         return self._storage[-1]
 
     def __bool__(self):  # if / while condition check
-        return len(self._storage) == 0
+        return len(self._storage) != 0
 
     def __len__(self):
         return len(self._storage)
