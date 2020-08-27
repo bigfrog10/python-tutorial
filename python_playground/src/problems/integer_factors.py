@@ -171,14 +171,45 @@ def lcm(a: int, b: int):
     return abs(a * b) / gcd(a, b)
 
 
-if __name__ == '__main__':
-    # a = [i if i % 2 == 0 else -i for i in range(1, 10)]
-    # print(a)
+def euclidean_tuple(a, b):
+    """
+    This is the extended Euclidean algorithm. Instead of returning only the
+    GCD, it returns a tuple, (x, y, d) such that
+        a * x + b * y = d
+    The necessary and sufficient conditions for d = gcd(a, b) are:
+        a and b can be divided by d
+        ax + by = d for some x and y
+    This is because if a factor f divides both a and b then from 2 f has to
+    divide d. So d is gcd.
 
-    s = lcm(0, 0)
-    print(s)
+    https://thilinaatsympy.wordpress.com/2013/06/21/solving-linear-diophantine-equation/
+    """
+    if b == 0:
+        return 1, 0, a
+    else:
+        # Here we have a = kb + r, where r = a % b.
+        # The returned x and y satisfies bx + ry = d. This is true for all
+        # recursions. Replace r with a - kb:
+        #     bx + (a - kb)y = d
+        #     ay + b(x -ky) = d
+        # So the new x is y and the new y is x - ky, where k = a / b (integer quotient)
+        x, y, gcd = euclidean_tuple(b, a % b)
 
-    a = [0, 1]
-    print(gcdm1(a))
+        new_x = y
+        new_y = x - (a // b) * y
+        return new_x, new_y, gcd
 
-    print(gcd(0, 1))
+
+# if __name__ == '__main__':
+#     # a = [i if i % 2 == 0 else -i for i in range(1, 10)]
+#     # print(a)
+#
+#     s = lcm(0, 0)
+#     print(s)
+#
+#     a = [0, 1]
+#     print(gcdm1(a))
+#
+#     print(gcd(0, 1))
+#
+#     print(gcd(10, 10))
