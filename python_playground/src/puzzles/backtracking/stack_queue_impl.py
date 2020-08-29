@@ -32,7 +32,7 @@ class MyQueue:
         return self.__storage[-1]
 
     def __bool__(self):  # if / while condition check
-        return len(self.__storage) == 0
+        return len(self.__storage) != 0
 
     def __len__(self):
         return len(self.__storage)

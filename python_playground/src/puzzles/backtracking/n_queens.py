@@ -27,11 +27,8 @@ def _no_attack(board, row, column):
 
 def solve(size):
     # create empty chessboard
-    chessboard = [[0] * size]
-    for i in range(size-1):
-        chessboard.append([0] * size)
+    chessboard = [[0] * size for _ in range(size)]
 
-    #
     states = collections.MyStack()
     states.push((chessboard, 0))
     result = []
