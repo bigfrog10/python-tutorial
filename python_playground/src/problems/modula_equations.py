@@ -26,7 +26,11 @@ def solve_linear_sys(a_n: mod_nums.ModuloNumber, b_m: mod_nums.ModuloNumber):
     where modulo are different. The solution is
          x ≡ c (mod k)
     so a modulo number will be returned.
+
     Chinese Remainder Theorem
+    https://en.wikipedia.org/wiki/Chinese_remainder_theorem
+    https://math.stackexchange.com/questions/1644677/what-to-do-if-the-modulus-is-not-coprime-in-the-chinese-remainder-theorem
+
     An example is:
         x ≡ 2 (mod 3)
         x ≡ 6 (mod 7)
