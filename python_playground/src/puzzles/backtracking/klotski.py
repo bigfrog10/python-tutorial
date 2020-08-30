@@ -1,6 +1,5 @@
 import enum
 import random
-import pickle
 
 import puzzles.backtracking.stack_queue_impl as collections
 
@@ -52,15 +51,6 @@ class SlidingBlock:
     def is_occupied(self, x, y):
         return self.x_coord <= x < self.x_coord + self.length and self.y_coord <= y < self.y_coord + self.width
 
-    # slow
-    # def __hash__(self):
-    #     return hash((self.name, self.x_coord, self.y_coord, self.length, self.width))
-    #
-    # def __eq__(self, other):
-    #     return self.name == other.name and self.x_coord == other.x_coord and \
-    #            self.y_coord == other.y_coord and self.length == other.length \
-    #            and self.width == other.width
-
     def __str__(self):
         return '{name={}, x={}, y={}, len={}, wid={}}'.format(
             self.name, self.x_coord, self.y_coord, self.length, self.width)
@@ -71,10 +61,11 @@ class SlidingGameBoard:
         self.length = length
         self.width = width
         self.sliding_blocks = sliding_blocks
-        self.name_to_block = {x.name: x for x in sliding_blocks}
         self.finish_criteria = finish_criteria
 
-        self.steps = []
+        # Need to move these somewhere else, interfering with board copying.
+        # Need to keep board lightweight for copying
+        self.name_to_block = {x.name: x for x in sliding_blocks}
 
         self.shape_to_num = {}
         counter = 0  # 0 indicates empty
@@ -84,6 +75,7 @@ class SlidingGameBoard:
                 counter += 1
                 self.shape_to_num[(block.length, block.width)] = counter
 
+        self.steps = []
         self.zobrist_tbl = [[[random.randint(1, 2**64 - 1)
                               for _ in range(len(self.shape_to_num)+1)]  # 1 for empty space case
                              for _ in range(width)] for _ in range(length)]
@@ -107,18 +99,6 @@ class SlidingGameBoard:
 
         return False
 
-    # slow, use customized hash
-    # def __hash__(self):
-    #     return hash((self.length, self.width,
-    #                  hash(frozenset(self.sliding_blocks)), hash(frozenset(self.steps)),
-    #                  hash(self.finish_criteria)))
-    #
-    # def __eq__(self, other):
-    #     return self.length == other.length and self.width == other.width and \
-    #            set(self.sliding_blocks) == set(other.sliding_blocks) and \
-    #            set(self.steps) == set(other.steps) and \
-    #            self.finish_criteria == other.finish_criteria
-
     def __str__(self):
         return str(self.steps)
 
@@ -126,6 +106,7 @@ class SlidingGameBoard:
         return str(self.steps)
 
     def deep_clone(self):
+        # copy.deepcopy and pickle are slow since we have internal states
         # return pickle.loads(pickle.dumps(self))
         new_blocks = []
         for b in self.sliding_blocks:
@@ -202,6 +183,7 @@ def move_to(direction, block, board1, cache, queue, results):
     block.move(direction.opposite())
 
 
+# ## testing
 def finish_criteria1(board):
     block = board.name_to_block['boss']
     return block.is_occupied(4, 1) and block.is_occupied(4, 2)
