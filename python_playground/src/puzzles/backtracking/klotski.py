@@ -52,13 +52,14 @@ class SlidingBlock:
     def is_occupied(self, x, y):
         return self.x_coord <= x < self.x_coord + self.length and self.y_coord <= y < self.y_coord + self.width
 
-    def __hash__(self):
-        return hash((self.name, self.x_coord, self.y_coord, self.length, self.width))
-
-    def __eq__(self, other):
-        return self.name == other.name and self.x_coord == other.x_coord and \
-               self.y_coord == other.y_coord and self.length == other.length \
-               and self.width == other.width
+    # slow
+    # def __hash__(self):
+    #     return hash((self.name, self.x_coord, self.y_coord, self.length, self.width))
+    #
+    # def __eq__(self, other):
+    #     return self.name == other.name and self.x_coord == other.x_coord and \
+    #            self.y_coord == other.y_coord and self.length == other.length \
+    #            and self.width == other.width
 
     def __str__(self):
         return '{name={}, x={}, y={}, len={}, wid={}}'.format(
@@ -106,16 +107,17 @@ class SlidingGameBoard:
 
         return False
 
-    def __hash__(self):
-        return hash((self.length, self.width,
-                     hash(frozenset(self.sliding_blocks)), hash(frozenset(self.steps)),
-                     hash(self.finish_criteria)))
-
-    def __eq__(self, other):
-        return self.length == other.length and self.width == other.width and \
-               set(self.sliding_blocks) == set(other.sliding_blocks) and \
-               set(self.steps) == set(other.steps) and \
-               self.finish_criteria == other.finish_criteria
+    # slow, use customized hash
+    # def __hash__(self):
+    #     return hash((self.length, self.width,
+    #                  hash(frozenset(self.sliding_blocks)), hash(frozenset(self.steps)),
+    #                  hash(self.finish_criteria)))
+    #
+    # def __eq__(self, other):
+    #     return self.length == other.length and self.width == other.width and \
+    #            set(self.sliding_blocks) == set(other.sliding_blocks) and \
+    #            set(self.steps) == set(other.steps) and \
+    #            self.finish_criteria == other.finish_criteria
 
     def __str__(self):
         return str(self.steps)
@@ -124,7 +126,26 @@ class SlidingGameBoard:
         return str(self.steps)
 
     def deep_clone(self):
-        return pickle.loads(pickle.dumps(self))
+        # return pickle.loads(pickle.dumps(self))
+        new_blocks = []
+        for b in self.sliding_blocks:
+            new_blocks.append(SlidingBlock(b.name, b.x_coord, b.y_coord, b.length, b.width))
+
+        cls = self.__class__
+        ret = cls.__new__(cls)
+        ret.length = self.length
+        ret.width = self.width
+        ret.sliding_blocks = new_blocks
+        ret.name_to_block = {x.name: x for x in new_blocks}
+        ret.finish_criteria = self.finish_criteria
+
+        ret.steps = self.steps.copy()
+
+        ret.shape_to_num = self.shape_to_num
+
+        ret.zobrist_tbl = self.zobrist_tbl  # random is slow
+
+        return ret
 
 
 def hash_board(board: SlidingGameBoard):
