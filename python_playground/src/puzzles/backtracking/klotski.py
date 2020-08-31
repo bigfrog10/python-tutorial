@@ -89,6 +89,15 @@ class SlidingGameBoard:
 
         return False
 
+    def get_layout(self):
+        ret = [[0] * self.width for _ in range(self.length)]
+        for b in self.sliding_blocks:
+            spaces = b.occupied_spaces()
+            for (x, y) in spaces:
+                ret[x][y] = self.shape_to_num[(b.length, b.width)]
+
+        return ret
+
     def is_overlaid(self, sliding_block):
         for block in self.sliding_blocks:
             if block == sliding_block:
@@ -130,16 +139,14 @@ class SlidingGameBoard:
 
 
 def hash_board(board: SlidingGameBoard):
-    hb = [[0] * board.width for _ in range(board.length)]
-    for b in board.sliding_blocks:
-        spaces = b.occupied_spaces()
-        for (x, y) in spaces:
-            hb[x][y] = board.shape_to_num[(b.length, b.width)]
+    hb = board.get_layout()
 
     ret = 0
     for i in range(board.length):
         for j in range(board.width):
             ret ^= board.zobrist_tbl[i][j][hb[i][j]]
+
+    # we could also add symmetric board as well if we know board is symmetric/door location
 
     return ret
 
@@ -160,6 +167,7 @@ def solve(board: SlidingGameBoard):
             continue
 
         for block in board1.sliding_blocks:
+            # we could use Direction for loop to shorten this
             move_to(Direction.UP, block, board1, cache, queue, results)
             move_to(Direction.DOWN, block, board1, cache, queue, results)
             move_to(Direction.LEFT, block, board1, cache, queue, results)
