@@ -29,23 +29,41 @@ class SlidingBlock:
         self.length = length
         self.width = width
 
+        self.occupied = []  # cache for performance
+
     def move(self, direction):
         if direction == Direction.UP:
             self.x_coord -= 1
+            self.occupied = []
+            return self.x_coord, self.y_coord
         elif direction == Direction.LEFT:
             self.y_coord -= 1
+            self.occupied = []
+            return self.x_coord, self.y_coord
         elif direction == Direction.RIGHT:
             self.y_coord += 1
+            self.occupied = []
+            return self.x_coord, self.y_coord
         elif direction == Direction.DOWN:
             self.x_coord += 1
+            self.occupied = []
+            return self.x_coord, self.y_coord
+
+        return None
 
     def occupied_spaces(self):
-        return [(self.x_coord + i, self.y_coord + j) for i in range(self.length) for j in range(self.width)]
+        if not self.occupied:
+            self.occupied = [(self.x_coord + i, self.y_coord + j)
+                             for i in range(self.length) for j in range(self.width)]
+        return self.occupied
 
     def is_overlaid(self, sliding_block):
-        os1 = self.occupied_spaces()
-        os2 = sliding_block.occupied_spaces()
-        intersection = set(os1) & set(os2)
+        if not self.occupied:
+            self.occupied = [(self.x_coord + i, self.y_coord + j)
+                             for i in range(self.length) for j in range(self.width)]
+
+        other_occupied = sliding_block.occupied_spaces()
+        intersection = set(self.occupied) & set(other_occupied)
         return len(intersection) > 0
 
     def is_occupied(self, x, y):
@@ -53,6 +71,10 @@ class SlidingBlock:
 
     def __str__(self):
         return '{name={}, x={}, y={}, len={}, wid={}}'.format(
+            self.name, self.x_coord, self.y_coord, self.length, self.width)
+
+    def __repr__(self):
+        return 'SlidingBlock(name={}, x_coord={}, y_coord={}, length={}, width={})'.format(
             self.name, self.x_coord, self.y_coord, self.length, self.width)
 
 
@@ -76,9 +98,12 @@ class SlidingGameBoard:
                 self.shape_to_num[(block.length, block.width)] = counter
 
         self.steps = []
+        # this field shouldn't be here, need to move to solver
         self.zobrist_tbl = [[[random.randint(1, 2**64 - 1)
                               for _ in range(len(self.shape_to_num)+1)]  # 1 for empty space case
                              for _ in range(width)] for _ in range(length)]
+
+        self.layout = None
 
     def is_out_of_bounds(self, sliding_block):
         for space in sliding_block.occupied_spaces():
@@ -90,13 +115,14 @@ class SlidingGameBoard:
         return False
 
     def get_layout(self):
-        ret = [[0] * self.width for _ in range(self.length)]
-        for b in self.sliding_blocks:
-            spaces = b.occupied_spaces()
-            for (x, y) in spaces:
-                ret[x][y] = self.shape_to_num[(b.length, b.width)]
+        if not self.layout:
+            self.layout = [[0] * self.width for _ in range(self.length)]
+            for b in self.sliding_blocks:
+                spaces = b.occupied_spaces()
+                for (x, y) in spaces:
+                    self.layout[x][y] = self.shape_to_num[(b.length, b.width)]
 
-        return ret
+        return self.layout
 
     def is_overlaid(self, sliding_block):
         for block in self.sliding_blocks:
@@ -135,6 +161,7 @@ class SlidingGameBoard:
 
         ret.zobrist_tbl = self.zobrist_tbl  # random is slow
 
+        ret.layout = None
         return ret
 
 
@@ -147,7 +174,7 @@ def hash_board(board: SlidingGameBoard):
             ret ^= board.zobrist_tbl[i][j][hb[i][j]]
 
     # we could also add symmetric board as well if we know board is symmetric/door location
-
+    # but rush hour game is not symmetric, so we leave this optimization out.
     return ret
 
 
@@ -177,16 +204,42 @@ def solve(board: SlidingGameBoard):
 
 
 def move_to(direction, block, board1, cache, queue, results):
+    layout = board1.get_layout()
+    if direction == Direction.UP:
+        if block.x_coord == 0:
+            return
+        for i in range(block.width):
+            if block.y_coord + i < board1.width and layout[block.x_coord-1][block.y_coord + i] != 0:
+                return
+    elif direction == Direction.DOWN:
+        if block.x_coord + block.length == board1.length:
+            return
+        for i in range(block.width):
+            if block.y_coord + i < board1.width and layout[block.x_coord+block.length][block.y_coord + i] != 0:
+                return
+    elif direction == Direction.LEFT:
+        if block.y_coord == 0:
+            return
+        for i in range(block.length):
+            if block.x_coord + i < board1.length and layout[block.x_coord+i][block.y_coord - 1] != 0:
+                return
+    elif direction == Direction.RIGHT:
+        if block.y_coord + block.width == board1.width:
+            return
+        for i in range(block.length):
+            if block.x_coord + i < board1.length and layout[block.x_coord+i][block.y_coord + block.width] != 0:
+                return
+
     block.move(direction)
-    if not board1.is_out_of_bounds(block) and not board1.is_overlaid(block):
-        new_board = board1.deep_clone()
-        new_board.steps.append((block.name, block.x_coord, block.y_coord, direction.name))
-        hb = hash_board(board1)
-        if new_board.finish_criteria(board1):
-            results.append(new_board)
-        elif hb not in cache:
-            cache.add(hb)
-            queue.enqueue(new_board)
+    # if not board1.is_out_of_bounds(block) and not board1.is_overlaid(block):
+    new_board = board1.deep_clone()
+    new_board.steps.append((block.name, block.x_coord, block.y_coord, direction.name))
+    hb = hash_board(new_board)
+    if new_board.finish_criteria(new_board):
+        results.append(new_board)
+    elif hb not in cache:
+        cache.add(hb)
+        queue.enqueue(new_board)
 
     block.move(direction.opposite())
 
