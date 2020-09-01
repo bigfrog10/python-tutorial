@@ -252,3 +252,13 @@ def test():
 
 import cProfile
 cProfile.run('test()')
+
+
+# https://github.com/jeantimex/klotski
+# https://www.jianshu.com/p/4a77d6253d33
+# https://inst.eecs.berkeley.edu/~cs61c/fa14/projs/02/
+# https://www.ixueshu.com/document/83b73e57dd554a55100410a5ba28df48318947a18e7f9386.html
+
+# https://stackify.com/how-to-use-python-profilers-learn-the-basics/
+# https://pythonspeed.com/articles/beyond-cprofile/
+
