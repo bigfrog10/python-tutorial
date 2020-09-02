@@ -240,6 +240,7 @@ def test():
         print(s)
 
 
+# provide tree view on calls
 # from pyinstrument import Profiler
 #
 # profiler = Profiler()
@@ -249,6 +250,16 @@ def test():
 #
 # profiler.stop()
 # print(profiler.output_text(unicode=True, color=True))
+
+# timing each line of a function
+# import line_profiler
+# import atexit
+# profile = line_profiler.LineProfiler()
+# atexit.register(profile.print_stats)
+# move_to = profile(move_to)  # profile this method inside another method
+# test()
+
+# profile(test)()  # the way to wrap the function
 
 import cProfile
 cProfile.run('test()')
