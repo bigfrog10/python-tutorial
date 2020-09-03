@@ -205,66 +205,6 @@ def move_to(direction, block, board, cache, queue, results, zobrist_tbl):
     block.move(direction.opposite())  # restore to last state for next try
 
 
-# ## testing
-def finish_criteria1(board):
-    block = board.name_to_block['boss']
-    return block.is_occupied(4, 1) and block.is_occupied(4, 2)
-
-
-def test():
-    # game1 = SlidingGameBoard(5, 4, [
-    #     SlidingBlock('boss', 0, 1, 2, 2),
-    #     SlidingBlock('general1', 2, 1, 1, 2),
-    #     SlidingBlock('general2', 0, 0, 2, 1),
-    # ], finish_criteria1)
-
-    game1 = SlidingGameBoard(5, 4, [
-        SlidingBlock('boss', 0, 1, 2, 2),
-
-        SlidingBlock('general1', 2, 1, 1, 2),
-        SlidingBlock('general2', 0, 0, 2, 1),
-        SlidingBlock('general3', 0, 3, 2, 1),
-        SlidingBlock('general4', 2, 0, 2, 1),
-        SlidingBlock('general5', 2, 3, 2, 1),
-
-        SlidingBlock('solder1', 3, 1, 1, 1),
-        SlidingBlock('solder2', 3, 2, 1, 1),
-        SlidingBlock('solder3', 4, 0, 1, 1),
-        SlidingBlock('solder4', 4, 3, 1, 1),
-    ], finish_criteria1)
-
-    solution = solve(game1)
-    for s in solution:
-        print('-' * 80)
-        print(len(s.steps))
-        print(s)
-
-
-# provide tree view on calls
-# from pyinstrument import Profiler
-#
-# profiler = Profiler()
-# profiler.start()
-#
-# test()
-#
-# profiler.stop()
-# print(profiler.output_text(unicode=True, color=True))
-
-# timing each line of a function
-# import line_profiler
-# import atexit
-# profile = line_profiler.LineProfiler()
-# atexit.register(profile.print_stats)
-# move_to = profile(move_to)  # profile this method inside another method
-# test()
-
-# profile(test)()  # the way to wrap the function
-
-import cProfile
-cProfile.run('test()')
-
-
 # https://github.com/jeantimex/klotski
 # https://www.jianshu.com/p/4a77d6253d33
 # https://inst.eecs.berkeley.edu/~cs61c/fa14/projs/02/
@@ -272,4 +212,3 @@ cProfile.run('test()')
 
 # https://stackify.com/how-to-use-python-profilers-learn-the-basics/
 # https://pythonspeed.com/articles/beyond-cprofile/
-
