@@ -11,7 +11,7 @@ try:
 finally:
     f.close()
 
-with open('ashley1.txt', 'w') as f:
+with open('output.txt', 'w') as f:
     f.write('hello world')
 
 with open('panda.jpg', 'rb') as f:

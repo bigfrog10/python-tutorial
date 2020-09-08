@@ -26,5 +26,4 @@ print(d.strftime('%Y%m%d'))
 # search "python document"
 # interactive mode -> terminal
 
-你好 = 1
-print(你好)
+
