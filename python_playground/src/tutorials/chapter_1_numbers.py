@@ -154,3 +154,16 @@ print(math.log10(11))
 print(math.factorial(5))
 print(math.ceil(3.14))  # 4
 print(math.floor(2.718))  # 2
+
+
+# bit representation for integers and 2's compliments:
+# Among many ways to use bits(0 and 1) to represent integers, 1's and 2's
+# compliments are common ones. 2's compliment is chosen for easier
+# implementations of addition, subtraction, and multiplication:
+# https://en.wikipedia.org/wiki/Two's_complement
+# hardware implementation is simpler too, using less components
+
+# for positive numbers, use all the bits except the most significant bit
+# (MSB, left most bit).
+# to represent a negative number, take the positive number, invert all bits
+# (0 to 1 and 1 to 0) and then add 1.
