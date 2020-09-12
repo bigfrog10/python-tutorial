@@ -25,9 +25,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="fixed MatchPosition to binary representation">
-      <change beforePath="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game/match_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game/match_digits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game/match_digits_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game/match_digits_test.py" afterDir="false" />
+    <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="consolidate number and string contents">
+      <change afterPath="$PROJECT_DIR$/env_conda.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/path_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/path_search/graph_dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/path_search/maze_a_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/path_search/maze_dijkstra.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_execises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_2_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_2_strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_4_flow_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_4_flow_controls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/class_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/dict_test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/python_setup.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_setup.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.iws" afterDir="false" />
     </list>
@@ -43,9 +53,21 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="0f2245f7-2e08-4298-a8a0-4eee9328be5b" />
   <component name="ProjectId" id="1fcA1VX8XYvjv2ka7PJFkyrCbEI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,114 +78,241 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/python_setup.ipr" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="coverage" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="PyCoverageOptionsProvider">
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\python_setup\python_playground\src\puzzles\backtracking\hua_rong_dao" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/python_playground" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in match_digits_test.py">
-    <configuration name="Unittests for match_digits_test.MathDigitsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.maze_a_star">
+    <configuration name="chapter1_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/tutorials" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;match_digits_test.MathDigitsTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="D:\00dev\python\python_setup\python_playground\src\tutorials\chapter1_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for match_digits_test.MathDigitsTest.test_match" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter1_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/tutorials" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;match_digits_test.MathDigitsTest.test_match&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="D:\00dev\python\python_setup\python_playground\src\tutorials\chapter1_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for match_digits_test.MathDigitsTest.test_remove_match" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter_1_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/tutorials" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;match_digits_test.MathDigitsTest.test_remove_match&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="D:\00dev\python\python_setup\python_playground\src\tutorials\chapter_1_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for match_digits_test.MathDigitsTest.test_to_string" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter_2_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/tutorials" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;match_digits_test.MathDigitsTest.test_to_string&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/tutorials/chapter_2_strings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in match_digits_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="graph_dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/path_search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game/match_digits_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/puzzles/path_search/graph_dijkstra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/backtracking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/puzzles/backtracking/maze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maze_a_star" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/path_search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/puzzles/path_search/maze_a_star.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maze_dijkstra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles/path_search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/puzzles/path_search/maze_dijkstra.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="numbers_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/tutorials" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\00dev\python\python_setup\python_playground\src\tutorials\numbers_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in match_digits_test.py" />
-      <item itemvalue="Python tests.Unittests for match_digits_test.MathDigitsTest" />
-      <item itemvalue="Python tests.Unittests for match_digits_test.MathDigitsTest.test_remove_match" />
-      <item itemvalue="Python tests.Unittests for match_digits_test.MathDigitsTest.test_to_string" />
-      <item itemvalue="Python tests.Unittests for match_digits_test.MathDigitsTest.test_match" />
+      <item itemvalue="Python.maze_dijkstra" />
+      <item itemvalue="Python.maze" />
+      <item itemvalue="Python.graph_dijkstra" />
+      <item itemvalue="Python.chapter_2_strings" />
+      <item itemvalue="Python.maze_a_star" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in match_digits_test.py" />
-        <item itemvalue="Python tests.Unittests for match_digits_test.MathDigitsTest.test_match" />
-        <item itemvalue="Python tests.Unittests for match_digits_test.MathDigitsTest.test_to_string" />
-        <item itemvalue="Python tests.Unittests for match_digits_test.MathDigitsTest" />
-        <item itemvalue="Python tests.Unittests for match_digits_test.MathDigitsTest.test_remove_match" />
+        <item itemvalue="Python.maze_a_star" />
+        <item itemvalue="Python.maze_dijkstra" />
+        <item itemvalue="Python.chapter_2_strings" />
+        <item itemvalue="Python.graph_dijkstra" />
+        <item itemvalue="Python.maze" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -185,6 +334,7 @@
       <workItem from="1597447347898" duration="2283000" />
       <workItem from="1597524930211" duration="4524000" />
       <workItem from="1597532356750" duration="7617000" />
+      <workItem from="1599282973705" duration="126179000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1596506997043</created>
@@ -256,11 +406,116 @@
       <option name="project" value="LOCAL" />
       <updated>1597617236769</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add modulo example">
+      <created>1598564707150</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598564707150</updated>
+    </task>
+    <task id="LOCAL-00012" summary="custom clone">
+      <created>1598802462788</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598802462788</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add reference">
+      <created>1598803114670</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598803114670</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor">
+      <created>1598803139054</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598803139054</updated>
+    </task>
+    <task id="LOCAL-00015" summary="improve performance">
+      <created>1598900936276</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598900936276</updated>
+    </task>
+    <task id="LOCAL-00016" summary="improve performance">
+      <created>1598906079369</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598906079369</updated>
+    </task>
+    <task id="LOCAL-00017" summary="improve performance">
+      <created>1598936739049</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598936739049</updated>
+    </task>
+    <task id="LOCAL-00018" summary="improve performance">
+      <created>1598940175180</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598940175180</updated>
+    </task>
+    <task id="LOCAL-00019" summary="bowling">
+      <created>1598940194817</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598940194817</updated>
+    </task>
+    <task id="LOCAL-00020" summary="improve performance">
+      <created>1598972714482</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598972714482</updated>
+    </task>
+    <task id="LOCAL-00021" summary="improve performance">
+      <created>1598976478262</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1598976478262</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add reference">
+      <created>1598976530761</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598976530761</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add line_profiler">
+      <created>1599088095263</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1599088095263</updated>
+    </task>
+    <task id="LOCAL-00024" summary="profilers">
+      <created>1599098181576</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1599098181576</updated>
+    </task>
+    <task id="LOCAL-00025" summary="consolidate number and string contents">
+      <created>1599606399380</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1599606399380</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -292,104 +547,199 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactor" />
     <MESSAGE value="new code" />
-    <MESSAGE value="bowling" />
     <MESSAGE value="matches" />
     <MESSAGE value="bowling update" />
     <MESSAGE value="add intellij info" />
     <MESSAGE value="fixed MatchPosition to binary representation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed MatchPosition to binary representation" />
+    <MESSAGE value="add modulo example" />
+    <MESSAGE value="custom clone" />
+    <MESSAGE value="refactor" />
+    <MESSAGE value="bowling" />
+    <MESSAGE value="improve performance" />
+    <MESSAGE value="add reference" />
+    <MESSAGE value="add line_profiler" />
+    <MESSAGE value="profilers" />
+    <MESSAGE value="consolidate number and string contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="consolidate number and string contents" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="712" y="218" key="#Project_Structure" timestamp="1596759127765">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="2663" y="159" key="#Project_Structure" timestamp="1599789351566">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
+    <state x="570" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1597977760680" />
+    <state x="2663" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789351566" />
     <state x="712" y="218" key="#Project_Structure/0.23.2560.1417@0.23.2560.1417" timestamp="1596759127765" />
     <state x="688" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596506906415">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="688" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1596506906415" />
-    <state x="132" y="844" key="#xdebugger.evaluate" timestamp="1597617148382">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="105" y="558" key="#xdebugger.evaluate" timestamp="1599897773346">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state x="105" y="558" key="#xdebugger.evaluate/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599897773346" />
+    <state x="2212" y="558" key="#xdebugger.evaluate/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599701479449" />
     <state x="132" y="844" key="#xdebugger.evaluate/0.23.2560.1417@0.23.2560.1417" timestamp="1597617148382" />
-    <state width="2084" height="403" key="GridCell.Tab.0.bottom" timestamp="1597625929222">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="2659" y="137" key="CommitChangelistDialog2" timestamp="1599606398377">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
+    <state x="566" y="137" key="CommitChangelistDialog2/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599098180878" />
+    <state x="2659" y="137" key="CommitChangelistDialog2/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599606398377" />
+    <state x="1083" y="230" key="FileChooserDialogImpl" timestamp="1599241266964">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1083" y="230" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599241266964" />
+    <state width="1661" height="399" key="GridCell.Tab.0.bottom" timestamp="1599938684618">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1661" height="399" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599938684618" />
+    <state width="1661" height="262" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789892552" />
     <state width="2084" height="403" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="2084" height="403" key="GridCell.Tab.0.center" timestamp="1597625929222">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1661" height="399" key="GridCell.Tab.0.center" timestamp="1599938684618">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state width="1661" height="399" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599938684618" />
+    <state width="1661" height="262" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789892551" />
     <state width="2084" height="403" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="2084" height="403" key="GridCell.Tab.0.left" timestamp="1597625929222">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1661" height="399" key="GridCell.Tab.0.left" timestamp="1599938684618">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state width="1661" height="399" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599938684618" />
+    <state width="1661" height="262" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789892551" />
     <state width="2084" height="403" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="2084" height="403" key="GridCell.Tab.0.right" timestamp="1597625929222">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1661" height="399" key="GridCell.Tab.0.right" timestamp="1599938684618">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state width="1661" height="399" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599938684618" />
+    <state width="1661" height="262" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789892552" />
     <state width="2084" height="403" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="2084" height="424" key="GridCell.Tab.1.bottom" timestamp="1597617178958">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1661" height="312" key="GridCell.Tab.1.bottom" timestamp="1599898055380">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state width="1661" height="312" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599898055380" />
+    <state width="1661" height="357" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599763171768" />
     <state width="2084" height="424" key="GridCell.Tab.1.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1597617178958" />
-    <state width="2084" height="424" key="GridCell.Tab.1.center" timestamp="1597617178958">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1661" height="312" key="GridCell.Tab.1.center" timestamp="1599898055380">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state width="1661" height="312" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599898055380" />
+    <state width="1661" height="357" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599763171768" />
     <state width="2084" height="424" key="GridCell.Tab.1.center/0.23.2560.1417@0.23.2560.1417" timestamp="1597617178958" />
-    <state width="2084" height="424" key="GridCell.Tab.1.left" timestamp="1597617178958">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1661" height="312" key="GridCell.Tab.1.left" timestamp="1599898055379">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state width="1661" height="312" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599898055379" />
+    <state width="1661" height="357" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599763171768" />
     <state width="2084" height="424" key="GridCell.Tab.1.left/0.23.2560.1417@0.23.2560.1417" timestamp="1597617178958" />
-    <state width="2084" height="424" key="GridCell.Tab.1.right" timestamp="1597617178958">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1661" height="312" key="GridCell.Tab.1.right" timestamp="1599898055380">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state width="1661" height="312" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599898055380" />
+    <state width="1661" height="357" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599763171768" />
     <state width="2084" height="424" key="GridCell.Tab.1.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597617178958" />
-    <state x="1082" y="559" key="SettingsEditor" timestamp="1597616085232">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="2996" y="378" key="RollbackChangesDialog" timestamp="1598797728165">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
+    <state x="914" y="378" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1598505492481" />
+    <state x="2996" y="378" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1598797728165" />
+    <state x="2949" y="436" key="SettingsEditor" timestamp="1599606210979">
+      <screen x="2110" y="0" width="1986" height="1152" />
+    </state>
+    <state x="2949" y="436" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599606210979" />
     <state x="1082" y="559" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1597616085232" />
-    <state x="824" y="376" key="Vcs.Push.Dialog.v2" timestamp="1597606485059">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="659" y="287" key="Vcs.Push.Dialog.v2" timestamp="1598940286335">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state x="659" y="287" key="Vcs.Push.Dialog.v2/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1598940286335" />
     <state x="824" y="376" key="Vcs.Push.Dialog.v2/0.23.2560.1417@0.23.2560.1417" timestamp="1597606485059" />
     <state x="845" y="466" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1597099816526">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="845" y="466" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.2560.1417@0.23.2560.1417" timestamp="1597099816526" />
-    <state x="641" y="135" width="1082" height="887" key="find.popup" timestamp="1597270791220">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="811" y="310" width="1253" height="610" key="dock-window-1" timestamp="1599582980493">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state x="811" y="310" width="1253" height="610" key="dock-window-1/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599582980493" />
+    <state x="2061" y="14" width="881" height="1108" key="dock-window-2" timestamp="1599897674696">
+      <screen x="2110" y="0" width="1986" height="1152" />
+    </state>
+    <state x="2061" y="14" width="881" height="1108" key="dock-window-2/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599897674696" />
+    <state x="513" y="91" width="867" height="722" key="find.popup" timestamp="1599884551612">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="513" y="91" width="867" height="722" key="find.popup/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599884551612" />
+    <state x="2607" y="91" width="840" height="722" key="find.popup/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789999852" />
     <state x="641" y="135" width="1082" height="887" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1597270791220" />
-    <state x="858" y="235" key="new project wizard" timestamp="1596506840045">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="686" y="172" key="new project wizard" timestamp="1599241281614">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state x="686" y="172" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599241281614" />
     <state x="858" y="235" key="new project wizard/0.23.2560.1417@0.23.2560.1417" timestamp="1596506840045" />
-    <state x="923" y="430" width="670" height="676" key="search.everywhere.popup" timestamp="1596763463471">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="2826" y="331" width="672" height="550" key="search.everywhere.popup" timestamp="1599578249451">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
+    <state x="2826" y="331" width="672" height="550" key="search.everywhere.popup/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599578249451" />
     <state x="923" y="430" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1596763463471" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../../0dev/Anaconda3/envs/flask.378/Lib/site-packages/line_profiler.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py</url>
+          <line>269</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_strike.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_strike Coverage Results" MODIFIED="1596927529619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
-    <SUITE FILE_PATH="coverage/python_setup$primitive_data_type_test.coverage" NAME="primitive_data_type_test Coverage Results" MODIFIED="1597276657150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_double.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_double Coverage Results" MODIFIED="1596926261871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_match.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_match Coverage Results" MODIFIED="1597625792385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
-    <SUITE FILE_PATH="coverage/python_setup$flask_test.coverage" NAME="flask_test Coverage Results" MODIFIED="1596506908646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_playground" />
     <SUITE FILE_PATH="coverage/python_setup$24game.coverage" NAME="24game Coverage Results" MODIFIED="1596764099541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/problems" />
-    <SUITE FILE_PATH="coverage/python_setup$bowling_score.coverage" NAME="bowling_score Coverage Results" MODIFIED="1596925060713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
-    <SUITE FILE_PATH="coverage/python_setup$polar_bar_plot_1.coverage" NAME="polar_bar_plot_1 Coverage Results" MODIFIED="1596507233760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/mp_test" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_in_bowling_score_test_py.coverage" NAME="Unittests in bowling_score_test.py Coverage Results" MODIFIED="1596928357493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_spare.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_spare Coverage Results" MODIFIED="1597097121473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_in_match_digits_test_py.coverage" NAME="Unittests in match_digits_test.py Coverage Results" MODIFIED="1597625923639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_slot_count.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_slot_count Coverage Results" MODIFIED="1596928230828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_to_string.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_to_string Coverage Results" MODIFIED="1597616906958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_frame_count.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_frame_count Coverage Results" MODIFIED="1596928352404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_remove_match.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_remove_match Coverage Results" MODIFIED="1597532491607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
-    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_set_match.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_set_match Coverage Results" MODIFIED="1597532485756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
-    <SUITE FILE_PATH="coverage/python_setup$match_digits.coverage" NAME="match_digits Coverage Results" MODIFIED="1597449167746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_in_match_digits_test_py.coverage" NAME="Unittests in match_digits_test.py Coverage Results" MODIFIED="1597613778538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+    <SUITE FILE_PATH="coverage/python_setup$maze_dijkstra.coverage" NAME="maze_dijkstra Coverage Results" MODIFIED="1599936247287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/path_search" />
+    <SUITE FILE_PATH="coverage/python_setup$context_test.coverage" NAME="context_test Coverage Results" MODIFIED="1599789357256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_to_string.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_to_string Coverage Results" MODIFIED="1597613762446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_6_classes.coverage" NAME="chapter_6_classes Coverage Results" MODIFIED="1599787581975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$maze.coverage" NAME="maze Coverage Results" MODIFIED="1599882826018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/backtracking" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_3_collections.coverage" NAME="chapter_3_collections Coverage Results" MODIFIED="1599702004676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$numbers_test.coverage" NAME="numbers_test Coverage Results" MODIFIED="1599573904537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_match.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_match Coverage Results" MODIFIED="1597530982021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+    <SUITE FILE_PATH="coverage/python_setup$flask_test.coverage" NAME="flask_test Coverage Results" MODIFIED="1596506908646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_playground" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest.coverage" NAME="Unittests for match_digits_test.MathDigitsTest Coverage Results" MODIFIED="1597532561359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_2_string.coverage" NAME="chapter_2_string Coverage Results" MODIFIED="1599670017065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter3.coverage" NAME="chapter3 Coverage Results" MODIFIED="1599789892545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/beginning_python" />
+    <SUITE FILE_PATH="coverage/python_setup$integer_factors.coverage" NAME="integer_factors Coverage Results" MODIFIED="1598506671707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/problems" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_in_bowling_score_test_py.coverage" NAME="Unittests in bowling_score_test.py Coverage Results" MODIFIED="1596928357493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_strike.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_strike Coverage Results" MODIFIED="1596927529619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$polar_bar_plot_1.coverage" NAME="polar_bar_plot_1 Coverage Results" MODIFIED="1596507233760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/mp_test" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_2_strings.coverage" NAME="chapter_2_strings Coverage Results" MODIFIED="1599929037066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_spare.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_spare Coverage Results" MODIFIED="1597097121473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$primitive_data_type_test.coverage" NAME="primitive_data_type_test Coverage Results" MODIFIED="1599603234084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_slot_count.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_slot_count Coverage Results" MODIFIED="1596928230828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$maze_a_star.coverage" NAME="maze_a_star Coverage Results" MODIFIED="1599938684613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/path_search" />
+    <SUITE FILE_PATH="coverage/python_setup$klotski.coverage" NAME="klotski Coverage Results" MODIFIED="1599087893078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/backtracking" />
+    <SUITE FILE_PATH="coverage/python_setup$klotski_test.coverage" NAME="klotski_test Coverage Results" MODIFIED="1599096636780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/backtracking" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter1_numbers__1_.coverage" NAME="chapter1_numbers (1) Coverage Results" MODIFIED="1599592132613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_set_match.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_set_match Coverage Results" MODIFIED="1597613492574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_4_flow_control.coverage" NAME="chapter_4_flow_control Coverage Results" MODIFIED="1599674925921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_5_execises.coverage" NAME="chapter_5_execises Coverage Results" MODIFIED="1599768382609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_5_functions.coverage" NAME="chapter_5_functions Coverage Results" MODIFIED="1599747042289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_1_numbers__1_.coverage" NAME="chapter_1_numbers (1) Coverage Results" MODIFIED="1599603172449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$graph_dijkstra.coverage" NAME="graph_dijkstra Coverage Results" MODIFIED="1599898739796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/path_search" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_remove_match.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_remove_match Coverage Results" MODIFIED="1597532491607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+    <SUITE FILE_PATH="coverage/python_setup$bowling_score.coverage" NAME="bowling_score Coverage Results" MODIFIED="1596925060713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$numbers_test__1_.coverage" NAME="numbers_test (1) Coverage Results" MODIFIED="1599578350114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_frame_count.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_frame_count Coverage Results" MODIFIED="1596928352404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_double.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_double Coverage Results" MODIFIED="1596926261871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$match_digits.coverage" NAME="match_digits Coverage Results" MODIFIED="1597449167746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_repr.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_repr Coverage Results" MODIFIED="1597358394342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
   </component>
 </project>

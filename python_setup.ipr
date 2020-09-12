@@ -3,6 +3,9 @@
   <component name="InspectionProjectProfileManager">
     <profile version="1.0">
       <option name="myName" value="Project Default" />
+      <inspection_tool class="NonAsciiCharacters" enabled="true" level="WARNING" enabled_by_default="true">
+        <option name="CHECK_FOR_NOT_ASCII_IDENTIFIER_NAME" value="false" />
+      </inspection_tool>
       <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
         <option name="ignoredErrors">
           <list>
@@ -16,13 +19,23 @@
     </profile>
     <version value="1.0" />
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Wonderland">
+      <words>
+        <w>downcasting</w>
+        <w>klotski</w>
+        <w>promisings</w>
+        <w>zobrist</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flask_playground/flask_playground.iml" filepath="$PROJECT_DIR$/flask_playground/flask_playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/python_playground/python_playground.iml" filepath="$PROJECT_DIR$/python_playground/python_playground.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (ashley1)" project-jdk-type="Python SDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="Python 3.8 (py385_cb)" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">

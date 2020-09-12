@@ -76,8 +76,11 @@ print('I do not like them {h} or {t}'.format(t='there', h='here'))  # by keyed i
 there = 'there'
 here = 'here'
 print(f'I do not like them {here} or {there}')  # use variable names directly
-print(f'I do not like them {here!s:20} or {there}')
+print(f'I do not like them {here!s:20} or {there}')  # 20 or <20, left justified
 print(f'I do not like them {here!s:>20} or {there}')  # right justified
+print(f'I do not like them {here!s:<20} or {there}')  # left justified
+print(f'I do not like them {here!s:^20} or {there}')  # center justified
+print(f'I do not like them {here!s:_<20} or {there}')  # fill with _
 
 # number format, can take python expression
 print(f'2 + 3 = {2 + 3}')
