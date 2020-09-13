@@ -149,6 +149,7 @@ if __name__ == '__main__':
 # https://py.checkio.org/mission/open-labyrinth/publications/macfreek/python-3/re-useable-code/share/3e8556d514ca04502facb316b41ff49d/
 # https://py.checkio.org/blog/find-path/
 # http://bryukh.com/labyrinth-algorithms/
+# https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm
 
 # maze generator:
 # https://en.wikipedia.org/wiki/Maze_generation_algorithm

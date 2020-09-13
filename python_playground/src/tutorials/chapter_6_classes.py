@@ -241,7 +241,12 @@ print(Card(CardSuite.SPADES, CardRank.R2) > Card(CardSuite.HEARTS, CardRank.K))
 
 # magic methods
 
+# getattr/setattr/dir(module or object)
 
+# Python primitive types are immutable: int, float, complex, bool, string, and
+# bytes. In contrast, some classes defined here can be changed in place, so they are
+# mutable. List, dictionary, set and bytearray are mutable while tuple and frozenset are
+# immutable.
 
 # decorator with internal states
 import time

@@ -50,6 +50,8 @@ print(acc(10))
 print(acc(20))
 
 
+# None is the representation for nothing/no value. Functions by default return
+# None if we don't overwrite to explicitly return values.
 # one way to fix this:
 def acc(n, m=None):
     if m is None:
@@ -60,6 +62,11 @@ def acc(n, m=None):
 
 print(acc(10))
 print(acc(20))
+
+
+# None is not 0, empty string, or empty list
+print(0 == None)  # False, though we should not use == for None, use next time.
+print(0 is None)  # False
 
 
 # one useful way is caching, between calls
@@ -196,6 +203,46 @@ print(concat_with('Hello', 'World', sep=', '))  # need sep as key here
 # print(concat_with(x='Hello', y='World', sep=', ')) This is not working
 
 
+# the function parameters passed in are the copies, so if you change it inside
+# the function, it's not reflected outside.
+def add(a, b):
+    a = a + 1  # we change a here, new value works only within this function.
+    return a + b
+
+
+a, b = 5, 3
+print(add(a, b))  # print 9
+print(a)  # still 5, so a is not changed
+
+
+def list_sum(a):
+    a = [1, 2, 3]  # we change a, won't be seen outside this function
+    return sum(a)
+
+
+a = [4, 5, 6]
+print(list_sum(a))  # 6, since a is changed inside function
+print(a)  # still [4, 5, 6]
+
+
+# however, this is seen outside
+def list_sum1(a):
+    a.append(100)
+    return sum(a)
+
+
+a = [4, 5, 6]
+print(list_sum(a))  # 6, since a is changed inside function
+print(a)  # [4, 5, 6, 100]
+
+# so the rule is that function parameters are passing by copy-of-references
+# a in the list_sum1() is a copy of the reference, which still points to the
+# list. Since it's the same list, so the value is seen outside.
+# a in list_sum() is a copy of reference to [4, 5, 6], so if you change this
+# reference copy to something else [1, 2, 3], the original reference is not
+# changed.
+
+
 # generators
 def square():
     for i in range(2, 9):
@@ -294,4 +341,7 @@ print(factorial(3000))
 
 # global vs local variables
 
+
+# stack & heap, frame
+# https://medium.com/datadriveninvestor/how-does-memory-allocation-work-in-python-and-other-languages-d2d8a9398543
 

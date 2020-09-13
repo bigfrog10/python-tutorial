@@ -26,6 +26,9 @@ print('\u03B5'.encode('utf-8'))  # b'\xce\xb5', encode unicode to byte string, 2
 print(len(b'\xce\xb5'))  # 2 bytes
 print(b'\xce\xb5'.decode('utf-8'))  # ε, decode byte array to unicode
 
+print(type(b'abc'))  # <class 'bytes'>
+print(type(u'abc'))  # <class 'str'>
+
 # another encoding: don't use latin-1 since it can't fit in
 print('\u03B5'.encode('cp936'))  # b'\xa6\xc5'
 
@@ -97,3 +100,11 @@ print(f'{c:x}')  # hex 208
 print(f'{c:o}')  # oct
 print(f'{c:b}')  # binary
 print(f'{c:e}')  # scientific notation
+
+# casting
+print(int('01234'))  # can convert string to int too, except if not int
+print(float('3.14'))
+
+print(type('1234'))  # <class 'str'>
+print(type(int('1234')))  # <class 'int'>
+print(isinstance(1234, int))  # True

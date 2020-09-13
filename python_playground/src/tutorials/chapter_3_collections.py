@@ -144,3 +144,23 @@ storage.update([5, 6])
 print(storage)
 storage.remove(5)
 print(storage)
+
+
+# tuple and frozenset are immutable.
+
+
+print(list('abcd'))  # ['a', 'b', 'c', 'd']
+print(tuple('abcd'))  # ('a', 'b', 'c', 'd')
+print(set('abcd'))  # {'a', 'b', 'c', 'd'}
+
+
+# we touched only the built-in collections. There are other widely used
+# collections, such as queue, stack, trees and graphs.
+# for linked list, queue, stack, check these:
+#     built in queue
+#     built in collections has a deque
+# for trees:
+#     https://github.com/mozman/bintrees
+#     https://pypi.org/project/sortedcontainers/
+#     https://treelib.readthedocs.io/en/latest/
+# for graphs, check networkx

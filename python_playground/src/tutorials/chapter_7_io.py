@@ -1,3 +1,5 @@
+
+# with context
 from PIL import Image
 
 with open("notes.txt") as f:
@@ -20,3 +22,9 @@ with open('panda.jpg', 'rb') as f:
 with Image.open('panda.jpg') as image:
     print(image.size)
     image.show()
+
+# file
+# serialization/pickle/json
+
+# database
+

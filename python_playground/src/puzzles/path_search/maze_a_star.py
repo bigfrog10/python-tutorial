@@ -143,3 +143,9 @@ if __name__ == '__main__':
 
 
 # http://bryukh.com/labyrinth-algorithms/
+# https://www.edureka.co/blog/a-search-algorithm/
+# https://en.wikipedia.org/wiki/A*_search_algorithm
+# https://en.wikipedia.org/wiki/Admissible_heuristic
+# https://medium.com/@nicholas.w.swift/easy-a-star-pathfinding-7e6689c7f7b2
+# https://stackabuse.com/basic-ai-concepts-a-search-algorithm/
+# https://www.codementor.io/blog/basic-pathfinding-explained-with-python-5pil8767c1

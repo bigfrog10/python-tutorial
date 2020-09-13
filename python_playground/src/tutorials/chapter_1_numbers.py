@@ -61,9 +61,6 @@ print(int(2.718))
 print(int(-3.14))
 print(int(-2.718))
 
-print(int('01234'))  # can convert string to int too, except if not int
-print(float('3.14'))
-
 # assign values to variables: reuse same value, no duplicates.
 a = 3  # int
 b = 2.5  # float
@@ -104,6 +101,8 @@ print(2 / 3)  # round at the end
 # the representation error.
 # https://docs.python.org/3.0/tutorial/floatingpoint.html
 
+# modules are reusable code. Every language has some built-in modules and
+# 3rd party extended modules.
 # hardware information, check 32 bit or 64 bit
 import platform
 print(platform.architecture())  # 64 bit in my case
