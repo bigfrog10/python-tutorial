@@ -26,17 +26,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="consolidate number and string contents">
-      <change beforePath="$PROJECT_DIR$/python_playground/src/puzzles/path_search/maze_a_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/puzzles/path_search/maze_a_star.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/puzzles/path_search/maze_dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/puzzles/path_search/maze_dijkstra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_1_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_1_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_playground/gunicorn_start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_playground/src/flask_test_app/gunicorn_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_playground/src/flask_test_app/uwsgi_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_playground/src/flask_test_app/web_handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_playground/src/flask_test_app/web_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_playground/uwsgi.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask_playground/uwsgi_start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env_conda.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/env_conda.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/flask_playground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flask_playground/flask_playground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/python_playground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/python_playground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/odbc_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_playground/src/flask_test_app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/odbc_test/sqlite_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_9_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/odbc_test/test1.db" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/test1.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_2_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_2_strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_3_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_3_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_4_flow_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_4_flow_controls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/context_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_7_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/files_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/files_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/system_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/system_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_execises.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_execises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_7_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_7_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_8_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/datetime_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_10_date_and_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/files_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/higher_order_func_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_more_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_setup.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_setup.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +88,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_setup.ipr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/flask_playground" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -89,12 +100,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\python_setup\python_playground\src\tutorials" />
       <recent name="D:\00dev\python\python_setup\python_playground\src\puzzles\backtracking\hua_rong_dao" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/python_playground" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.system_test">
+  <component name="RunManager" selected="Python.chapter_6_more_functions">
     <configuration name="chapter1_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +173,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chapter_2_strings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter_5_execises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,7 +186,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/tutorials/chapter_2_strings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_execises.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chapter_3_collections" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter_6_more_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,7 +208,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/tutorials/chapter_3_collections.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_more_functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chapter_7_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter_9_database" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -213,34 +225,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/tutorials" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/odbc_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/tutorials/chapter_7_io.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="files_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_playground" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/tutorials" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/tutorials/files_test.py" />
+      <option name="SCRIPT_NAME" value="D:\00dev\python\python_setup\python_playground\src\tutorials\chapter_9_database.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,20 +283,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="web_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_playground" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../0dev/Anaconda3/envs/py385_cb/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_playground" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_playground/src/flask_test_app/web_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.chapter_2_strings" />
-      <item itemvalue="Python.chapter_3_collections" />
       <item itemvalue="Python.system_test" />
-      <item itemvalue="Python.files_test" />
-      <item itemvalue="Python.chapter_7_io" />
+      <item itemvalue="Python.chapter_5_execises" />
+      <item itemvalue="Python.chapter_9_database" />
+      <item itemvalue="Python.web_main" />
+      <item itemvalue="Python.chapter_6_more_functions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chapter_6_more_functions" />
+        <item itemvalue="Python.web_main" />
+        <item itemvalue="Python.chapter_9_database" />
+        <item itemvalue="Python.chapter_5_execises" />
         <item itemvalue="Python.system_test" />
-        <item itemvalue="Python.chapter_7_io" />
-        <item itemvalue="Python.files_test" />
-        <item itemvalue="Python.chapter_2_strings" />
-        <item itemvalue="Python.chapter_3_collections" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +344,7 @@
       <workItem from="1597447347898" duration="2283000" />
       <workItem from="1597524930211" duration="4524000" />
       <workItem from="1597532356750" duration="7617000" />
-      <workItem from="1599282973705" duration="134468000" />
+      <workItem from="1599282973705" duration="154475000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1596506997043</created>
@@ -562,20 +574,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="consolidate number and string contents" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2663" y="159" key="#Project_Structure" timestamp="1599789351566">
-      <screen x="2110" y="0" width="1986" height="1152" />
-    </state>
-    <state x="570" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1597977760680" />
-    <state x="2663" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789351566" />
-    <state x="712" y="218" key="#Project_Structure/0.23.2560.1417@0.23.2560.1417" timestamp="1596759127765" />
-    <state x="688" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596506906415">
-      <screen x="0" y="23" width="2560" height="1417" />
-    </state>
-    <state x="688" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1596506906415" />
-    <state x="105" y="558" key="#xdebugger.evaluate" timestamp="1599897773346">
+    <state x="570" y="159" key="#Project_Structure" timestamp="1600113042693">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="105" y="558" key="#xdebugger.evaluate/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599897773346" />
+    <state x="570" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600113042693" />
+    <state x="2663" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789351566" />
+    <state x="712" y="218" key="#Project_Structure/0.23.2560.1417@0.23.2560.1417" timestamp="1596759127765" />
+    <state x="550" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600107693871">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="550" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600107693871" />
+    <state x="688" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1596506906415" />
+    <state x="648" y="355" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600114517140">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="648" y="355" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600114517140" />
+    <state x="105" y="558" key="#xdebugger.evaluate" timestamp="1600041997981">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="105" y="558" key="#xdebugger.evaluate/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600041997981" />
     <state x="2212" y="558" key="#xdebugger.evaluate/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599701479449" />
     <state x="132" y="844" key="#xdebugger.evaluate/0.23.2560.1417@0.23.2560.1417" timestamp="1597617148382" />
     <state x="2659" y="137" key="CommitChangelistDialog2" timestamp="1599606398377">
@@ -583,56 +600,56 @@
     </state>
     <state x="566" y="137" key="CommitChangelistDialog2/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599098180878" />
     <state x="2659" y="137" key="CommitChangelistDialog2/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599606398377" />
-    <state x="1083" y="230" key="FileChooserDialogImpl" timestamp="1599241266964">
+    <state x="1083" y="230" key="FileChooserDialogImpl" timestamp="1600106708083">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="1083" y="230" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599241266964" />
-    <state width="1661" height="358" key="GridCell.Tab.0.bottom" timestamp="1600036246854">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="1083" y="230" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600106708083" />
+    <state width="1661" height="349" key="GridCell.Tab.0.bottom" timestamp="1600133555148">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state width="1661" height="358" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600036246854" />
-    <state width="1661" height="262" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789892552" />
+    <state width="1661" height="349" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600111422406" />
+    <state width="1661" height="349" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600133555148" />
     <state width="2084" height="403" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="358" key="GridCell.Tab.0.center" timestamp="1600036246854">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state width="1661" height="349" key="GridCell.Tab.0.center" timestamp="1600133555148">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state width="1661" height="358" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600036246854" />
-    <state width="1661" height="262" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789892551" />
+    <state width="1661" height="349" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600111422406" />
+    <state width="1661" height="349" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600133555148" />
     <state width="2084" height="403" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="358" key="GridCell.Tab.0.left" timestamp="1600036246854">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state width="1661" height="349" key="GridCell.Tab.0.left" timestamp="1600133555147">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state width="1661" height="358" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600036246854" />
-    <state width="1661" height="262" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789892551" />
+    <state width="1661" height="349" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600111422405" />
+    <state width="1661" height="349" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600133555147" />
     <state width="2084" height="403" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="358" key="GridCell.Tab.0.right" timestamp="1600036246854">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state width="1661" height="349" key="GridCell.Tab.0.right" timestamp="1600133555148">
+      <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state width="1661" height="358" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600036246854" />
-    <state width="1661" height="262" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789892552" />
+    <state width="1661" height="349" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600111422406" />
+    <state width="1661" height="349" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600133555148" />
     <state width="2084" height="403" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="312" key="GridCell.Tab.1.bottom" timestamp="1599898055380">
+    <state width="1661" height="312" key="GridCell.Tab.1.bottom" timestamp="1600042309879">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="312" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599898055380" />
+    <state width="1661" height="312" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600042309879" />
     <state width="1661" height="357" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599763171768" />
     <state width="2084" height="424" key="GridCell.Tab.1.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1597617178958" />
-    <state width="1661" height="312" key="GridCell.Tab.1.center" timestamp="1599898055380">
+    <state width="1661" height="312" key="GridCell.Tab.1.center" timestamp="1600042309879">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="312" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599898055380" />
+    <state width="1661" height="312" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600042309879" />
     <state width="1661" height="357" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599763171768" />
     <state width="2084" height="424" key="GridCell.Tab.1.center/0.23.2560.1417@0.23.2560.1417" timestamp="1597617178958" />
-    <state width="1661" height="312" key="GridCell.Tab.1.left" timestamp="1599898055379">
+    <state width="1661" height="312" key="GridCell.Tab.1.left" timestamp="1600042309879">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="312" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599898055379" />
+    <state width="1661" height="312" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600042309879" />
     <state width="1661" height="357" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599763171768" />
     <state width="2084" height="424" key="GridCell.Tab.1.left/0.23.2560.1417@0.23.2560.1417" timestamp="1597617178958" />
-    <state width="1661" height="312" key="GridCell.Tab.1.right" timestamp="1599898055380">
+    <state width="1661" height="312" key="GridCell.Tab.1.right" timestamp="1600042309879">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="312" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599898055380" />
+    <state width="1661" height="312" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600042309879" />
     <state width="1661" height="357" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599763171768" />
     <state width="2084" height="424" key="GridCell.Tab.1.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597617178958" />
     <state x="2996" y="378" key="RollbackChangesDialog" timestamp="1598797728165">
@@ -640,9 +657,10 @@
     </state>
     <state x="914" y="378" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1598505492481" />
     <state x="2996" y="378" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1598797728165" />
-    <state x="2949" y="436" key="SettingsEditor" timestamp="1599606210979">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state x="782" y="265" key="SettingsEditor" timestamp="1600107373758">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
+    <state x="782" y="265" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600107373758" />
     <state x="2949" y="436" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599606210979" />
     <state x="1082" y="559" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1597616085232" />
     <state x="659" y="287" key="Vcs.Push.Dialog.v2" timestamp="1598940286335">
@@ -705,7 +723,7 @@
     <SUITE FILE_PATH="coverage/python_setup$maze_dijkstra.coverage" NAME="maze_dijkstra Coverage Results" MODIFIED="1599936247287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/path_search" />
     <SUITE FILE_PATH="coverage/python_setup$context_test.coverage" NAME="context_test Coverage Results" MODIFIED="1599789357256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_to_string.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_to_string Coverage Results" MODIFIED="1597613762446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
-    <SUITE FILE_PATH="coverage/python_setup$system_test.coverage" NAME="system_test Coverage Results" MODIFIED="1600036246850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$system_test.coverage" NAME="system_test Coverage Results" MODIFIED="1600036535876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_6_classes.coverage" NAME="chapter_6_classes Coverage Results" MODIFIED="1599787581975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_7_io.coverage" NAME="chapter_7_io Coverage Results" MODIFIED="1600036219135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$maze.coverage" NAME="maze Coverage Results" MODIFIED="1599882826018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/backtracking" />
@@ -722,6 +740,7 @@
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_strike.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_strike Coverage Results" MODIFIED="1596927529619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
     <SUITE FILE_PATH="coverage/python_setup$polar_bar_plot_1.coverage" NAME="polar_bar_plot_1 Coverage Results" MODIFIED="1596507233760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/mp_test" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_2_strings.coverage" NAME="chapter_2_strings Coverage Results" MODIFIED="1600034310717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$sqlite_test.coverage" NAME="sqlite_test Coverage Results" MODIFIED="1600094748525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/odbc_test" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_spare.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_spare Coverage Results" MODIFIED="1597097121473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
     <SUITE FILE_PATH="coverage/python_setup$primitive_data_type_test.coverage" NAME="primitive_data_type_test Coverage Results" MODIFIED="1599603234084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_slot_count.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_slot_count Coverage Results" MODIFIED="1596928230828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
@@ -731,15 +750,17 @@
     <SUITE FILE_PATH="coverage/python_setup$chapter1_numbers__1_.coverage" NAME="chapter1_numbers (1) Coverage Results" MODIFIED="1599592132613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_set_match.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_set_match Coverage Results" MODIFIED="1597613492574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_4_flow_control.coverage" NAME="chapter_4_flow_control Coverage Results" MODIFIED="1599674925921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
-    <SUITE FILE_PATH="coverage/python_setup$chapter_5_execises.coverage" NAME="chapter_5_execises Coverage Results" MODIFIED="1599768382609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_5_execises.coverage" NAME="chapter_5_execises Coverage Results" MODIFIED="1600042329010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_5_functions.coverage" NAME="chapter_5_functions Coverage Results" MODIFIED="1600033188700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_1_numbers__1_.coverage" NAME="chapter_1_numbers (1) Coverage Results" MODIFIED="1599603172449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$graph_dijkstra.coverage" NAME="graph_dijkstra Coverage Results" MODIFIED="1599898739796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/path_search" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_match_digits_test_MathDigitsTest_test_remove_match.coverage" NAME="Unittests for match_digits_test.MathDigitsTest.test_remove_match Coverage Results" MODIFIED="1597532491607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
+    <SUITE FILE_PATH="coverage/python_setup$web_main.coverage" NAME="web_main Coverage Results" MODIFIED="1600111422399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_playground" />
     <SUITE FILE_PATH="coverage/python_setup$bowling_score.coverage" NAME="bowling_score Coverage Results" MODIFIED="1596925060713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
     <SUITE FILE_PATH="coverage/python_setup$numbers_test__1_.coverage" NAME="numbers_test (1) Coverage Results" MODIFIED="1599578350114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_frame_count.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_frame_count Coverage Results" MODIFIED="1596928352404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_double.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_double Coverage Results" MODIFIED="1596926261871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
+    <SUITE FILE_PATH="coverage/python_setup$chapter_6_more_functions.coverage" NAME="chapter_6_more_functions Coverage Results" MODIFIED="1600133555142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$match_digits.coverage" NAME="match_digits Coverage Results" MODIFIED="1597449167746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/match_digits_game" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_4_flow_controls.coverage" NAME="chapter_4_flow_controls Coverage Results" MODIFIED="1600032058231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$Unittests_for_bowling_score_test_BowlingScoreTest_test_repr.coverage" NAME="Unittests for bowling_score_test.BowlingScoreTest.test_repr Coverage Results" MODIFIED="1597358394342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />

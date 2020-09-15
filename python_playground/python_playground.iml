@@ -8,4 +8,12 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/../flask_playground/templates" />
+        <option value="$MODULE_DIR$/../flask_playground/templates" />
+      </list>
+    </option>
+  </component>
 </module>

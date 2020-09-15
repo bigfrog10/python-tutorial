@@ -140,6 +140,49 @@ print(binary_search([2, 5, 9, 17, 44], 50))
 
 
 # ##############################################################################
+# https://www.lintcode.com/problem/house-robber/description?utm_source=sc-csdn-fks
+# You are a professional robber planning to rob houses along a street. Each
+# house has a certain amount of money stashed, the only constraint stopping you
+# from robbing each of them is that adjacent houses have security system
+# connected and it will automatically contact the police if two adjacent houses
+# were broken into on the same night.
+#
+# Given a list of non-negative integers representing the amount of money of each
+# house, determine the maximum amount of money you can rob tonight without
+# alerting the police.
+# 打劫房屋
+def rob(valuables: list):
+    if not list:
+        return 0
+
+    size = len(valuables)
+    robbed = [False] * size
+    acc = [0] * size
+
+    acc[0], robbed[0] = valuables[0], True
+    for i in range(1, size):
+        if robbed[i-1]:  # if previous is robbed, then we pick larger one of previous and current
+            robbed[i-1] = valuables[i-1] >= valuables[i]
+            robbed[i] = not robbed[i-1]
+            acc[i-1] = acc[i-1] if robbed[i-1] else acc[i-1] - valuables[i-1]
+            acc[i] = acc[i-2] + max(valuables[i-1], valuables[i])  # if i-2 = -1, we are fine.
+        else:  # if previous is not robbed, we can rob it now
+            acc[i] = acc[i-1] + valuables[i]
+            robbed[i] = True
+
+    return acc[-1], robbed
+
+
+print(rob([3, 8, 4]))
+print(rob([5, 2, 1, 3]))
+
+# if the valuabvles are in a circle:
+# https://blog.csdn.net/zhaohengchuan/article/details/78439862?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160004061319724839207104%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=160004061319724839207104&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v3~rank_business_v1-3-78439862.ecpm_v3_rank_business_v1&utm_term=%E6%89%93%E5%8A%AB%E6%88%BF%E5%B1%8B+Lintcode&spm=1018.2118.3001.4187
+# if the valuables are in a tree format:
+# https://blog.csdn.net/zhaohengchuan/article/details/78442689?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522160004061319724839207104%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=160004061319724839207104&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v3~rank_business_v1-2-78442689.ecpm_v3_rank_business_v1&utm_term=%E6%89%93%E5%8A%AB%E6%88%BF%E5%B1%8B+Lintcode&spm=1018.2118.3001.4187
+
+
+# ##############################################################################
 def estimate_pi(num_tesets):
     import random
     in_cycles = in_squares = 0

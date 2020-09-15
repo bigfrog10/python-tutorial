@@ -108,3 +108,6 @@ print(float('3.14'))
 print(type('1234'))  # <class 'str'>
 print(type(int('1234')))  # <class 'int'>
 print(isinstance(1234, int))  # True
+
+
+# https://realpython.com/python-f-strings/

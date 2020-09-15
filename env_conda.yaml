@@ -7,5 +7,11 @@ dependencies:
     - python=3.8.5
     - pip
     - pillow
+    - pyodbc
+    - pandas
+    - numpy
+    - matplotlib
+    - flask
     - pip:
           - pipdeptree # or conda install -c conda-forge pipdeptree
+          - gunicorn

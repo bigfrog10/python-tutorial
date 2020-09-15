@@ -1,3 +1,5 @@
+
+# higher order functions
 from functools import reduce
 from operator import mul
 
@@ -44,3 +46,12 @@ print(evens)
 a = range(1, 10)
 b = reduce(mul, a)
 print(b)
+
+
+# median - the value separates the higher half from the lower half
+nums = [16, 3, 2, 4, 11, 1, 12, 8, 9, 7, 10, 13, 15, 17]
+import statistics
+print(statistics.median(nums))
+
+# manual way
+print(sorted(nums)[(len(nums) - 1) // 2])
