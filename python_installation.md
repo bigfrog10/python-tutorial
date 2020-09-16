@@ -1,9 +1,8 @@
-## python installation
-official download  
-https://www.python.org/downloads/  
-Python installation is a little bit tricky comparing to Java, because of the 
+## Python Installation
+The official download of Python is at https://www.python.org/downloads/. 
+Python installation is a little tricky comparing to Java, because of the 
 C/C++ dependent libraries. Python itself installation is good to go, but some
-of the 3rd party libraries require OS dependent compilation. This compilation
+3rd party libraries require OS dependent compilation. This compilation
 causes trouble and difficulty for developers. Anaconda pre-compiles these 
 libraries for certain OS platforms and bundle them for installation. 
 
@@ -11,14 +10,15 @@ Secondly, since 3rd party libs are installed to the Python home directory,
 it’s very likely we run into all kind of conflicts from different packages as
 we install more and more packages. To avoid this problem, we create isolated
 Python environments for different purposes. Pip and Anaconda both can create
-virtual environments.
+virtual environments. We will go with Anaconda virtual environments because
+we want to let Anaconda handle C/C++ lib compilation.
 
-## miniconda installation
+## Miniconda Installation
 The official Miniconda site is: https://docs.conda.io/en/latest/miniconda.html. 
 It contains only conda, Python, and small number of essential packages.
 
-Download the 64 bit latest version and Python 3 for your target OS. Before 
-installation, unset PYTHONHOME and PYTHONPATH first.
+Download the latest 64-bit version and Python 3 version for your target OS. 
+Before installation, unset PYTHONHOME and PYTHONPATH first.
 
 We refer the installation directory as %CONDA_INSTALL% throughout this 
 document.
@@ -33,7 +33,7 @@ Here are some useful commands, also check out the cheat sheet:
 https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html  
 for example:
 ```
-(clown) WonderfuliMac-3627:~ ***$ conda info
+:~ ***$ conda info
  
      active environment : clown
     active env location : /Users/***/.conda/envs/clown
@@ -63,9 +63,9 @@ To make sure conda has latest version
 ```conda update conda```
 
 To make sure pip is update to date (pip is the Python installer and used internally by conda)  
-```python –m pip install --upgrade pip```
+```python -m pip install --upgrade pip```
 
-## python virtual environments  
+## Conda Virtual Environments  
 Miniconda is shared across environments. A good reference is: 
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
@@ -105,7 +105,7 @@ This will be installed into the $PYTHONHOME\Scripts folder.
 
 This is to install from known channel anaconda. If your setting is routed to an
 internal repo, we need to give the full URL. Otherwise, use the suffix:  
-```conda install unxutils –c https://conda.anaconda.org/anaconda```
+```conda install unxutils -c https://conda.anaconda.org/anaconda```
 
 Since Anaconda does not have all Python packages, sometimes we still need to 
 use pip to install.  
@@ -127,7 +127,7 @@ To generate requirements.txt using pip:
 ```pip freeze > requirements.txt```
 
 To install from the requirements.txt using pip  
-```pip install –r requirements.txt```
+```pip install -r requirements.txt```
 
 To export a conda environment file:
 ```conda env export > my_conda.yaml```
@@ -135,11 +135,11 @@ To export a conda environment file:
 This file separates the pip packages and conda packages, so we don’t have the 
 issue above. This file can be used to create other environments with the same
 name embedded in the YAML file  
-```conda env create –-file my_conda.yaml```
+```conda env create -file my_conda.yaml```
 
 This is used to copy someone else environment to local machine.
 To update existing env with this file:  
-```conda env update –n my_new_env –f my_conda.yaml```  
+```conda env update -n my_new_env -f my_conda.yaml```  
 
 If needed, add -i https://pypi.org/simple to the first line in pip section. 
 Or more complicated, we can add more pip switches in the YAML file:
@@ -162,12 +162,13 @@ To clone an environment:
 ```conda create --name my_env_clone --clone my_env ```
 
 To remove an environment:  
-```conda env remove –n my_env```
+```conda env remove -n my_env```
 
-To print the dependency tree of any library, check out this tool:  
-https://github.com/wimglenn/johnnydep
+To print the dependency tree of any library, check out these tools:  
+- https://github.com/wimglenn/johnnydep
+- https://pypi.org/project/pipdeptree/
 
-##Suggested Practices
+## Suggested Practices
 Among several ways, we suggest the following installation path:
 1. Install Miniconda package (containing conda, Python, pip and other tools)
 2. Use conda to create new virtual environment
@@ -182,8 +183,8 @@ In a new environment, use pip to install this file.
 from conda env export. But IntelliJ does not know this format.
 7. In other cases, create either pip package or conda package.  
 
-When install a package with soft link, use pip install –e.  
-This is for the case where you develop an internal package and you want to link
-your Python source code to the virtual environment. Once you modify your code, 
-the calling code can see the change right away (so you don’t need to install
-the package with the change again).
+When install a package with soft link, use "pip install -e .".
+This is for the case where you develop an internal package, and you want to 
+link your Python source code to the virtual environment. Once you modify your 
+code,  the calling code can see the change right away (so you don’t need to 
+install the package with the change again).

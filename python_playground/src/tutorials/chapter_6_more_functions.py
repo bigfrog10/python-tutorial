@@ -53,5 +53,17 @@ nums = [16, 3, 2, 4, 11, 1, 12, 8, 9, 7, 10, 13, 15, 17]
 import statistics
 print(statistics.median(nums))
 
+
 # manual way
-print(sorted(nums)[(len(nums) - 1) // 2])
+def median(nums):
+    s = sorted(nums)
+    half_way = len(nums) // 2 - 1  # because index is 0 based
+    if len(nums) % 2 == 0:  # even
+        return (s[half_way] + s[half_way + 1]) / 2
+    else:
+        return s[half_way + 1]
+
+
+print(median(nums))
+print(median([1, 2, 3, 4, 5]))  # 3
+print(median([1, 2, 3, 4]))  # 2.5

@@ -278,6 +278,10 @@ for i in fib(10):
     print(i)
 
 
+# generator expression, in parallel to list comprehension
+g = (x * 2 for x in range(5))
+print(g)  # g is lazy
+
 # iterator
 
 # inspections
