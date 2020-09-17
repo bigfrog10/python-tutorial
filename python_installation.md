@@ -121,7 +121,8 @@ To install from a local folder using conda
 ```conda install c:\download\unxutils-14.04.03-0.tar.bz2```  
 This file is downloaded from http://anaconda.org/anaconda/unxutils/files
 
-The local package cache is $CONDA_INSTALL\pkgs to avoid repetitive downloads.
+The local package cache is specified in the "conda info" section under 
+"package cache". This cache is to avoid repetitive downloads.
 
 To generate requirements.txt using pip:  
 ```pip freeze > requirements.txt```

@@ -25,6 +25,9 @@ Tiobe Index
 PYPL Index
 ![PYPL Index](pypl_index.png)
 
+Redmonk Index
+![RedMonk](https://redmonk.com/sogrady/files/2020/07/lang-rank-q320-wm.png)
+
 
 [Thoughworks](https://www.thoughtworks.com/radar/languages-and-frameworks/python-3)
 indicates mainstream adoption in 2017.
@@ -38,6 +41,12 @@ can do the job and can do more with AI and can do it faster, there is a force
 to push the change, especially in colleges. Secondly, Kotlin is cutting into
 the way. If there is an easier way to do it, it's just a matter of time to go
 down that way.
+
+R is the best ecosystem in statistics. However, R is not designed to be a
+general enterprise application foundation. So it's not under consideration.
+We try to find a general language that could fulfill the majority need for
+enterprise applications in a fast pace. We are looking for a tool so that 
+we do less for more with it.
 
 ### Enterprise Language Features Needed
 Here are the minimal set of features for enterprise applications(server side):

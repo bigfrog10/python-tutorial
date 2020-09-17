@@ -26,16 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="consolidate number and string contents">
-      <change afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_11_re.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/why_python.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redmonk_2020_07.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/gunicorn_start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_playground/gunicorn_start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_playground/uwsgi_start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/flask_playground/uwsgi_start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intellij_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/intellij_setup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/python_installation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_more_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_more_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_setup.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why_python.md" beforeDir="false" afterPath="$PROJECT_DIR$/why_python.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +327,7 @@
       <workItem from="1597447347898" duration="2283000" />
       <workItem from="1597524930211" duration="4524000" />
       <workItem from="1597532356750" duration="7617000" />
-      <workItem from="1599282973705" duration="171350000" />
+      <workItem from="1599282973705" duration="183363000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1596506997043</created>
@@ -591,28 +587,28 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="1083" y="230" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600285256588" />
-    <state width="1661" height="349" key="GridCell.Tab.0.bottom" timestamp="1600135383112">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state width="1661" height="86" key="GridCell.Tab.0.bottom" timestamp="1600297312367">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="349" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600111422406" />
+    <state width="1661" height="86" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600297312367" />
     <state width="1661" height="349" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600135383112" />
     <state width="2084" height="403" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="349" key="GridCell.Tab.0.center" timestamp="1600135383112">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state width="1661" height="86" key="GridCell.Tab.0.center" timestamp="1600297312367">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="349" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600111422406" />
+    <state width="1661" height="86" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600297312367" />
     <state width="1661" height="349" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600135383112" />
     <state width="2084" height="403" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="349" key="GridCell.Tab.0.left" timestamp="1600135383112">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state width="1661" height="86" key="GridCell.Tab.0.left" timestamp="1600297312365">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="349" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600111422405" />
+    <state width="1661" height="86" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600297312365" />
     <state width="1661" height="349" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600135383112" />
     <state width="2084" height="403" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="349" key="GridCell.Tab.0.right" timestamp="1600135383112">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state width="1661" height="86" key="GridCell.Tab.0.right" timestamp="1600297312367">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="349" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600111422406" />
+    <state width="1661" height="86" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600297312367" />
     <state width="1661" height="349" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600135383112" />
     <state width="2084" height="403" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
     <state width="1661" height="312" key="GridCell.Tab.1.bottom" timestamp="1600135287691">
