@@ -58,9 +58,10 @@ class BowlingScoreTest(unittest.TestCase):
                                          ' first two slots have sum less than 10')
 
     def test_repr(self):
-        # import name bowling_score otherwise ScoreFrame repr is broken
         bowling_frame = bowling_score.ScoreFrame(3, 6)
         print(bowling_frame)
         bf = repr(bowling_frame)
         print(bf)
+        # implicitly used in eval
+        from puzzles.bowling.bowling_score import ScoreFrame
         print(eval(bf))

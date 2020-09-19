@@ -27,7 +27,8 @@ class ScoreFrame:
     def __repr__(self):
         # does not have bonus/score because of the __init__
         # contract with eval (they are opposites) -> eval(repr())
-        return 'bowling_score.ScoreFrame({}, {}, {})'.format(self.slot1,
+        # This needs to import ScoreFrame to resolve the class.
+        return 'ScoreFrame({}, {}, {})'.format(self.slot1,
                                                              self.slot2,
                                                              self.slot3)
 

@@ -26,6 +26,11 @@ print('\u03B5'.encode('utf-8'))  # b'\xce\xb5', encode unicode to byte string, 2
 print(len(b'\xce\xb5'))  # 2 bytes
 print(b'\xce\xb5'.decode('utf-8'))  # ε, decode byte array to unicode
 
+# utf-8 is a variable length charset
+print(len('a'.encode('utf-8')))  # 1 byte, for English
+print(len('ε'.encode('utf-8')))  # 2 bytes, for Europe
+print(len('好'.encode('utf-8')))  # use 3 bytes to store the char in utf-8, Chinese
+
 print(type(b'abc'))  # <class 'bytes'>
 print(type(u'abc'))  # <class 'str'>
 

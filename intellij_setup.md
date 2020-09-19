@@ -15,3 +15,11 @@ Then setup the source folder in each module(marked as blue color).
 
 To set up test coverage, configure the following in preferences/settings
 ![coverage setup](intellij_coverage.png)
+
+
+### GIT repository
+
+IntelliJ has GIT functionalities built in. On windows, TortoiseGIT is a nice
+GUI. Another tool for github is: https://desktop.github.com/.
+
+Command line tool is for more experienced users.

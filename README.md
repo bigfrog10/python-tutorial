@@ -9,56 +9,57 @@ grasp the essence now and then expand the horizon later. Defining the proper
 scope of the foundation is challenging, along with building up blocks step by 
 step progressively.
 
-Chapter 1. Numbers
+Official Python tutorial is here:
+https://docs.python.org/3.8/tutorial/index.html
+
+
+#### Chapter 1. Numbers
 ___
 - Integers
 - Floating Numbers
 - Other numbers: Complex Numbers, Rationals, and Decimals 
 - Math functions
 
-Chapter 2. Strings
+#### Chapter 2. Strings
 ___
 
-Chapter 3. Collections
+#### Chapter 3. Collections
 ___
 
-Chapter 4. Booleans and Flow Controls
+#### Chapter 4. Booleans and Flow Controls
 ___
 
-Chapter 5. Functions
+#### Chapter 5. Functions
+___
+- Lambda
+- Logging
+- Exceptions
+
+#### Chapter 6. More Functions
 ___
 
-Chapter 6. More Functions
+#### Chapter 7. Classes
 ___
+- Networkx & Graphviz & PyDot
 
-Chapter 7. Classes
-___
-
-Chapter 8. Date and Time
-___
-- arrow/delorean
-
-Chapter 9. Logging & Exceptions
-___
-
-Chapter 10. File IO and OS Command Interactions
-___
-- argparse
-- pillow
-
-Chapter 11. Testing
+#### Chapter 8. Testing
 ___
 - Unit Tests
 - Mock
 - Performance Tests
 
-Chapter 11. Regular Expressions
+#### Chapter 9. Date and Time
 ___
+- date and time
+- arrow/delorean
 
-Chapter 12. Networkx & Graphviz & PyDot
-
-
-
+#### Chapter 10. Interact with System
+___
+- argparse
+- File IO
+- pillow
+- subprocess
+- re - Regular Expression
 
 
 [Why we pick Python](why_python.md)

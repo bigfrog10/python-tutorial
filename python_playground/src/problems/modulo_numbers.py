@@ -99,6 +99,8 @@ class ModuloNumber:
 
     def __truediv__(self, other):
         if isinstance(other, int):
+            if self.residue % other != 0:
+                raise Exception('not dividable!')
             return ModuloNumber(self.residue // other, self.modulo)
         elif isinstance(other, ModuloNumber):
             return self.__mul__(other.__invert__())
@@ -196,5 +198,3 @@ class ModuloNumber:
                 return self.residue * x <= other.residue * y
         else:
             raise ValueError('unknow data type: {}'.format(other))
-
-

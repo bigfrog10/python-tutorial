@@ -11,7 +11,7 @@
 # in this class.
 # private members and methods are the encapsulation.
 class Animal:
-    def __init__(self, name, favorite_food):  # constructor
+    def __init__(self, name, favorite_food):  # constructor, __xxx__() are magic methods, hooks to the system
         self.name = name  # public member
         self._energy = 100  # this is protected member of the class
         self.__favorite_food = favorite_food  # this is private member, not used outside this class
@@ -247,6 +247,24 @@ print(Card(CardSuite.SPADES, CardRank.R2) > Card(CardSuite.HEARTS, CardRank.K))
 # bytes. In contrast, some classes defined here can be changed in place, so they are
 # mutable. List, dictionary, set and bytearray are mutable while tuple and frozenset are
 # immutable.
+
+
+class Food:
+    def __init__(self, weight):
+        self.__weight = weight
+
+    def __repr__(self):
+        return f'Food(weight={self.__weight})'
+
+    def __str__(self):  # make them different for testing. Default is memory address
+        return f"[Food[weight={self.__weight}]]"
+
+
+f = Food(1.0)
+print(f)  # use __str__ in both print and debug
+print(repr(f))
+print(eval(repr(f)))
+
 
 # decorator with internal states
 import time

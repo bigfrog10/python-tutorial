@@ -102,10 +102,13 @@ print(2 / 3)  # round at the end
 # https://docs.python.org/3.0/tutorial/floatingpoint.html
 
 # modules are reusable code. Every language has some built-in modules and
-# 3rd party extended modules.
+# 3rd party extended modules. The standard libraries, or built-in modules, are
+# in here: https://docs.python.org/3/library/.
+
+
 # hardware information, check 32 bit or 64 bit
 import platform
-print(platform.architecture())  # 64 bit in my case
+print(platform.architecture())  # 64 bit
 
 # to check float max/min/machine precision/epsilon
 import sys
@@ -154,6 +157,7 @@ print(math.factorial(5))
 print(math.ceil(3.14))  # 4
 print(math.floor(2.718))  # 2
 
+# cmath module is for complex numbers
 
 # bit representation for integers and 2's compliments:
 # Among many ways to use bits(0 and 1) to represent integers, 1's and 2's
@@ -166,3 +170,28 @@ print(math.floor(2.718))  # 2
 # (MSB, left most bit).
 # to represent a negative number, take the positive number, invert all bits
 # (0 to 1 and 1 to 0) and then add 1.
+
+# bit operations, &, |, ~, ^, >>, <<
+print(3 & 5)  # 1, 101 & 011
+print(3 | 5)  # 7
+print(~3)     # -4
+print(bin(~3))  # binary
+print(3 ^ 5)  # 6 = b'110', 1 if exactly one operand is 1 else 0
+print(5 >> 1)  # 2, 101 shifts to right -> 010, remove right most 1 from left
+print(5 << 1)  # 10, 101 shifts to left -> 1010, append 0 from right
+
+
+# integer swap with temp variables
+x, y = 3, 5
+x = x + y  # so now x is sum(x, y)
+y = x - y  # sum - old y = x, so y has x now
+x = x - y  # sum - y = sum - old x = old y
+print(x)
+print(y)
+
+x, y = 3, 5
+x = x ^ y  # XOR
+y = y ^ x
+x = x ^ y
+print(x)
+print(y)

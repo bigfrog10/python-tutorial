@@ -11,6 +11,12 @@ print(len(a))  # aggregations
 print(min(a))
 print(max(a))
 print(sum(a))
+first, *_ = a  # we care only the first
+print(first)
+first, *middle, last = a  # unpack
+print(first)
+print(middle)
+print(last)
 
 print(a[1:7:2])
 a[1:7:2] = [0, 0, 0]  # This is fast, list allow duplicate values, need to know the size first

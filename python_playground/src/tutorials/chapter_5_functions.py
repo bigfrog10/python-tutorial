@@ -188,7 +188,7 @@ print(avg(*[1, 2, 3], *[4, 5, 6]))  # unpack all
 
 
 # new feature - * means no positional parameters
-def concat_with(x, y, *, sep=' '):
+def concat_with(x, y, *, sep=' '):  # default value is evaluated only when importing.
     return sep.join([x, y])
 
 
@@ -242,6 +242,10 @@ print(a)  # [4, 5, 6, 100]
 # reference copy to something else [1, 2, 3], the original reference is not
 # changed.
 
+# named tuple for function parameters and return values.
+# general rule: number of parameters and number of returned values should not
+# go beyond 3. If there are more values, use namedtuple from collections or
+# classes.
 
 # generators
 def square():
