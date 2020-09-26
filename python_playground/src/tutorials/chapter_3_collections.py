@@ -138,7 +138,7 @@ prices = dict(iphone=100, nick=50, shirt=30)  # more like function parameters
 print(prices['iphone'])
 
 fruits = ['Apple', 'Banana', 'Orange']
-print({k+1: v[:3] for (k, v) in zip(range(len(fruits)), fruits)}) # dict comprehension
+print({k+1: v[:3] for (k, v) in zip(range(len(fruits)), fruits)})  # dict comprehension
 
 # set and frozenset, distinct values
 fruits = {'Apple', 'Banana', 'Orange'}

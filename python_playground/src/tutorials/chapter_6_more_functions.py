@@ -1,4 +1,3 @@
-
 # higher order functions
 from functools import reduce
 from operator import mul
@@ -67,3 +66,103 @@ def median(nums):
 print(median(nums))
 print(median([1, 2, 3, 4, 5]))  # 3
 print(median([1, 2, 3, 4]))  # 2.5
+
+
+# generators
+def square():
+    for i in range(2, 9):
+        yield (i + 2) ** 2
+
+
+a = square()
+print(next(a))
+print(next(a))
+print(next(a))
+
+for x in square():
+    print(x)
+
+
+# fib generator
+from typing import Generator
+
+
+# Generator[yield_type, send_type, return_type]
+# Another way is Iterator[int], Iterator is in typing module too.
+def fib(x: int) -> Generator[int, None, None]:
+    """ return fib series up to x"""
+    a, b = 1, 1
+    for i in range(x):
+        yield a
+        a, b = b, a + b
+
+
+print(list(fib(10)))
+
+for i in fib(10):
+    print(i)
+
+
+# generator expression, in parallel to list comprehension
+g = (x * 2 for x in range(5))
+print(g)  # g is lazy
+
+# iterator
+
+# inspections
+print(fib.__name__)
+print(fib.__doc__)
+print(fib.__module__)
+print(fib.__annotations__)
+
+
+# decorators, AOP - aspect oriented programming, a very powerful tool
+def log(func):  # log interceptor
+    def wrapper(*args, **kwargs):
+        print(f'log before call to function {func.__name__}() ...')
+        return func(*args, **kwargs)
+
+    return wrapper
+
+
+@log
+def f(x):
+    return x * 10
+
+
+print(f('abc'))
+
+# another example
+import time
+import functools
+
+
+def timing(f):
+    @functools.wraps(f)  # this carries f to wrapper, such as name, doc, signature
+    def wrapper(*args, **kwargs):
+        a = time.time()
+        ret = f(*args, **kwargs)
+        b = time.time()
+        c = b - a
+        print(f'function {f.__name__}() takes {c} seconds.')
+        return ret
+    return wrapper
+
+
+@timing
+def factorial(i: int) -> int:
+    x = 1
+    for y in range(2, i + 1):
+        x *= y
+    return x
+
+
+print(factorial(3000))
+
+# another example:
+# https://chase-seibert.github.io/blog/2013/12/17/python-decorator-optional-parameter.html
+# log with level parameters
+
+# when we wrap the function, we need to carry some of the information from the original
+# such as, name, doc, signature, and honor some of the functions, such as help() and
+# inspection

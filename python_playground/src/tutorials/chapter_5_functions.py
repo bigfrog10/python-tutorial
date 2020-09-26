@@ -17,6 +17,25 @@ def reverse_digits(a: int) -> int:  # add type hints
 print(reverse_digits(12345))
 
 
+def collatz(n):  # Lothar Collatz, 1937
+    if n % 2 == 0:  # or use n & 1
+        return n // 2
+    else:
+        return 3 * n + 1
+
+
+n = 2020
+for i in range(100):
+    n = collatz(n)
+    if n == 1:
+        print('iteration: ', i)
+        break
+print(n)
+
+
+# global vs local variables
+
+
 # recursion
 def factorial(up_to):
     if up_to == 1 or up_to == 2:
@@ -41,7 +60,7 @@ print(mod(m=16, n=32))  # reverse parameter order with keys
 
 
 # however, this is dangerous. m could change every call
-def acc(n, m=[]):  # m is mutable
+def acc(n, m=[]):  # m is mutable, this evaluated only once, it's a reference to [].
     m.append(n)
     return m
 
@@ -246,108 +265,6 @@ print(a)  # [4, 5, 6, 100]
 # general rule: number of parameters and number of returned values should not
 # go beyond 3. If there are more values, use namedtuple from collections or
 # classes.
-
-# generators
-def square():
-    for i in range(2, 9):
-        yield (i + 2) ** 2
-
-
-a = square()
-print(next(a))
-print(next(a))
-print(next(a))
-
-for x in square():
-    print(x)
-
-
-# fib generator
-from typing import Generator
-
-
-# Generator[yield_type, send_type, return_type]
-# Another way is Iterator[int], Iterator is in typing module too.
-def fib(x: int) -> Generator[int, None, None]:
-    """ return fib series up to x"""
-    a, b = 1, 1
-    for i in range(x):
-        yield a
-        a, b = b, a + b
-
-
-print(list(fib(10)))
-
-for i in fib(10):
-    print(i)
-
-
-# generator expression, in parallel to list comprehension
-g = (x * 2 for x in range(5))
-print(g)  # g is lazy
-
-# iterator
-
-# inspections
-print(fib.__name__)
-print(fib.__doc__)
-print(fib.__module__)
-print(fib.__annotations__)
-
-
-# decorators, AOP - aspect oriented programming, a very powerful tool
-def log(func):  # log interceptor
-    def wrapper(*args, **kwargs):
-        print(f'log before call to function {func.__name__}() ...')
-        return func(*args, **kwargs)
-
-    return wrapper
-
-
-@log
-def f(x):
-    return x * 10
-
-
-print(f('abc'))
-
-# another example
-import time
-import functools
-
-
-def timing(f):
-    @functools.wraps(f)  # this carries f to wrapper, such as name, doc, signature
-    def wrapper(*args, **kwargs):
-        a = time.time()
-        ret = f(*args, **kwargs)
-        b = time.time()
-        c = b - a
-        print(f'function {f.__name__}() takes {c} seconds.')
-        return ret
-    return wrapper
-
-
-@timing
-def factorial(i: int) -> int:
-    x = 1
-    for y in range(2, i + 1):
-        x *= y
-    return x
-
-
-print(factorial(3000))
-
-# another example:
-# https://chase-seibert.github.io/blog/2013/12/17/python-decorator-optional-parameter.html
-# log with level parameters
-
-# when we wrap the function, we need to carry some of the information from the original
-# such as, name, doc, signature, and honor some of the functions, such as help() and
-# inspection
-
-
-# global vs local variables
 
 
 # stack & heap, frame
