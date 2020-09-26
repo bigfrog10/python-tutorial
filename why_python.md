@@ -82,6 +82,7 @@ similar libraries, then we can access via these libraries.
 In addition, Python has close relations with C/C++ via Cython/SWIG. If any
 block of Python script is slow, we can rewrite it in C/C++ and wrap it in.
 
-May the force be with you and remember that teamwork is more effective.
+May the force be with you and remember that teamwork is more effective and
+efficient.
 
 ![PYPL Index](force.gif)

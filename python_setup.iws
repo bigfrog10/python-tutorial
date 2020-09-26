@@ -26,18 +26,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="consolidate number and string contents">
-      <change afterPath="$PROJECT_DIR$/python_playground/src/puzzles/hidding.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_8_more_classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_9_date_and_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_10_date_and_time.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_11_re.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_12_remoting_and_re.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_3_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_3_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_5_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_more_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_6_more_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_7_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_7_classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_8_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_10_file_and_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_9_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_11_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/flask_playground.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/gunicorn_start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/gunicorn_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/uwsgi_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/web_handlers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/web_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/static/favicon1.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/static/favicon2.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/static/fire.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/static/fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/static/fire1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/static/frog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/static/panda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/templates/hello_world.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/templates/hello_world1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/templates/hello_world2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/templates/length.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/templates/pokemon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/uwsgi.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_playground/uwsgi_start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/python_playground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/python_playground.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/bar_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/boxplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/donut_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/figure1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/frog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/fruit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/fruits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/heatmap_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/line_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/line_plot_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pandas_pivot_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pandas_stack_unstack.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pandas_test_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pie_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/polar_bar_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/polar_bar_plot_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pysankey.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/radar_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/sankey_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/scatter_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/stacked_bar_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/stacked_bar_plot_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/susanoo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/two_charts.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/violin_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_10_file_and_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_10_system_and_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_11_database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_12_remoting_and_re.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/test1.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_setup.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_setup.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why_python.md" beforeDir="false" afterPath="$PROJECT_DIR$/why_python.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +121,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python_playground/src/tutorials" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -98,7 +142,7 @@
       <recent name="$PROJECT_DIR$/python_playground" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.chapter_5_functions">
+  <component name="RunManager" selected="Python.web_main">
     <configuration name="chapter1_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,20 +297,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="transportation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_playground" />
+    <configuration name="web_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="flask_playground" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_playground/src/puzzles" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../../0dev/Anaconda3/envs/py385_cb/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_playground" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_playground/src/puzzles/transportation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_playground/src/flask_test_app/web_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,19 +320,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.transportation" />
       <item itemvalue="Python.chapter_2_strings" />
       <item itemvalue="Python.hidding" />
       <item itemvalue="Python.chapter_9_date_and_time" />
       <item itemvalue="Python.chapter_5_functions" />
+      <item itemvalue="Python.web_main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.web_main" />
         <item itemvalue="Python.chapter_5_functions" />
         <item itemvalue="Python.chapter_9_date_and_time" />
         <item itemvalue="Python.hidding" />
         <item itemvalue="Python.chapter_9_date_and_time" />
-        <item itemvalue="Python.chapter_2_strings" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +359,7 @@
       <workItem from="1597524930211" duration="4524000" />
       <workItem from="1597532356750" duration="7617000" />
       <workItem from="1599282973705" duration="213019000" />
-      <workItem from="1600538289801" duration="34470000" />
+      <workItem from="1600538289801" duration="40845000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1596506997043</created>
@@ -545,16 +589,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="consolidate number and string contents" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="570" y="159" key="#Project_Structure" timestamp="1600285263674">
+    <state x="570" y="159" key="#Project_Structure" timestamp="1601154557290">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="570" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600285263674" />
+    <state x="570" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601154557290" />
     <state x="2663" y="159" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599789351566" />
     <state x="712" y="218" key="#Project_Structure/0.23.2560.1417@0.23.2560.1417" timestamp="1596759127765" />
-    <state x="550" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600107693871">
+    <state x="550" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601154226179">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="550" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600107693871" />
+    <state x="550" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601154226179" />
     <state x="688" y="298" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1596506906415" />
     <state x="648" y="355" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600114517140">
       <screen x="0" y="0" width="2048" height="1152" />
@@ -571,32 +615,33 @@
     </state>
     <state x="566" y="137" key="CommitChangelistDialog2/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1599098180878" />
     <state x="2659" y="137" key="CommitChangelistDialog2/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1599606398377" />
-    <state x="1083" y="230" key="FileChooserDialogImpl" timestamp="1600285256588">
+    <state x="1083" y="230" key="FileChooserDialogImpl" timestamp="1601154551360">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="1083" y="230" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600285256588" />
-    <state width="1661" height="257" key="GridCell.Tab.0.bottom" timestamp="1601146301238">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state x="1083" y="230" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601154551360" />
+    <state x="3160" y="230" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601148181152" />
+    <state width="1661" height="220" key="GridCell.Tab.0.bottom" timestamp="1601154206661">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="405" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600503369763" />
+    <state width="1661" height="220" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601154206661" />
     <state width="1661" height="257" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601146301238" />
     <state width="2084" height="403" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="257" key="GridCell.Tab.0.center" timestamp="1601146301238">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state width="1661" height="220" key="GridCell.Tab.0.center" timestamp="1601154206661">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="405" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600503369763" />
+    <state width="1661" height="220" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601154206661" />
     <state width="1661" height="257" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601146301238" />
     <state width="2084" height="403" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="257" key="GridCell.Tab.0.left" timestamp="1601146301237">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state width="1661" height="220" key="GridCell.Tab.0.left" timestamp="1601154206661">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="405" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600503369762" />
+    <state width="1661" height="220" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601154206661" />
     <state width="1661" height="257" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601146301237" />
     <state width="2084" height="403" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
-    <state width="1661" height="257" key="GridCell.Tab.0.right" timestamp="1601146301238">
-      <screen x="2110" y="0" width="1986" height="1152" />
+    <state width="1661" height="220" key="GridCell.Tab.0.right" timestamp="1601154206661">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="405" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600503369763" />
+    <state width="1661" height="220" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601154206661" />
     <state width="1661" height="257" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601146301238" />
     <state width="2084" height="403" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1597625929222" />
     <state width="1661" height="277" key="GridCell.Tab.1.bottom" timestamp="1601099203908">
@@ -657,10 +702,11 @@
     <state x="513" y="91" width="867" height="722" key="find.popup/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600031662748" />
     <state x="2607" y="91" width="840" height="722" key="find.popup/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1600897357164" />
     <state x="641" y="135" width="1082" height="887" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1597270791220" />
-    <state x="686" y="172" key="new project wizard" timestamp="1600285261605">
+    <state x="686" y="172" key="new project wizard" timestamp="1601154555110">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="686" y="172" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1600285261605" />
+    <state x="686" y="172" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601154555110" />
+    <state x="2375" y="151" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601148216578" />
     <state x="858" y="235" key="new project wizard/0.23.2560.1417@0.23.2560.1417" timestamp="1596506840045" />
     <state x="2826" y="331" width="672" height="550" key="search.everywhere.popup" timestamp="1601075596709">
       <screen x="2110" y="0" width="1986" height="1152" />
@@ -707,7 +753,7 @@
     <SUITE FILE_PATH="coverage/python_setup$chapter_5_execises.coverage" NAME="chapter_5_execises Coverage Results" MODIFIED="1600042329010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_5_functions.coverage" NAME="chapter_5_functions Coverage Results" MODIFIED="1601146301232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_1_numbers__1_.coverage" NAME="chapter_1_numbers (1) Coverage Results" MODIFIED="1599603172449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
-    <SUITE FILE_PATH="coverage/python_setup$web_main.coverage" NAME="web_main Coverage Results" MODIFIED="1600111422399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_playground" />
+    <SUITE FILE_PATH="coverage/python_setup$web_main.coverage" NAME="web_main Coverage Results" MODIFIED="1601154206654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_playground" />
     <SUITE FILE_PATH="coverage/python_setup$bowling_score.coverage" NAME="bowling_score Coverage Results" MODIFIED="1596925060713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/puzzles/bowling" />
     <SUITE FILE_PATH="coverage/python_setup$numbers_test__1_.coverage" NAME="numbers_test (1) Coverage Results" MODIFIED="1599578350114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />
     <SUITE FILE_PATH="coverage/python_setup$chapter_8_date_and_time__1_.coverage" NAME="chapter_8_date_and_time (1) Coverage Results" MODIFIED="1601099589834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python_playground/src/tutorials" />

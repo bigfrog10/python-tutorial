@@ -32,7 +32,6 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/flask_playground/flask_playground.iml" filepath="$PROJECT_DIR$/flask_playground/flask_playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/python_playground/python_playground.iml" filepath="$PROJECT_DIR$/python_playground/python_playground.iml" />
     </modules>
   </component>
