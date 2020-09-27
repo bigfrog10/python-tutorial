@@ -46,11 +46,11 @@ returns True if they are not the same object.
 the int() cast function converts the value inside to a normal integer. 
 
 references:  
-[math module example](python_playground/src/beginning_python/chapter3.py)  
-[24 sum problem](python_playground/src/problems/24game.py)  
-[integer factors with comprehension](python_playground/src/problems/integer_factors.py)  
-[fibonacci sequence](python_playground/src/puzzles/fibonacci.py)  
-[comma placer](python_playground/src/tutorials/number_format.py)  
+[math module example](src/beginning_python/chapter3.py)  
+[24 sum problem](src/problems/24game.py)  
+[integer factors with comprehension](src/problems/integer_factors.py)  
+[fibonacci sequence](src/puzzles/fibonacci.py)  
+
 
 ## float
 floats represent real numbers that are written with a decimal point to divide
@@ -183,9 +183,9 @@ the benefit to this format is not needing to pass in variables like in string's
 format() 
 
 references:  
-[matching words ratio/percentage](python_playground/src/problems/matching.py)  
-[matching words string](python_playground/src/problems/logic.py)  
-[numerals english name](python_playground/src/puzzles/numerals_english.py) 
+[matching words ratio/percentage](src/problems/matching.py)  
+[matching words string](src/problems/logic.py)  
+[numerals english name](src/puzzles/numerals_english.py) 
 
 ## boolean
 the boolean datatype is either True or False. True and False are keywords, so 
@@ -209,6 +209,6 @@ strings. any number is True, except for 0. any list, tuple, set, and dictionary
 are True, except for empty ones. 
 
 references:  
-[logic](python_playground/src/problems/logic.py)  
-[logic gates](python_playground/src/problems/logic_gates.py)  
-[nor gates](python_playground/src/problems/nor_gate_origin.py) 
+[logic](src/problems/logic.py)  
+[logic gates](src/problems/logic_gates.py)  
+[nor gates](src/problems/nor_gate_origin.py) 
