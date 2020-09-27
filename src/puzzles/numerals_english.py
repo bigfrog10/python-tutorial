@@ -86,7 +86,7 @@ def _number2word_digits(num, word_base):
 
     if quotient == 0:
         return ' ' + _number2word_digits(remainder, word_base // 1000)
-    
+
     if word_base >= 1000:
         return _number2word_hundreds(quotient) + ' ' + numbers[word_base] + ' ' + _number2word_digits(remainder, word_base // 1000)
     else:
@@ -105,3 +105,5 @@ def number2word(num):
 
 hi = number2word(139193457)
 print(hi)
+
+# define another function word2number(numeral) that convert numeral back to number.

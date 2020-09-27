@@ -1,3 +1,9 @@
+# Computing history:
+#     https://en.wikipedia.org/wiki/Mechanical_calculator
+#     https://en.wikipedia.org/wiki/Abacus
+#     https://en.wikipedia.org/wiki/Calculator
+
+
 # Python basic number types: int, float, complex
 print(7)
 print(type(7))  # <class 'int'>

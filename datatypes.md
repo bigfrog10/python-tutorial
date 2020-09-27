@@ -6,9 +6,9 @@ integers are positive or negative whole numbers with no decimal point and have n
 the most basic operators are addition, subtraction, multiplication and the use
 of parentheses:  
 ```x + 2``` for addition  
-```x + 2``` for subtraction  
-```x + 2``` for multiplication  
-```x + 2``` for parentheses  
+```x - 2``` for subtraction  
+```x * 2``` for multiplication  
+```x / 2``` for parentheses  
 
 division is different, as with integers. playing '/' division could result in 
 non-integer solutions. as a result, '%' is used to find the remainder of a 
