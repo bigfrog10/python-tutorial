@@ -47,6 +47,7 @@ ___
 ___
 - Logging
 - Exceptions
+- Performance Profiling
 
 #### Chapter 6. More Functions
 ___
@@ -57,10 +58,8 @@ ___
 #### Chapter 7. Classes and Testing
 ___
 - Inheritance
-- Unit Tests
-- Mock
-- Performance Tests
-- Networkx & Graphviz & PyDot
+- Pickle
+- Unit Tests and Mock
 
 #### Chapter 8. More Classes
 ___

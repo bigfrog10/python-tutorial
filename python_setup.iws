@@ -27,61 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c9031a88-ad58-45eb-b84e-3b22d3b5b133" name="Default Changelist" comment="consolidate number and string contents">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/flask_playground.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/gunicorn_start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/gunicorn_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/uwsgi_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/web_handlers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/src/flask_test_app/web_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/static/favicon1.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/static/favicon2.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/static/fire.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/static/fire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/static/fire1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/static/frog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/static/panda.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/templates/hello_world.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/templates/hello_world1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/templates/hello_world2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/templates/length.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/templates/pokemon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/uwsgi.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_playground/uwsgi_start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/python_playground.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/python_playground.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/bar_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/boxplot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/donut_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/figure1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/frog.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/fruit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/fruits.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/heatmap_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/line_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/line_plot_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pandas_pivot_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pandas_stack_unstack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pandas_test_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pie_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/polar_bar_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/polar_bar_plot_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/pysankey.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/radar_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/sankey_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/scatter_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/stacked_bar_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/stacked_bar_plot_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/susanoo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/two_charts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/mp_test/violin_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_10_file_and_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_10_system_and_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_11_database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/chapter_12_remoting_and_re.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_playground/src/tutorials/test1.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_setup.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_setup.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python_setup.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/why_python.md" beforeDir="false" afterPath="$PROJECT_DIR$/why_python.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,7 +305,7 @@
       <workItem from="1597524930211" duration="4524000" />
       <workItem from="1597532356750" duration="7617000" />
       <workItem from="1599282973705" duration="213019000" />
-      <workItem from="1600538289801" duration="40845000" />
+      <workItem from="1600538289801" duration="45115000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <created>1596506997043</created>
