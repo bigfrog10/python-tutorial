@@ -1,5 +1,4 @@
 import math
-import cProfile
 import functools
 
 
@@ -193,23 +192,8 @@ def euclidean_tuple(a, b):
         #     bx + (a - kb)y = d
         #     ay + b(x -ky) = d
         # So the new x is y and the new y is x - ky, where k = a / b (integer quotient)
-        x, y, gcd = euclidean_tuple(b, a % b)
+        x, y, gcdv = euclidean_tuple(b, a % b)
 
         new_x = y
         new_y = x - (a // b) * y
-        return new_x, new_y, gcd
-
-
-# if __name__ == '__main__':
-#     # a = [i if i % 2 == 0 else -i for i in range(1, 10)]
-#     # print(a)
-#
-#     s = lcm(0, 0)
-#     print(s)
-#
-#     a = [0, 1]
-#     print(gcdm1(a))
-#
-#     print(gcd(0, 1))
-#
-#     print(gcd(10, 10))
+        return new_x, new_y, gcdv

@@ -110,6 +110,23 @@ print(Card(CardSuite.SPADES, CardRank.R2) > Card(CardSuite.HEARTS, CardRank.K))
 # 3. There are cases where we have only behaviors exposed to uses and we keep internal states private.
 # 4. If a class has no properties, private or public, these are likely to be refactored to functions.
 
+
+# callable functions, with states
+class MyCallable:
+    def __init__(self, a):
+        self.sum = 0
+        self.__a = a
+
+    def __call__(self, t):
+        self.sum += t
+        return t + self.__a
+
+
+mc = MyCallable(10)
+print(mc(4))
+print(mc(20))
+print(mc.sum)  # state changed
+
 # Address, book, car
 # favor composition over inheritance
 # favor functions over classes

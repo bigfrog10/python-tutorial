@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e159709c-22ad-4fc7-a690-eec8de5a3e16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tutorials/chapter_9_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/puzzles/numeral_chinese.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/puzzles/numeral_chinese.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorials/chapter_5_execises.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chapter_5_exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorials/chapter_9_date_and_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chapter_9_date_and_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/integer_factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/integer_factors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/integer_factors_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/integer_factors_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/problems/string_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/string_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/puzzles/numerals_roman.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/puzzles/numerals_roman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutorials/chapter_3_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chapter_3_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutorials/chapter_5_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chapter_5_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tutorials/chapter_8_more_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chapter_8_more_classes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
       <recent name="D:\00dev\python\python-tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.chapter_9_exercise">
+  <component name="RunManager" selected="Python.integer_factors">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -77,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter_1_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="integer_factors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,78 +89,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tutorials" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tutorials/chapter_1_numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chapter_9_exercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tutorials" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tutorials/chapter_9_exercise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="glass_ball_dropping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/puzzles" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/puzzles/glass_ball_dropping.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="transportation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/puzzles" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/puzzles/transportation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/problems/integer_factors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,12 +112,73 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unittests for integer_factors_test.EvenOddTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;integer_factors_test.EvenOddTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for integer_factors_test.EvenOddTest.test_gcd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;integer_factors_test.EvenOddTest.test_gcd&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for integer_factors_test.EvenOddTest.test_gcdm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;integer_factors_test.EvenOddTest.test_gcdm&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for integer_factors_test.EvenOddTest.test_gcdm1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;integer_factors_test.EvenOddTest.test_gcdm1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chapter_9_exercise" />
-        <item itemvalue="Python.glass_ball_dropping" />
-        <item itemvalue="Python.transportation" />
-        <item itemvalue="Python.chapter_1_numbers" />
+        <item itemvalue="Python.integer_factors" />
+        <item itemvalue="Python tests.Unittests for integer_factors_test.EvenOddTest.test_gcd" />
+        <item itemvalue="Python tests.Unittests for integer_factors_test.EvenOddTest.test_gcdm1" />
+        <item itemvalue="Python tests.Unittests for integer_factors_test.EvenOddTest.test_gcdm" />
+        <item itemvalue="Python tests.Unittests for integer_factors_test.EvenOddTest" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601176017436</updated>
       <workItem from="1601176018661" duration="98000" />
-      <workItem from="1601176129448" duration="17790000" />
+      <workItem from="1601176129448" duration="25334000" />
     </task>
     <servers />
   </component>
@@ -204,55 +203,65 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="516" y="120" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601176165973" />
-    <state width="1661" height="192" key="GridCell.Tab.0.bottom" timestamp="1601252707086">
+    <state x="427" y="114" width="1521" height="855" key="DiffContextDialog" timestamp="1601302163538">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="192" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601252707086" />
-    <state width="1661" height="354" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601184337146" />
-    <state width="1661" height="192" key="GridCell.Tab.0.center" timestamp="1601252707086">
+    <state x="427" y="114" width="1521" height="855" key="DiffContextDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302163538" />
+    <state width="1661" height="275" key="GridCell.Tab.0.bottom" timestamp="1601302065743">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="192" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601252707086" />
-    <state width="1661" height="354" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601184337146" />
-    <state width="1661" height="192" key="GridCell.Tab.0.left" timestamp="1601252707086">
+    <state width="1661" height="275" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302065743" />
+    <state width="1661" height="275" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254902689" />
+    <state width="1661" height="275" key="GridCell.Tab.0.center" timestamp="1601302065743">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="192" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601252707086" />
-    <state width="1661" height="354" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601184337146" />
-    <state width="1661" height="192" key="GridCell.Tab.0.right" timestamp="1601252707086">
+    <state width="1661" height="275" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302065743" />
+    <state width="1661" height="275" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254902689" />
+    <state width="1661" height="275" key="GridCell.Tab.0.left" timestamp="1601302065743">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="192" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601252707086" />
-    <state width="1661" height="354" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601184337146" />
-    <state width="1661" height="229" key="GridCell.Tab.1.bottom" timestamp="1601250138981">
+    <state width="1661" height="275" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302065743" />
+    <state width="1661" height="275" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254902689" />
+    <state width="1661" height="275" key="GridCell.Tab.0.right" timestamp="1601302065743">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="229" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601250138981" />
+    <state width="1661" height="275" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302065743" />
+    <state width="1661" height="275" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254902689" />
+    <state width="1661" height="369" key="GridCell.Tab.1.bottom" timestamp="1601301835539">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1661" height="369" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601301835539" />
     <state width="1661" height="229" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601183851274" />
-    <state width="1661" height="229" key="GridCell.Tab.1.center" timestamp="1601250138981">
+    <state width="1661" height="369" key="GridCell.Tab.1.center" timestamp="1601301835539">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="229" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601250138981" />
+    <state width="1661" height="369" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601301835539" />
     <state width="1661" height="229" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601183851274" />
-    <state width="1661" height="229" key="GridCell.Tab.1.left" timestamp="1601250138981">
+    <state width="1661" height="369" key="GridCell.Tab.1.left" timestamp="1601301835539">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="229" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601250138981" />
+    <state width="1661" height="369" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601301835539" />
     <state width="1661" height="229" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601183851274" />
-    <state width="1661" height="229" key="GridCell.Tab.1.right" timestamp="1601250138981">
+    <state width="1661" height="369" key="GridCell.Tab.1.right" timestamp="1601301835539">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="229" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601250138981" />
+    <state width="1661" height="369" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601301835539" />
     <state width="1661" height="229" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601183851274" />
-    <state x="2713" y="307" width="585" height="534" key="find.popup" timestamp="1601184063731">
+    <state x="2713" y="307" width="585" height="534" key="find.popup" timestamp="1601254956948">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
-    <state x="2713" y="307" width="585" height="534" key="find.popup/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601184063731" />
+    <state x="2713" y="307" width="585" height="534" key="find.popup/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254956948" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_tutorial$Unittests_for_integer_factors_test_EvenOddTest_test_gcdm.coverage" NAME="Unittests for integer_factors_test.EvenOddTest.test_gcdm Coverage Results" MODIFIED="1601301850382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/problems" />
     <SUITE FILE_PATH="coverage/python_tutorial$transportation.coverage" NAME="transportation Coverage Results" MODIFIED="1601176615592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/puzzles" />
+    <SUITE FILE_PATH="coverage/python_tutorial$Unittests_for_integer_factors_test_EvenOddTest.coverage" NAME="Unittests for integer_factors_test.EvenOddTest Coverage Results" MODIFIED="1601301835519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/problems" />
     <SUITE FILE_PATH="coverage/python_tutorial$chapter_9_exercise.coverage" NAME="chapter_9_exercise Coverage Results" MODIFIED="1601252707080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_tutorial$Unittests_for_integer_factors_test_EvenOddTest_test_gcd.coverage" NAME="Unittests for integer_factors_test.EvenOddTest.test_gcd Coverage Results" MODIFIED="1601302035285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/problems" />
     <SUITE FILE_PATH="coverage/python_tutorial$glass_ball_dropping.coverage" NAME="glass_ball_dropping Coverage Results" MODIFIED="1601184337141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/puzzles" />
+    <SUITE FILE_PATH="coverage/python_tutorial$integer_factors.coverage" NAME="integer_factors Coverage Results" MODIFIED="1601302065733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/problems" />
     <SUITE FILE_PATH="coverage/python_tutorial$chapter_1_numbers.coverage" NAME="chapter_1_numbers Coverage Results" MODIFIED="1601176173725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tutorials" />
+    <SUITE FILE_PATH="coverage/python_tutorial$Unittests_for_integer_factors_test_EvenOddTest_test_gcdm1.coverage" NAME="Unittests for integer_factors_test.EvenOddTest.test_gcdm1 Coverage Results" MODIFIED="1601301950230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/problems" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_8_more_classes.coverage" NAME="chapter_8_more_classes Coverage Results" MODIFIED="1601276036470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tutorials" />
   </component>
 </project>

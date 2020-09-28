@@ -13,6 +13,9 @@ to be helpful as well.
 Official Python tutorial is here:
 https://docs.python.org/3.8/tutorial/index.html
 
+A simple-to-follow tutorial is at
+https://www.w3resource.com/python/python-tutorial.php 
+
 All code can be run locally in one thread, one process. This is one of the
 scope criteria.
 

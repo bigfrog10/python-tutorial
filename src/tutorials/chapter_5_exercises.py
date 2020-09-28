@@ -205,14 +205,16 @@ print(1 / math.sqrt(10 ** 5))  # error bound within a factor
 
 
 # ##############################################################################
+GOAT = 0
+CAR = 1
+
+
 def monty_hall():
     """https://en.wikipedia.org/wiki/Monty_Hall_problem
        https://towardsdatascience.com/answering-monty-hall-problem-with-monte-carlo-6c6069e39bfe
     """
     from random import shuffle, choice
 
-    GOAT = 0
-    CAR = 1
     gifts = [CAR, GOAT, GOAT]
     doors = [0, 1, 2]
 

@@ -99,6 +99,10 @@ for index, value in zip(range(len(c)), c):
 a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 d = [x**2 for x in a if x % 2 == 0]  # filter
 print(d)
+
+a = [i if i % 2 == 0 else -i for i in range(1, 10)]
+print(a)
+
 print([x for x in range(9, 0, -1)])  # full permutations
 
 print([m + n for m in 'ABCD' for n in '1234'])

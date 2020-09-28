@@ -225,6 +225,8 @@ class EvenOddTest(unittest.TestCase):
         print(f'z = {z}')
         self.assertTrue(z == 4)
 
+        self.assertTrue(integer_factors.gcd(10, 10) == 10)
+
     def test_gcd1(self):
         x = 0
         y = 1
@@ -255,6 +257,10 @@ class EvenOddTest(unittest.TestCase):
         y = integer_factors.gcdm(x)
         print(f'y = {y}')
         self.assertTrue(y == 4)
+
+    def test_gcdm1(self):
+        a = integer_factors.gcdm1([0, 1])
+        self.assertTrue(a == 1)
 
     def test_lcm(self):
         x = 0
