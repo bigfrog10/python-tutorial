@@ -107,7 +107,7 @@ time.sleep(1)  # I guess this is the most widely used function, seconds.
 # when timezone is needed, check Python 3.9 new feature, or dateutil,
 # or pytz.
 
-# Python's calendar
+# Python's calendar, this class is mainly for display purpose, text or html
 print(calendar.isleap(2017))  # False
 print(calendar.isleap(2020))  # True
 print(calendar.weekday(2020, 11, 3))  # 1 means Tuesday, 0 is Monday
@@ -120,11 +120,6 @@ print(cal)  # this class is mainly for display purpose, text or html
 # Business calendars can be modeled as a chronicle calendar with a list of
 # holidays. The holidays depend on many factors, could be a national holiday,
 # a local city holiday, etc. Need to be able to customize.
-#     is_business_day
-#     next/previou business day
-#     +/- business days
-#     first/last business days of a month, or quarter.
-#     get_business_days(start_date, end_date) # inclusive, exclusive
 
 # pandas has a class AbstractHolidayCalendar that can be extended. This seems
 # the right way to model this.
