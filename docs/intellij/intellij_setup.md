@@ -5,14 +5,14 @@ When I move HTML/Markdown files, IntelliJ maintains the references. When I move
 code to different packages, IntelliJ moves the references as well. It's more
 than a coding tool.
 
-### Python Plugin
+#### Python Plugin
 First, download Python plugin for IntelliJ. Go to Settings from File menu
 (Windows) or Preferences(Mac), then click Plugins on the left. Find the Python
 plugin and install it.
 
 ![Plugin](intellij-plugin.png)
 
-### Project Setup
+#### Project Setup
 When we create new project, we have to deal with 2 major steps:
 - activate Python plugin
 - put all IntelliJ files in a folder so that it won't "pollute" the project 
@@ -52,7 +52,7 @@ well during module setup.
 
 Setup the source folder in each module(marked as blue color).
 
-### Runtime Setup
+#### Runtime Setup
 To run Python code, right mouse click anywhere in the Python file, the context
 menu shows several options:
 
@@ -70,7 +70,7 @@ The unit test context menu is similar to the above
 
 ![Plugin](intellij-unit-test.png)
 
-### GIT repository
+#### GIT repository
 
 IntelliJ has GIT functionalities built in. On windows, TortoiseGIT is a nice
 GUI. Another tool for github is: https://desktop.github.com/.

@@ -72,7 +72,7 @@ cProfile.run('test()')
 # Or to time intermediate function. We don't want to modify existing code, so
 # we inject aop here.
 # ---------------------------------------------
-# import puzzles.backtracking.klotski as klotski
+# import tutorials.chapter_07_classes.backtracking.klotski as klotski
 # klotski.move_to = profile(klotski.move_to)
 # test()
 

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-tutorial.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/bowling/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_09_date_and_time/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/intellij/intellij_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/intellij/intellij_setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-tutorial.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-tutorial.ipr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-tutorial.iws" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/24game.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/24game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/integer_factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/integer_factors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/integer_factors_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/integer_factors_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/logic_gates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/logic_gates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/matching.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/modula_equations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/modula_equations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/modulo_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/modulo_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/nor_gate_origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/nor_gate_origin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/string_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/string_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/problems/string_exercise_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/string_exercise_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/expression_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/expression_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/HuaRongDao.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/HuaRongDao.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/cases.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/cases.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/横刀立马1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/横刀立马1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/横刀立马2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/横刀立马2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/齐头并前.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/齐头并前.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/klotski.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/klotski.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/klotski_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/klotski_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/maze.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/maze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/n_queens.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/n_queens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/stack_queue_impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/stack_queue_impl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/stack_queue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/stack_queue_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/bowling/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/bowling/bowling_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/bowling/bowling_score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/bowling/bowling_score_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/bowling/bowling_score_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/glass_ball_dropping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/glass_ball_dropping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/hidding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/hidding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/match_digit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/match_digit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/match_digit_equation_solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/match_digit_equation_solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/match_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/match_digits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/match_digits_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/match_digits_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/numeral_chinese.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/numeral_chinese.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/numerals_english.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/numerals_english.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/numerals_roman.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/numerals_roman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/a.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/graph_dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/graph_dijkstra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/maze_a_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/maze_a_star.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/maze_dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/maze_dijkstra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/puzzles/transportation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/transportation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/chapter_10_system_and_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_1_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_1_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_2_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_2_strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_3_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_3_collections.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_4_flow_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/chapter_4_flow_controls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_5_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/chapter_5_exercises.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_5_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/chapter_5_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_6_more_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions/chapter_6_more_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_7_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/chapter_7_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_8_more_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes/chapter_8_more_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_9_date_and_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_09_date_and_time/chapter_9_date_and_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_9_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_09_date_and_time/chapter_9_exercise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chpater_01_numbers/IEEE_special_values.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/IEEE_special_values.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chpater_01_numbers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chpater_01_numbers/datatypes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/datatypes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chpater_01_numbers/double_precision_float.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/double_precision_float.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/panda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/panda.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/system_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/system_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/unicode.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/unicode.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="0f2245f7-2e08-4298-a8a0-4eee9328be5b" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Wonderland\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.6397.94\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iDINA8eEJmZlfqrAb8ouDMKlo9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.17492712" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\python-tutorial\src\tutorials\chapter_10_system_and_io" />
+      <recent name="D:\00dev\python\python-tutorial\src\tutorials\chapter_02_strings" />
+      <recent name="D:\00dev\python\python-tutorial\src\tutorials\chapter_09_date_and_time" />
+      <recent name="D:\00dev\python\python-tutorial\src\tutorials\chapter_08_more_classes" />
+      <recent name="D:\00dev\python\python-tutorial\src\tutorials\chapter_06_more_functions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.chapter_8_more_classes">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter_4_flow_controls" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/chapter_4_flow_controls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chapter_6_more_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions/chapter_6_more_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chapter_8_more_classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes/chapter_8_more_classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="logic_gates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/logic_gates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nor_gate_origin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/nor_gate_origin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.chapter_8_more_classes" />
+        <item itemvalue="Python.chapter_6_more_functions" />
+        <item itemvalue="Python.nor_gate_origin" />
+        <item itemvalue="Python.logic_gates" />
+        <item itemvalue="Python.chapter_4_flow_controls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="" />
+      <created>1601435693602</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601435693602</updated>
+      <workItem from="1601435695025" duration="1621000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="535" y="169" key="#Project_Structure" timestamp="1601435742949">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="535" y="169" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601435742949" />
+    <state width="1689" height="258" key="GridCell.Tab.0.bottom" timestamp="1601437300169">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="258" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437300169" />
+    <state width="1689" height="258" key="GridCell.Tab.0.center" timestamp="1601437300169">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="258" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437300169" />
+    <state width="1689" height="258" key="GridCell.Tab.0.left" timestamp="1601437300169">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="258" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437300169" />
+    <state width="1689" height="258" key="GridCell.Tab.0.right" timestamp="1601437300169">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="1689" height="258" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437300169" />
+    <state x="763" y="328" width="585" height="534" key="find.popup" timestamp="1601437043982">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="763" y="328" width="585" height="534" key="find.popup/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437043982" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_4_flow_controls.coverage" NAME="chapter_4_flow_controls Coverage Results" MODIFIED="1601437238118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_3_collections.coverage" NAME="chapter_3_collections Coverage Results" MODIFIED="1601437231118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_03_collections" />
+    <SUITE FILE_PATH="coverage/python_tutorial$matching.coverage" NAME="matching Coverage Results" MODIFIED="1601437203716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_02_strings" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_2_strings.coverage" NAME="chapter_2_strings Coverage Results" MODIFIED="1601437146891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_02_strings" />
+    <SUITE FILE_PATH="coverage/python_tutorial$logic_gates.coverage" NAME="logic_gates Coverage Results" MODIFIED="1601437242740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls" />
+    <SUITE FILE_PATH="coverage/python_tutorial$nor_gate_origin.coverage" NAME="nor_gate_origin Coverage Results" MODIFIED="1601437254293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_1_numbers.coverage" NAME="chapter_1_numbers Coverage Results" MODIFIED="1601437123615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_6_more_functions.coverage" NAME="chapter_6_more_functions Coverage Results" MODIFIED="1601437286724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_8_more_classes.coverage" NAME="chapter_8_more_classes Coverage Results" MODIFIED="1601437300165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes" />
+  </component>
+</project>

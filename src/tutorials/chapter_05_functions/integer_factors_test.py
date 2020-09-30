@@ -1,5 +1,5 @@
 import unittest
-import problems.integer_factors as integer_factors
+import tutorials.chapter_05_functions.integer_factors as integer_factors
 import cProfile
 
 

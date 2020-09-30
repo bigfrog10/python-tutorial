@@ -47,9 +47,9 @@ the int() cast function converts the value inside to a normal integer.
 
 references:  
 [math module example](../../beginning_python/chapter3.py)  
-[24 sum problem](../../problems/24game.py)  
-[integer factors with comprehension](../../problems/integer_factors.py)  
-[fibonacci sequence](../../puzzles/fibonacci.py)  
+[24 sum problem](../chapter_05_functions/24game.py)  
+[integer factors with comprehension](../chapter_05_functions/integer_factors.py)  
+[fibonacci sequence](../chapter_05_functions/fibonacci.py)  
 
 
 ## float
@@ -183,9 +183,9 @@ the benefit to this format is not needing to pass in variables like in string's
 format() 
 
 references:  
-[matching words ratio/percentage](../../problems/matching.py)  
-[matching words string](../../problems/logic.py)  
-[numerals english name](../../puzzles/numerals_english.py) 
+[matching words ratio/percentage](../chapter_02_strings/matching.py)  
+[matching words string](../chapter_07_classes/logic.py)  
+[numerals english name](../chapter_05_functions/numerals_english.py) 
 
 ## boolean
 the boolean datatype is either True or False. True and False are keywords, so 
@@ -209,6 +209,6 @@ strings. any number is True, except for 0. any list, tuple, set, and dictionary
 are True, except for empty ones. 
 
 references:  
-[logic](../../problems/logic.py)  
-[logic gates](../../problems/logic_gates.py)  
-[nor gates](../../problems/nor_gate_origin.py) 
+[logic](../chapter_07_classes/logic.py)  
+[logic gates](../chapter_04_flow_controls/logic_gates.py)  
+[nor gates](../chapter_04_flow_controls/nor_gate_origin.py) 

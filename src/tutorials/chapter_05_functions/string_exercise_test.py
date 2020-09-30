@@ -1,5 +1,5 @@
 import unittest
-import problems.string_exercise as string_exercise
+import tutorials.chapter_05_functions.string_exercise as string_exercise
 
 
 class StringTest(unittest.TestCase):

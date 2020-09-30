@@ -2,7 +2,7 @@ import heapq
 import copy
 """
 This implementation is different from other maze solution 
-(puzzles.backtracking.maze).
+(tutorials.chapter_07_classes.backtracking.maze).
 We use Move to link to previous move, so no copying of the maze.
 """
 

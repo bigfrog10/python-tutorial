@@ -1,5 +1,5 @@
-import problems.integer_factors as int_factors
-import problems.modulo_numbers as mod_nums
+import tutorials.chapter_05_functions.integer_factors as int_factors
+import tutorials.chapter_07_classes.modulo_numbers as mod_nums
 
 
 # linear congruent system:
