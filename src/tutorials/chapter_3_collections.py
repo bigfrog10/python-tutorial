@@ -93,6 +93,9 @@ for index, value in enumerate(c):  # both position index and value
 for index, value in zip(range(len(c)), c):
     print(f'index={index}, value={value}')
 
+
+# version comparison - a version has major, minor, and patch, such as 1.3.0.
+
 # multi for loops
 
 # list comprehension

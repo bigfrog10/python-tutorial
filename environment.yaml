@@ -1,17 +1,12 @@
+# After this file is created, we can conda env create
 name: py385_cb
 
 channels:
     - defaults
 
 dependencies:
-    - python=3.8.5
+    - python==3.8.5  # The first line should always be python version
     - pip
     - pillow
-    - pyodbc
-    - pandas
-    - numpy
-    - matplotlib
-    - flask
     - pip:
           - pipdeptree # or conda install -c conda-forge pipdeptree
-          - gunicorn

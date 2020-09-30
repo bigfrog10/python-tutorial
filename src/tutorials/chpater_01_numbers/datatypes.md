@@ -46,10 +46,10 @@ returns True if they are not the same object.
 the int() cast function converts the value inside to a normal integer. 
 
 references:  
-[math module example](src/beginning_python/chapter3.py)  
-[24 sum problem](src/problems/24game.py)  
-[integer factors with comprehension](src/problems/integer_factors.py)  
-[fibonacci sequence](src/puzzles/fibonacci.py)  
+[math module example](../../beginning_python/chapter3.py)  
+[24 sum problem](../../problems/24game.py)  
+[integer factors with comprehension](../../problems/integer_factors.py)  
+[fibonacci sequence](../../puzzles/fibonacci.py)  
 
 
 ## float
@@ -183,9 +183,9 @@ the benefit to this format is not needing to pass in variables like in string's
 format() 
 
 references:  
-[matching words ratio/percentage](src/problems/matching.py)  
-[matching words string](src/problems/logic.py)  
-[numerals english name](src/puzzles/numerals_english.py) 
+[matching words ratio/percentage](../../problems/matching.py)  
+[matching words string](../../problems/logic.py)  
+[numerals english name](../../puzzles/numerals_english.py) 
 
 ## boolean
 the boolean datatype is either True or False. True and False are keywords, so 
@@ -209,6 +209,6 @@ strings. any number is True, except for 0. any list, tuple, set, and dictionary
 are True, except for empty ones. 
 
 references:  
-[logic](src/problems/logic.py)  
-[logic gates](src/problems/logic_gates.py)  
-[nor gates](src/problems/nor_gate_origin.py) 
+[logic](../../problems/logic.py)  
+[logic gates](../../problems/logic_gates.py)  
+[nor gates](../../problems/nor_gate_origin.py) 

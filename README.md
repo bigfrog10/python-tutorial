@@ -84,10 +84,8 @@ ___
 - subprocess
 
 
-[Why we pick Python](why_python.md)
+[Why we pick Python](docs/why_python/why_python.md)
 
-[Python Installation](python_installation.md)  
+[Python Installation](docs/python_installation.md)  
 
-[IntelliJ Setup](intellij_setup.md)  
-
-[Python Build](python_build.md)
+[IntelliJ Setup](docs/intellij/intellij_setup.md)  

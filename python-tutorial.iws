@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e159709c-22ad-4fc7-a690-eec8de5a3e16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-app-run.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-module-setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-plugin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-proj-setup1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-proj-setup2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-proj-setup3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-proj-setup4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-test-setup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/intellij/intellij-unit-test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/why_python/blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IEEE_special_values.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chpater_01_numbers/IEEE_special_values.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datatypes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chpater_01_numbers/datatypes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/double_precision_float.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chpater_01_numbers/double_precision_float.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env_conda.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/environment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/force.gif" beforeDir="false" afterPath="$PROJECT_DIR$/docs/why_python/force.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intellij_coverage.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intellij/intellij-coverage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intellij_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/intellij/intellij_setup.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypl_index.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/why_python/pypl_index.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/integer_factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/integer_factors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/integer_factors_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/integer_factors_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/problems/string_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/problems/string_exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/puzzles/numerals_roman.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/puzzles/numerals_roman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_build.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/python_installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redmonk_2020_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/why_python/redmonk_2020_07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chpater_01_numbers/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tutorials/chapter_3_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chapter_3_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorials/chapter_5_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chapter_5_exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tutorials/chapter_8_more_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tutorials/chapter_8_more_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiobe_index.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/why_python/tiobe_index.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/why_python.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/why_python/why_python.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +40,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -51,13 +80,21 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
+  </component>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\00dev\python\python-tutorial\src\tutorials\chpater_01_numbers" />
+      <recent name="D:\00dev\python\python-tutorial\docs\why_python" />
+      <recent name="D:\00dev\python\python-tutorial\docs" />
+      <recent name="D:\00dev\python\python-tutorial\docs\intellij" />
       <recent name="D:\00dev\python\python-tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.integer_factors">
+  <component name="RunManager" selected="Python.chapter_1_numbers">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -80,6 +117,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="chapter_1_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tutorials" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tutorials/chapter_1_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="integer_factors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-tutorial" />
@@ -111,21 +170,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="Unittests for integer_factors_test.EvenOddTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="python-tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;integer_factors_test.EvenOddTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
     </configuration>
     <configuration name="Unittests for integer_factors_test.EvenOddTest.test_gcd" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python-tutorial" />
@@ -174,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chapter_1_numbers" />
         <item itemvalue="Python.integer_factors" />
         <item itemvalue="Python tests.Unittests for integer_factors_test.EvenOddTest.test_gcd" />
         <item itemvalue="Python tests.Unittests for integer_factors_test.EvenOddTest.test_gcdm1" />
         <item itemvalue="Python tests.Unittests for integer_factors_test.EvenOddTest.test_gcdm" />
-        <item itemvalue="Python tests.Unittests for integer_factors_test.EvenOddTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +235,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601176017436</updated>
       <workItem from="1601176018661" duration="98000" />
-      <workItem from="1601176129448" duration="25334000" />
+      <workItem from="1601176129448" duration="38029000" />
     </task>
     <servers />
   </component>
@@ -203,29 +247,33 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="516" y="120" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601176165973" />
+    <state x="1191" y="334" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601426587404">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="1191" y="334" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601426587404" />
     <state x="427" y="114" width="1521" height="855" key="DiffContextDialog" timestamp="1601302163538">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="427" y="114" width="1521" height="855" key="DiffContextDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302163538" />
-    <state width="1661" height="275" key="GridCell.Tab.0.bottom" timestamp="1601302065743">
+    <state width="1810" height="280" key="GridCell.Tab.0.bottom" timestamp="1601433128053">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="275" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302065743" />
+    <state width="1810" height="280" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601433128053" />
     <state width="1661" height="275" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254902689" />
-    <state width="1661" height="275" key="GridCell.Tab.0.center" timestamp="1601302065743">
+    <state width="1810" height="280" key="GridCell.Tab.0.center" timestamp="1601433128052">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="275" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302065743" />
+    <state width="1810" height="280" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601433128052" />
     <state width="1661" height="275" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254902689" />
-    <state width="1661" height="275" key="GridCell.Tab.0.left" timestamp="1601302065743">
+    <state width="1810" height="280" key="GridCell.Tab.0.left" timestamp="1601433128052">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="275" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302065743" />
+    <state width="1810" height="280" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601433128052" />
     <state width="1661" height="275" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254902689" />
-    <state width="1661" height="275" key="GridCell.Tab.0.right" timestamp="1601302065743">
+    <state width="1810" height="280" key="GridCell.Tab.0.right" timestamp="1601433128053">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1661" height="275" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601302065743" />
+    <state width="1810" height="280" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601433128053" />
     <state width="1661" height="275" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601254902689" />
     <state width="1661" height="369" key="GridCell.Tab.1.bottom" timestamp="1601301835539">
       <screen x="0" y="0" width="2048" height="1152" />
@@ -247,6 +295,10 @@
     </state>
     <state width="1661" height="369" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601301835539" />
     <state width="1661" height="229" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601183851274" />
+    <state x="183" y="218" width="998" height="731" key="SettingsEditor" timestamp="1601433026156">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="183" y="218" width="998" height="731" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601433026156" />
     <state x="2713" y="307" width="585" height="534" key="find.popup" timestamp="1601254956948">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>

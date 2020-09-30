@@ -19,13 +19,18 @@ for populating Java. Python is getting more and more popular in recent years
 because of the AI deep learning advance, especially Tensorflow library 
 published. 
 
-Tiobe Index
+**Tiobe Index**
+
+
 ![Tiobe Index](tiobe_index.png)
 
-PYPL Index
+**PYPL Index**
+
+
 ![PYPL Index](pypl_index.png)
 
-Redmonk Index
+**Redmonk Index**
+
 ![RedMonk](https://redmonk.com/sogrady/files/2020/07/lang-rank-q320-wm.png)
 
 
@@ -85,4 +90,4 @@ block of Python script is slow, we can rewrite it in C/C++ and wrap it in.
 May the force be with you and remember that teamwork is more effective and
 efficient.
 
-![PYPL Index](force.gif)
+![_](blank.png)![_](blank.png)![_](blank.png)![_](blank.png)![May the force be with you](force.gif)
