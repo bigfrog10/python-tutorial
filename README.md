@@ -48,9 +48,18 @@ ___
 
 #### Chapter 5. Functions and Lambdas
 ___
+- Functions are reusable code
 - Logging
 - Exceptions
 - Performance Profiling
+- As code gets more complex, we need unit tests
+    - simple test cases
+    - run in IDE 
+    - default naming is test_*, can be overwritten.
+- packages and modules
+    - package paths have to be uniquely globally. If one lib uses a path, then
+      this path can't be used elsewhere in the global. So it's better to create
+      top unique package name. Python does not do package merging.
 
 #### Chapter 6. More Functions
 ___
@@ -62,7 +71,11 @@ ___
 ___
 - Inheritance
 - Pickle
-- Unit Tests and Mock
+- More Unit Tests
+    - setup() and teardown()
+    - mock
+    - test coverage
+    - run via command line
 
 #### Chapter 8. More Classes
 ___

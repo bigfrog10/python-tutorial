@@ -70,7 +70,16 @@ The unit test context menu is similar to the above
 
 ![Plugin](intellij-unit-test.png)
 
+
+test background color: 3C3F41
 #### GIT repository
+
+Ignore the following in GIT:
+__pycache__
+.coverage
+/src/*.egg-info
+/build
+/dist
 
 IntelliJ has GIT functionalities built in. On windows, TortoiseGIT is a nice
 GUI. Another tool for github is: https://desktop.github.com/.

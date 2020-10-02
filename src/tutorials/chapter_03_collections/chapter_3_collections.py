@@ -166,6 +166,9 @@ print(list('abcd'))  # ['a', 'b', 'c', 'd']
 print(tuple('abcd'))  # ('a', 'b', 'c', 'd')
 print(set('abcd'))  # {'a', 'b', 'c', 'd'}
 
+# collections module
+from collections import namedtuple
+namedtuple('Envelop', ['subject', 'from_addr', 'to_addr', 'headers'])
 
 # we touched only the built-in collections. There are other widely used
 # collections, such as queue, stack, trees and graphs.

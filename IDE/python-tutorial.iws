@@ -2,88 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python-tutorial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-tutorial.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/bowling/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_09_date_and_time/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-tutorial.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/intellij/intellij_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/intellij/intellij_setup.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-tutorial.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-tutorial.ipr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python-tutorial.iws" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/24game.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/24game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/integer_factors.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/integer_factors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/integer_factors_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/integer_factors_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/logic_gates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/logic_gates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/modula_equations.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/modula_equations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/modulo_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/modulo_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/nor_gate_origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/nor_gate_origin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/string_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/string_exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/problems/string_exercise_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/string_exercise_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/expression_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/expression_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/HuaRongDao.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/HuaRongDao.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/cases.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/cases.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/横刀立马1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/横刀立马1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/横刀立马2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/横刀立马2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/hua_rong_dao/齐头并前.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/hua_rong_dao/齐头并前.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/klotski.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/klotski.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/klotski_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/klotski_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/maze.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/maze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/n_queens.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/n_queens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/stack_queue_impl.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/stack_queue_impl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/backtracking/stack_queue_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/stack_queue_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/bowling/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/bowling/bowling_score.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/bowling/bowling_score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/bowling/bowling_score_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/bowling/bowling_score_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/glass_ball_dropping.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/glass_ball_dropping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/hidding.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/hidding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/match_digit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/match_digit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/match_digit_equation_solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/match_digit_equation_solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/match_digits.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/match_digits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/match_digits_game/match_digits_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/match_digits_game/match_digits_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/numeral_chinese.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/numeral_chinese.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/numerals_english.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/numerals_english.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/numerals_roman.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/numerals_roman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/graph_dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/graph_dijkstra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/maze_a_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/maze_a_star.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/path_search/maze_dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/path_search/maze_dijkstra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/puzzles/transportation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/transportation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/chapter_10_system_and_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_1_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_1_numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_2_strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_2_strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_3_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_3_collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_4_flow_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/chapter_4_flow_controls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_5_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/chapter_5_exercises.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_5_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_05_functions/chapter_5_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_6_more_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions/chapter_6_more_functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_7_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/chapter_7_classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_8_more_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes/chapter_8_more_classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_9_date_and_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_09_date_and_time/chapter_9_date_and_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_9_exercise.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_09_date_and_time/chapter_9_exercise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chpater_01_numbers/IEEE_special_values.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/IEEE_special_values.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chpater_01_numbers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chpater_01_numbers/datatypes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/datatypes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chpater_01_numbers/double_precision_float.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/double_precision_float.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/panda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/panda.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/system_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/system_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/unicode.png" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/unicode.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/python_installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/python_installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_3_collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_3_collections.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +19,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -118,11 +53,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python-tutorial.ipr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.17492712" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -278,10 +218,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.chapter_8_more_classes" />
-        <item itemvalue="Python.chapter_6_more_functions" />
         <item itemvalue="Python.nor_gate_origin" />
         <item itemvalue="Python.logic_gates" />
+        <item itemvalue="Python.chapter_8_more_classes" />
+        <item itemvalue="Python.chapter_6_more_functions" />
         <item itemvalue="Python.chapter_4_flow_controls" />
       </list>
     </recent_temporary>
@@ -294,7 +234,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601435693602</updated>
-      <workItem from="1601435695025" duration="1621000" />
+      <workItem from="1601435695025" duration="7950000" />
+      <workItem from="1601573885297" duration="2556000" />
+      <workItem from="1601577212275" duration="885000" />
+      <workItem from="1601578112929" duration="2447000" />
+      <workItem from="1601595988777" duration="130000" />
+      <workItem from="1601596395886" duration="1350000" />
     </task>
     <servers />
   </component>
@@ -306,22 +251,26 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="535" y="169" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601435742949" />
-    <state width="1689" height="258" key="GridCell.Tab.0.bottom" timestamp="1601437300169">
+    <state width="1355" height="258" key="GridCell.Tab.0.bottom" timestamp="1601538356116">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="258" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437300169" />
-    <state width="1689" height="258" key="GridCell.Tab.0.center" timestamp="1601437300169">
+    <state width="1355" height="258" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601538356116" />
+    <state width="1355" height="258" key="GridCell.Tab.0.center" timestamp="1601538356116">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="258" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437300169" />
-    <state width="1689" height="258" key="GridCell.Tab.0.left" timestamp="1601437300169">
+    <state width="1355" height="258" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601538356116" />
+    <state width="1355" height="258" key="GridCell.Tab.0.left" timestamp="1601538356116">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="258" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437300169" />
-    <state width="1689" height="258" key="GridCell.Tab.0.right" timestamp="1601437300169">
+    <state width="1355" height="258" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601538356116" />
+    <state width="1355" height="258" key="GridCell.Tab.0.right" timestamp="1601538356116">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="258" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601437300169" />
+    <state width="1355" height="258" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601538356116" />
+    <state x="803" y="230" key="SettingsEditor" timestamp="1601593133032">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="803" y="230" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593133032" />
     <state x="763" y="328" width="585" height="534" key="find.popup" timestamp="1601437043982">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
