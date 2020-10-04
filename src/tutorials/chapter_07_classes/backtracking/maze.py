@@ -1,6 +1,6 @@
 import copy
 
-import puzzles.backtracking.stack_queue_impl as collections
+import tutorials.chapter_07_classes.backtracking.stack_queue_impl as collections
 
 # the maze is a double array of 0's and 1's where 1's are walls and 0's are
 #     paths

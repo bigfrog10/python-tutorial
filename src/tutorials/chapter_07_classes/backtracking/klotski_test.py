@@ -1,5 +1,5 @@
 
-from puzzles.backtracking.klotski import SlidingBlock, SlidingGameBoard, solve
+from tutorials.chapter_07_classes.backtracking.klotski import SlidingBlock, SlidingGameBoard, solve
 
 
 # ## testing

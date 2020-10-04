@@ -1,5 +1,5 @@
 import unittest
-import puzzles.bowling.bowling_score as bowling_score
+import tutorials.chapter_07_classes.bowling.bowling_score as bowling_score
 
 
 class BowlingScoreTest(unittest.TestCase):

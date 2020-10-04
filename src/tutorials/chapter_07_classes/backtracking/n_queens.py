@@ -1,4 +1,4 @@
-import puzzles.backtracking.stack_queue_impl as collections
+import tutorials.chapter_07_classes.backtracking.stack_queue_impl as collections
 import copy
 # https://en.wikipedia.org/wiki/Eight_queens_puzzle
 

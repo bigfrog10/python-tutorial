@@ -1,7 +1,7 @@
 import enum
 import random
 
-import puzzles.backtracking.stack_queue_impl as collections
+import tutorials.chapter_07_classes.backtracking.stack_queue_impl as collections
 
 
 class Direction(enum.Enum):

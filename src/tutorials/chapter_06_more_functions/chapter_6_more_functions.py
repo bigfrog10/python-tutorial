@@ -78,6 +78,8 @@ a = square()
 print(next(a))
 print(next(a))
 print(next(a))
+a.close()  # when we are done, we close it.
+
 
 for x in square():
     print(x)
@@ -106,6 +108,14 @@ for i in fib(10):
 # generator expression, in parallel to list comprehension
 g = (x * 2 for x in range(5))
 print(g)  # g is lazy
+
+
+# coroutine
+# https://dev.to/codemouse92/dead-simple-python-generators-and-coroutines-21ll
+# https://stackabuse.com/coroutines-in-python/
+
+
+
 
 # iterator
 

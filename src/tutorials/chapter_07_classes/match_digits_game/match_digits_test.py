@@ -1,5 +1,5 @@
 import unittest
-import puzzles.match_digits_game.match_digits as match_digits
+import tutorials.chapter_07_classes.match_digits_game.match_digits as match_digits
 
 
 class MathDigitsTest(unittest.TestCase):
