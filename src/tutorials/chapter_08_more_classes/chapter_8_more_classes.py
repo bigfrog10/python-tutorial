@@ -31,6 +31,7 @@ print(c1 is c3)  # False, not same by instance
 class Money:
     amount: int  # cents or dollar
     unit: str = 'USD'
+    # bar: list = []  # mutable default is not allowed
 
 
 print(Money(10))  # 10 dollars
@@ -106,6 +107,28 @@ class Card:
 print(Card(CardSuite.SPADES, CardRank.R10))
 print(Card(CardSuite.SPADES, CardRank.R2) > Card(CardSuite.HEARTS, CardRank.K))
 
+
+# This is interesting
+class A:
+    pass
+
+
+a = A  # re-assign class
+x = A()  # this is normal init
+y = a()  # this works too
+
+
+# But this is not working
+@dataclass
+class B:
+    name: str
+
+
+b = B
+# x = B('hey')  # this is fine
+# y = b('hey')  # this is not because of the parameter
+
+
 # 2. There are cases where we model objects with both fields and behaviors
 # 3. There are cases where we have only behaviors exposed to uses and we keep internal states private.
 # 4. If a class has no properties, private or public, these are likely to be refactored to functions.
@@ -126,6 +149,28 @@ mc = MyCallable(10)
 print(mc(4))
 print(mc(20))
 print(mc.sum)  # state changed
+
+
+class MyIter:
+    def __init__(self, count):
+        self.count = count
+
+    def __iter__(self):
+        return self
+
+    def next(self):
+        if self.count < 1:
+            raise StopIteration
+
+        r = self.count
+        self.count -= 1
+        return r
+
+
+mi = MyIter(10)
+for i in mi:
+    print(i)
+print(mi)
 
 # Address, book, car
 # favor composition over inheritance
@@ -167,3 +212,11 @@ def factorial(i: int) -> int:
 
 print(factorial(3000))
 print(factorial(3000))
+
+import pickle
+import os
+s = "I love Python, it's wonderful"
+dump_file = os.path.expanduser('~') + "/pickle_dump.pickle"
+pickle.dump(s, open(dump_file, 'wb'))
+t = pickle.load(open(dump_file, 'rb'))
+print(t)

@@ -190,4 +190,4 @@ link your Python source code to the virtual environment. Once you modify your
 code,  the calling code can see the change right away (so you don’t need to 
 install the package with the change again).
 
-pip3 install git+<github clone url>
+

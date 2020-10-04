@@ -52,3 +52,7 @@ print(eval(repr(PT)))
 print(eval("1+2"))
 print(PT is eval(repr(PT)))
 print(PT == eval(repr(PT)))
+
+# need this import implicitly
+from math import *
+print(eval('sin(3.1415926)'))

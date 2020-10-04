@@ -57,10 +57,17 @@ local_delta = datetime.datetime.utcnow() - datetime.datetime.now()
 local_tz = datetime.timezone(local_delta)
 print(datetime.datetime(2020, 9, 30, tzinfo=local_tz))  # 2020-09-30 00:00:00+04:00
 
+print(time.ctime(1324980000))
+print(datetime.datetime.fromtimestamp(1324980000).date())
+
 # formatting and parsing
 print(f'local now str: {datetime.datetime.now().strftime("%Y-%m-%d")}')
 print(f'local now str: {datetime.datetime.now().strftime("%Y%m%d")}')
 print(f'parse string: {datetime.datetime.strptime("04/26/2020", "%m/%d/%Y")}')
+past_time_str = 'Jan 12 2012 12:00AM'
+past_time = datetime.datetime.strptime(past_time_str, '%b %d %Y %I:%M%p').date()
+print(past_time)
+print(past_time < datetime.date.today())
 
 # delta
 d1 = datetime.datetime(2020, 9, 30, 1, 6, 35)

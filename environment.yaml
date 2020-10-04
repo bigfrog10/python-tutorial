@@ -1,4 +1,3 @@
-# After this file is created, we can conda env create
 name: py385_cb
 
 channels:

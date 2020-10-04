@@ -59,7 +59,8 @@ ___
 - packages and modules
     - package paths have to be uniquely globally. If one lib uses a path, then
       this path can't be used elsewhere in the global. So it's better to create
-      top unique package name. Python does not do package merging.
+      top unique package name. Python does not do package merging. This is a
+      big drawback in my view.
 
 #### Chapter 6. More Functions
 ___
