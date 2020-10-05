@@ -114,5 +114,8 @@ print(type('1234'))  # <class 'str'>
 print(type(int('1234')))  # <class 'int'>
 print(isinstance(1234, int))  # True
 
+print('{:,}'.format(1000000000000))  # add comma every 3 digit, in finance.
 
 # https://realpython.com/python-f-strings/
+
+# https://en.wikipedia.org/wiki/Binary_code

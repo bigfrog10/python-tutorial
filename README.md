@@ -4,11 +4,12 @@ foundation to onboard Python while keeping enough interest. While there are
 many resources, such as internet posts, books, and video, this tutorial tries 
 to put more emphasize to practical usage of Python. It does not try to cover 
 all aspects of the language, which is an impossible goal to reach in a short 
-journey. Instead, it tries to layout a foundation of the language so that 
+journey. Instead, it lays out the necessary topics of the language in a 
+specific order so that 
 users can grasp the essence now and then expand the horizon later. Defining 
-the proper scope of the foundation is challenging and subjective, along with 
-building up blocks step by step progressively. Googling along the way is proven
-to be helpful as well.
+the proper scope and topics of the foundation is challenging, time-consuming
+and subjective, along with 
+building up blocks step by step progressively. 
 
 Official Python tutorial is here:
 https://docs.python.org/3.8/tutorial/index.html
