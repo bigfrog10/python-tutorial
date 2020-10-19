@@ -8,6 +8,12 @@ print(sys.platform)  # win32
 print(sys.byteorder)  # little or big indian
 # print(os.environ['name'])
 print(os.environ)  # key-value depends on os
+print('*----------------------------------*')
+print(os.environ['PATH'])
+print('*----------------------------------*')
+
+import getpass
+print(getpass.getuser())
 
 # python level - here sys = python
 print(sys.version)  # python version
@@ -24,6 +30,30 @@ print(os.getenv('HOMEPATH'))  # depend on OS
 print(os.getenv('USERPROFILE'))
 print(os.path.expanduser('~'))
 
+import platform
+print(platform.system())  # Windows
+print(platform.release())  # 10
+
+print(sys.getrecursionlimit())  # 1000
+
+from subprocess import call
+call(["ls", "-l"])
+
+import multiprocessing
+print(multiprocessing.cpu_count())
+
+import time
+print("Last modified: %s" % time.ctime(os.path.getmtime("notes.txt")))
+print("Created: %s" % time.ctime(os.path.getctime("notes.txt")))
+print(os.path.getsize("notes.txt"))
+
+str1 = "one"
+str2 = "four"
+str3 = "three"
+print()
+print("Memory size of '"+str1+"' = "+str(sys.getsizeof(str1))+ " bytes")
+print("Memory size of '"+str2+"' = "+str(sys.getsizeof(str2))+ " bytes")
+print("Memory size of '"+str3+"' = "+str(sys.getsizeof(str3))+ " bytes")
 
 if __name__ == '__main__':
     args = sys.argv

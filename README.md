@@ -1,15 +1,20 @@
 ### Python Tutorial
-This is a concise python tutorial for beginners. The purpose is to provide a 
-foundation to onboard Python while keeping enough interest. While there are 
-many resources, such as internet posts, books, and video, this tutorial tries 
-to put more emphasize to practical usage of Python. It does not try to cover 
-all aspects of the language, which is an impossible goal to reach in a short 
-journey. Instead, it lays out the necessary topics of the language in a 
-specific order so that 
-users can grasp the essence now and then expand the horizon later. Defining 
-the proper scope and topics of the foundation is challenging, time-consuming
-and subjective, along with 
-building up blocks step by step progressively. 
+This is a concise python tutorial for beginners. The purpose is to provide an 
+introduction to Python while keeping enough interest. 
+
+This is an "internet book" in the sense that it refers to many internet links
+for details. There are already many excellent resources on the internet by
+experts and seasoned practitioners, there is no point to reinvent wheels.
+
+What we do here is to outline certain topics in Python that in our view are
+fundamental to beginners:
+- Introduce the concepts of programming
+- Python specified syntax and building blocks.
+- How to translate conceptual thinking into code.
+
+We limit topics to 10, and the scope of topics to how to use in practice, 
+plus important programming concepts and concerns. The goal is to let readers
+get a feel on Python programming and can explore further in the future. 
 
 Official Python tutorial is here:
 https://docs.python.org/3.8/tutorial/index.html
@@ -17,14 +22,20 @@ https://docs.python.org/3.8/tutorial/index.html
 A simple-to-follow tutorial is at
 https://www.w3resource.com/python/python-tutorial.php 
 
-All code can be run locally in one thread, one process. This is one of the
-scope criteria.
+[Why we pick Python](docs/why_python/why_python.md)
 
-#### Chapter 1. Numbers
+[Python Installation](docs/python_installation.md)  
+
+[IntelliJ Setup](docs/intellij/intellij_setup.md)  
+
+#### Chapter 1. [Numbers](src/tutorials/chapter_01_numbers/numbers.md)
 ___
 - Integers
-- Floating Numbers
-- Other numbers: Complex Numbers, Rationals, and Decimals 
+- Real and Complex Numbers
+- Integer Representation
+- Real Number Representation
+- Data Types
+- Other Numbers
 - Math functions
 
 #### Chapter 2. Strings
@@ -99,8 +110,4 @@ ___
 - subprocess
 
 
-[Why we pick Python](docs/why_python/why_python.md)
 
-[Python Installation](docs/python_installation.md)  
-
-[IntelliJ Setup](docs/intellij/intellij_setup.md)  
