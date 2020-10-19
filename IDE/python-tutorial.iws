@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_01_numbers.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/875px-ASCII-Table-wide.svg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_02_strings.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/wrong_charset.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_03_collections.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/chapter_04_flow_controls.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-tutorial.iml" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-tutorial.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/IEEE_special_values.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_1_numbers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/datatypes.md" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/datatypes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/numbers.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_2_strings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_3_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/chapter_4_flow_controls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/chapter_10_system_and_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/chapter_10_system_and_io.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/system_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/system_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -267,7 +244,7 @@
       <workItem from="1601918356376" duration="5263000" />
       <workItem from="1602651992409" duration="5853000" />
       <workItem from="1602737444060" duration="17612000" />
-      <workItem from="1602913479145" duration="43984000" />
+      <workItem from="1602913479145" duration="44719000" />
     </task>
     <servers />
   </component>
