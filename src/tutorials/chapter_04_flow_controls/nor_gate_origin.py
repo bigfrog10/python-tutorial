@@ -2,6 +2,7 @@
 # https://en.wikipedia.org/wiki/NAND_logic
 
 
+# Defint NOR gate
 def NOR(a: bool, b: bool) -> bool:
     if not a and not b:
         return True
@@ -9,6 +10,10 @@ def NOR(a: bool, b: bool) -> bool:
     return False
 
 
+# Now use NOR gate to define all other gates.
+# With all gates here, we create the entire computer.
+# So all things start from NOR gate.
+# 一生二 二生三 三生万物
 def NOT(a: bool) -> bool:
     return NOR(a, a)
 

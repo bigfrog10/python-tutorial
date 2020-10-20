@@ -1,3 +1,5 @@
+# Need to use truth table to test these
+# Define these 3 gates
 def AND(a: bool, b: bool) -> bool:
     return a and b
 
@@ -10,6 +12,7 @@ def NOT(a: bool) -> bool:
     return not a
 
 
+# Use the above 3 gates to create the following gates
 def NOR(a: bool, b: bool) -> bool:
     return NOT(OR(a, b))
 
