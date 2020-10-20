@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="" />
+    <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/python-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_01_numbers.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_01_numbers.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -244,7 +247,7 @@
       <workItem from="1601918356376" duration="5263000" />
       <workItem from="1602651992409" duration="5853000" />
       <workItem from="1602737444060" duration="17612000" />
-      <workItem from="1602913479145" duration="44719000" />
+      <workItem from="1602913479145" duration="45539000" />
     </task>
     <servers />
   </component>
@@ -257,6 +260,10 @@
     </state>
     <state x="535" y="169" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603084209947" />
     <state x="2629" y="169" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773347108" />
+    <state x="397" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603152290878">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="397" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603152290878" />
     <state x="689" y="330" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603090679861">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
