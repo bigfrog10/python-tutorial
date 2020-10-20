@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_01_numbers.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_01_numbers.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_02_strings.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_02_strings.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +246,7 @@
       <workItem from="1601918356376" duration="5263000" />
       <workItem from="1602651992409" duration="5853000" />
       <workItem from="1602737444060" duration="17612000" />
-      <workItem from="1602913479145" duration="45539000" />
+      <workItem from="1602913479145" duration="45962000" />
     </task>
     <servers />
   </component>
