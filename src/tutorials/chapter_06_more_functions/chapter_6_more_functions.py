@@ -25,12 +25,12 @@ d = filter(f, a)
 print(list(d))
 print(len(a))
 
-e = list(range(10000000))
+e = list(range(10000))
 r = True
 for i in e:
     if i != e[0]:
         r = False
-        # break
+        break
 print(r)
 
 r = all(x == e[0] for x in e)
@@ -114,7 +114,25 @@ print(g)  # g is lazy
 # https://dev.to/codemouse92/dead-simple-python-generators-and-coroutines-21ll
 # https://stackabuse.com/coroutines-in-python/
 
+def ret_gen(n):
+    while n > 0:
+        m = (yield n)
+        print("receive value: ", m)
+        n -= 1
 
+
+import traceback
+a = ret_gen(10)
+next(a)
+try:
+    for i in a:
+        print(i)
+        a.send(i * 10)
+    # while True:
+    #     i = a.send(100)
+    #     print(i)
+except StopIteration:
+    traceback.print_exc()
 
 
 # iterator
@@ -176,3 +194,35 @@ print(factorial(3000))
 # when we wrap the function, we need to carry some of the information from the original
 # such as, name, doc, signature, and honor some of the functions, such as help() and
 # inspection
+
+# map(func, list)
+# filter(func, list)
+# reduce(func, list)
+map(lambda x: x.upper(), ['mickey', 'pluto'])
+
+# data for testing
+books = [ {'name': 'C# step by step', 'price':23.7, 'store':'amazon'},
+          {'name': 'ASP.NET expert', 'price':44.5, 'store':'amazon'},
+          {'name': 'C# step by step', 'price':24.7, 'store':'lulu'},
+          {'name': 'ASP.NET expert', 'price':45.7, 'store':'lulu'},
+          {'name': 'C# step by step', 'price':26.7, 'store':'Barns & Noble'},
+          {'name': 'ASP.NET expert', 'price':55.7, 'store':'Barns & Noble'},
+          ]
+
+# find the store with the minimal price for the ASP.NET book
+print(min([b for b in books if b['name'] == 'ASP.NET expert'], key=lambda b : b['price'])['store'])
+
+# 50% discount on the price
+print(map(lambda b: dict(name=b['name'], price=b['price'] * 0.5, store=b['store']), books))
+
+# average price for the book "C# step by step"
+print((lambda bs: sum(bs) / len(bs)) ([b['price'] for b in books if b['name'] == 'C# step by step']))
+
+# average price for all the books
+print(map(lambda bn: dict(name=bn, avg=((lambda bs: sum(bs) / len(bs))
+          ([b['price'] for b in books if b['name'] == bn]))), list(set([b['name'] for b in books]))))
+
+
+# https://www.codementor.io/@sheena/advanced-use-python-decorators-class-function-du107nxsv
+# https://realpython.com/primer-on-python-decorators/
+# https://github.com/mpkocher/Functional-Programming-Techniques-In-Python

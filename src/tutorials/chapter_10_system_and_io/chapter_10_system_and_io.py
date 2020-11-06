@@ -2,6 +2,8 @@
 # with context
 from PIL import Image
 
+# https://pymotw.com/3/contextlib/
+
 with open("notes.txt") as f:
     data = f.read()
     print(data)
@@ -35,6 +37,15 @@ print(glob.glob("/Users/yupingcui/*.m4r"))
 # print(os.environ['USER'])
 pprint.pprint(dict(os.environ), width=1)
 
+import sys
+# python level - here sys = python
+print(sys.version)  # python version
+print(sys.executable)  # python executable path. Use PYTHONHOME to modify this
+
+pprint.pprint(sys.path)  # python lib search paths. Use PYTHONPATH to modify this
+print(sys.modules)
+print(sys.builtin_module_names)
+print(os.environ['PYTHONPATH'])
 
 # sys.stdout, sys.err, sys stdin redirect
 # serialization/pickle
@@ -44,3 +55,5 @@ pprint.pprint(dict(os.environ), width=1)
 # gc
 
 # concurrency, GIL
+
+# https://preshing.com/20110920/the-python-with-statement-by-example/

@@ -150,3 +150,30 @@ print(f)  # use __str__ in both print and debug
 print(repr(f))
 print(eval(repr(f)))
 
+
+class MyData1:
+    def __init__(self):
+        self.name = None
+        self.count = None
+
+
+class MyData2:
+    def __init__(self, name, count):
+        self.name = name
+        self.count = count
+
+
+d = {'name': 'ne zha', 'count': 2}
+# MyData1(**d)  # syntax error
+m1 = MyData1()
+m1.__dict__.update(d)
+print(m1.name)
+print(m1.count)
+
+m2 = MyData2(**d)
+print(m2.name)
+print(m2.count)
+
+
+# http://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html
+# https://www.thedigitalcatonline.com/blog/2015/01/12/accessing-attributes-in-python/

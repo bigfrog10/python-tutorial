@@ -220,3 +220,6 @@ dump_file = os.path.expanduser('~') + "/pickle_dump.pickle"
 pickle.dump(s, open(dump_file, 'wb'))
 t = pickle.load(open(dump_file, 'rb'))
 print(t)
+
+
+# https://rushter.com/blog/python-class-internals/

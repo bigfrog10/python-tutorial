@@ -183,6 +183,8 @@ In a new environment, use pip to install this file.
 6. If any dependent library requires anaconda package, use conda.yaml generated
 from conda env export. But IntelliJ does not know this format.
 7. In other cases, create either pip package or conda package.  
+8. GIT GUI: tortoiseGit on windows, sourcetree on mac. Most of the time, 
+IntelliJ is sufficient. Sometimes we need a global view on multi-projects.
 
 When install a package with soft link, use "pip install -e .".
 This is for the case where you develop an internal package, and you want to 

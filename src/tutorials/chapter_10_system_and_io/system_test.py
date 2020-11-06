@@ -15,14 +15,6 @@ print('*----------------------------------*')
 import getpass
 print(getpass.getuser())
 
-# python level - here sys = python
-print(sys.version)  # python version
-print(sys.executable)  # python executable path. Use PYTHONHOME to modify this
-print(sys.path)  # python lib search paths. Use PYTHONPATH to modify this
-print(sys.modules)
-print(sys.builtin_module_names)
-print(os.environ['PYTHONPATH'])
-
 import keyword
 print(keyword.kwlist)
 

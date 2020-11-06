@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/python_installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/python_installation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_02_strings.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_02_strings.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_03_collections.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_03_collections.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/chapter_04_flow_controls.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/chapter_04_flow_controls.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/logic_gates.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/logic_gates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/nor_gate_origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/nor_gate_origin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions/chapter_6_more_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions/chapter_6_more_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/chapter_7_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/chapter_7_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes/chapter_8_more_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_08_more_classes/chapter_8_more_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/chapter_10_system_and_io.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/chapter_10_system_and_io.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/system_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/system_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +82,7 @@
       <recent name="D:\00dev\python\python-tutorial\src\tutorials\chapter_06_more_functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.chapter_2_strings">
+  <component name="RunManager" selected="Python.chapter_6_more_functions">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -99,28 +105,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="chapter_01_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\00dev\python\tutorials\python-tutorial\src\tutorials\chapter_01_numbers\chapter_01_numbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="chapter_10_system_and_io" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-tutorial" />
@@ -166,6 +150,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="chapter_6_more_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions/chapter_6_more_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chapter_7_classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-tutorial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_07_classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/chapter_7_classes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="klotski_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,28 +216,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="system_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-tutorial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io/system_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -221,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chapter_6_more_functions" />
+        <item itemvalue="Python.chapter_10_system_and_io" />
+        <item itemvalue="Python.chapter_7_classes" />
         <item itemvalue="Python.chapter_2_strings" />
         <item itemvalue="Python.klotski_test" />
-        <item itemvalue="Python.system_test" />
-        <item itemvalue="Python.chapter_10_system_and_io" />
-        <item itemvalue="Python.chapter_01_numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +256,12 @@
       <workItem from="1601918356376" duration="5263000" />
       <workItem from="1602651992409" duration="5853000" />
       <workItem from="1602737444060" duration="17612000" />
-      <workItem from="1602913479145" duration="48447000" />
+      <workItem from="1602913479145" duration="49259000" />
+      <workItem from="1603406674773" duration="2812000" />
+      <workItem from="1603605034877" duration="482000" />
+      <workItem from="1603610765961" duration="2528000" />
+      <workItem from="1604015388177" duration="5611000" />
+      <workItem from="1604283910801" duration="13267000" />
     </task>
     <servers />
   </component>
@@ -276,45 +287,45 @@
     </state>
     <state x="829" y="321" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602855070757" />
     <state x="2914" y="321" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601769932944" />
-    <state width="1803" height="154" key="GridCell.Tab.0.bottom" timestamp="1603090593661">
+    <state width="1803" height="301" key="GridCell.Tab.0.bottom" timestamp="1604689586486">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1803" height="154" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603090593661" />
+    <state width="1803" height="301" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
     <state width="1803" height="267" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809732938" />
-    <state width="1803" height="154" key="GridCell.Tab.0.center" timestamp="1603090593660">
+    <state width="1803" height="301" key="GridCell.Tab.0.center" timestamp="1604689586485">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1803" height="154" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603090593660" />
+    <state width="1803" height="301" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586485" />
     <state width="1803" height="267" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809732938" />
-    <state width="1803" height="154" key="GridCell.Tab.0.left" timestamp="1603090593660">
+    <state width="1803" height="301" key="GridCell.Tab.0.left" timestamp="1604689586485">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1803" height="154" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603090593660" />
+    <state width="1803" height="301" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586485" />
     <state width="1803" height="267" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809732938" />
-    <state width="1803" height="154" key="GridCell.Tab.0.right" timestamp="1603090593661">
+    <state width="1803" height="301" key="GridCell.Tab.0.right" timestamp="1604689586485">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1803" height="154" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603090593661" />
+    <state width="1803" height="301" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586485" />
     <state width="1803" height="267" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809732938" />
-    <state width="1803" height="196" key="GridCell.Tab.1.bottom" timestamp="1602855997171">
+    <state width="1803" height="301" key="GridCell.Tab.1.bottom" timestamp="1604689586486">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1803" height="196" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602855997171" />
+    <state width="1803" height="301" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
     <state width="1803" height="196" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773464344" />
-    <state width="1803" height="196" key="GridCell.Tab.1.center" timestamp="1602855997171">
+    <state width="1803" height="301" key="GridCell.Tab.1.center" timestamp="1604689586486">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1803" height="196" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602855997171" />
+    <state width="1803" height="301" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
     <state width="1803" height="196" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773464343" />
-    <state width="1803" height="196" key="GridCell.Tab.1.left" timestamp="1602855997171">
+    <state width="1803" height="301" key="GridCell.Tab.1.left" timestamp="1604689586486">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1803" height="196" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602855997171" />
+    <state width="1803" height="301" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
     <state width="1803" height="196" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773464343" />
-    <state width="1803" height="196" key="GridCell.Tab.1.right" timestamp="1602855997171">
+    <state width="1803" height="301" key="GridCell.Tab.1.right" timestamp="1604689586486">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1803" height="196" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602855997171" />
+    <state width="1803" height="301" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
     <state width="1803" height="196" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773464344" />
     <state x="2840" y="299" key="RollbackChangesDialog" timestamp="1602809752713">
       <screen x="2110" y="0" width="1986" height="1152" />
@@ -341,10 +352,10 @@
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="2110" y="0" width="1384" height="951" key="dock-window-4/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603145560773" />
-    <state x="763" y="328" width="709" height="534" key="find.popup" timestamp="1602654229007">
+    <state x="763" y="328" width="758" height="534" key="find.popup" timestamp="1604671458566">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="763" y="328" width="709" height="534" key="find.popup/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1602654229007" />
+    <state x="763" y="328" width="758" height="534" key="find.popup/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604671458566" />
     <state x="2517" y="177" key="new project wizard" timestamp="1601769965452">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
@@ -353,9 +364,10 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_tutorial$system_test.coverage" NAME="system_test Coverage Results" MODIFIED="1602654189363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io" />
     <SUITE FILE_PATH="coverage/python_tutorial$klotski_test.coverage" NAME="klotski_test Coverage Results" MODIFIED="1602809732931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking" />
-    <SUITE FILE_PATH="coverage/python_tutorial$chapter_10_system_and_io.coverage" NAME="chapter_10_system_and_io Coverage Results" MODIFIED="1602653929761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_10_system_and_io.coverage" NAME="chapter_10_system_and_io Coverage Results" MODIFIED="1604282640989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_7_classes.coverage" NAME="chapter_7_classes Coverage Results" MODIFIED="1603610948329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_07_classes" />
     <SUITE FILE_PATH="coverage/python_tutorial$chapter_2_strings.coverage" NAME="chapter_2_strings Coverage Results" MODIFIED="1603081959717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_02_strings" />
     <SUITE FILE_PATH="coverage/python_tutorial$chapter_1_numbers.coverage" NAME="chapter_1_numbers Coverage Results" MODIFIED="1601864458629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers" />
-    <SUITE FILE_PATH="coverage/python_tutorial$chapter_6_more_functions.coverage" NAME="chapter_6_more_functions Coverage Results" MODIFIED="1601778818221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions" />
+    <SUITE FILE_PATH="coverage/python_tutorial$chapter_6_more_functions.coverage" NAME="chapter_6_more_functions Coverage Results" MODIFIED="1604337216805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions" />
   </component>
 </project>
