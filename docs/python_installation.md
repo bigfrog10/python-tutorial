@@ -17,6 +17,8 @@ we want to let Anaconda handle C/C++ lib compilation.
 The official Miniconda site is: https://docs.conda.io/en/latest/miniconda.html. 
 It contains only conda, Python, and small number of essential packages.
 
+```curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh```
+
 Download the latest 64-bit version and Python 3 version for your target OS. 
 Before installation, unset PYTHONHOME and PYTHONPATH first.
 
@@ -136,7 +138,7 @@ To export a conda environment file:
 This file separates the pip packages and conda packages, so we don’t have the 
 issue above. This file can be used to create other environments with the same
 name embedded in the YAML file  
-```conda env create -file my_conda.yaml```
+```conda env create -f my_conda.yaml```
 
 This is used to copy someone else environment to local machine.
 To update existing env with this file:  

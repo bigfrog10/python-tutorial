@@ -37,6 +37,11 @@ published.
 [Thoughworks](https://www.thoughtworks.com/radar/languages-and-frameworks/python-3)
 indicates mainstream adoption in 2017.
 
+Another trending site is: 
+https://trends.google.com/trends/explore?geo=US&q=%2Fm%2F05z1_,%2Fm%2F07sbkfb,%2Fm%2F0jgqg  
+This site can be used to compare many tools, e.g.,  
+https://trends.google.com/trends/explore?geo=US&q=%2Fm%2F0289_xs,pyodbc
+
 
 Arguably, we predict Python will be the language for the next decade with
 80/20 rule applied. 80% of the easy workload will be done by Python, while the
