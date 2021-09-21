@@ -171,6 +171,11 @@ To print the dependency tree of any library, check out these tools:
 - https://github.com/wimglenn/johnnydep
 - https://pypi.org/project/pipdeptree/
 
+## Conda Setting file .condarc
+Overwrite order: conda folder's file has higher precedence.
+check the full ordering on: https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/use-condarc.html
+run ```conda info``` to see the result
+
 ## Suggested Practices
 Among several ways, we suggest the following installation path:
 1. Install Miniconda package (containing conda, Python, pip and other tools)

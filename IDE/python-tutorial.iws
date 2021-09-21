@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349c1237-4987-4544-b628-4742de0978d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/matrix_mul/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/matrix_mul/find_all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/matrix_mul/formula.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/matrix_mul/matrix_mul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/expression_parser2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/multi_parenth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python-tutorial.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python-tutorial.iws" beforeDir="false" afterPath="$PROJECT_DIR$/python-tutorial.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/intellij/intellij_setup.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/intellij/intellij_setup.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/python_installation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/python_installation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/why_python/why_python.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/why_python/why_python.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_01_numbers.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/chapter_01_numbers.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_02_strings.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_02_strings/chapter_02_strings.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_03_collections.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_03_collections/chapter_03_collections.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/expression_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/expression_parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,6 +51,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1iDINA8eEJmZlfqrAb8ouDMKlo9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,14 +65,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../src/tutorials/chapter_02_strings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python-tutorial.ipr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28390804" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +87,16 @@
       <recent name="D:\00dev\python\python-tutorial\src\tutorials\chapter_06_more_functions" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.find_all (1)">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+        <option value="JettyConfiguration" />
+        <option value="TomeeConfiguration" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.expression_parser">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -146,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="chapter_7_classes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="expression_parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-tutorial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +172,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_07_classes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/chapter_7_classes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking/expression_parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.find_all (1)" />
         <item itemvalue="Python.find_all" />
+        <item itemvalue="Python.find_all (1)" />
+        <item itemvalue="Python.expression_parser" />
         <item itemvalue="Python.chapter_6_more_functions" />
         <item itemvalue="Python.chapter_10_system_and_io" />
-        <item itemvalue="Python.chapter_7_classes" />
       </list>
     </recent_temporary>
   </component>
@@ -260,116 +278,20 @@
       <workItem from="1604283910801" duration="13267000" />
       <workItem from="1604790697598" duration="2653000" />
       <workItem from="1605161521725" duration="9737000" />
-      <workItem from="1605556295411" duration="5715000" />
+      <workItem from="1605556295411" duration="8068000" />
+      <workItem from="1607802052373" duration="46000" />
+      <workItem from="1608667872520" duration="866000" />
+      <workItem from="1609549210715" duration="3132000" />
+      <workItem from="1625450603687" duration="4055000" />
+      <workItem from="1625678686251" duration="1853000" />
+      <workItem from="1630189388703" duration="579000" />
+      <workItem from="1630293469210" duration="650000" />
+      <workItem from="1630294165524" duration="2156000" />
+      <workItem from="1630726987192" duration="707000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="535" y="169" key="#Project_Structure" timestamp="1603084209947">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="535" y="169" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603084209947" />
-    <state x="2629" y="169" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773347108" />
-    <state x="397" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603152290878">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="397" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603152290878" />
-    <state x="689" y="330" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603090679861">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="689" y="330" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603090679861" />
-    <state x="829" y="321" key="FileChooserDialogImpl" timestamp="1604868062042">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="829" y="321" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604868062042" />
-    <state x="2914" y="321" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601769932944" />
-    <state width="2005" height="396" key="GridCell.Tab.0.bottom" timestamp="1605227889270">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="2005" height="396" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1605227889270" />
-    <state width="1803" height="267" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809732938" />
-    <state width="2005" height="396" key="GridCell.Tab.0.center" timestamp="1605227889270">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="2005" height="396" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1605227889270" />
-    <state width="1803" height="267" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809732938" />
-    <state width="2005" height="396" key="GridCell.Tab.0.left" timestamp="1605227889270">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="2005" height="396" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1605227889270" />
-    <state width="1803" height="267" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809732938" />
-    <state width="2005" height="396" key="GridCell.Tab.0.right" timestamp="1605227889270">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="2005" height="396" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1605227889270" />
-    <state width="1803" height="267" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809732938" />
-    <state width="1803" height="301" key="GridCell.Tab.1.bottom" timestamp="1604689586486">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1803" height="301" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
-    <state width="1803" height="196" key="GridCell.Tab.1.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773464344" />
-    <state width="1803" height="301" key="GridCell.Tab.1.center" timestamp="1604689586486">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1803" height="301" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
-    <state width="1803" height="196" key="GridCell.Tab.1.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773464343" />
-    <state width="1803" height="301" key="GridCell.Tab.1.left" timestamp="1604689586486">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1803" height="301" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
-    <state width="1803" height="196" key="GridCell.Tab.1.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773464343" />
-    <state width="1803" height="301" key="GridCell.Tab.1.right" timestamp="1604689586486">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state width="1803" height="301" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604689586486" />
-    <state width="1803" height="196" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602773464344" />
-    <state x="2840" y="299" key="RollbackChangesDialog" timestamp="1602809752713">
-      <screen x="2110" y="0" width="1986" height="1152" />
-    </state>
-    <state x="2840" y="299" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1602809752713" />
-    <state x="803" y="230" key="SettingsEditor" timestamp="1603084360229">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="803" y="230" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603084360229" />
-    <state x="2889" y="230" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601769606454" />
-    <state x="2112" y="29" width="1570" height="890" key="dock-window-1" timestamp="1603085314696">
-      <screen x="2110" y="0" width="1986" height="1152" />
-    </state>
-    <state x="2112" y="29" width="1570" height="890" key="dock-window-1/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603085314696" />
-    <state x="2110" y="63" width="1384" height="769" key="dock-window-2" timestamp="1603090354282">
-      <screen x="2110" y="0" width="1986" height="1152" />
-    </state>
-    <state x="2110" y="63" width="1384" height="769" key="dock-window-2/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603090354282" />
-    <state x="2110" y="169" width="1384" height="951" key="dock-window-3" timestamp="1603145560773">
-      <screen x="2110" y="0" width="1986" height="1152" />
-    </state>
-    <state x="2110" y="169" width="1384" height="951" key="dock-window-3/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603145560773" />
-    <state x="2110" y="0" width="1384" height="951" key="dock-window-4" timestamp="1603145560773">
-      <screen x="2110" y="0" width="1986" height="1152" />
-    </state>
-    <state x="2110" y="0" width="1384" height="951" key="dock-window-4/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1603145560773" />
-    <state x="763" y="328" width="758" height="534" key="find.popup" timestamp="1604671458566">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="763" y="328" width="758" height="534" key="find.popup/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604671458566" />
-    <state x="420" y="177" key="new project wizard" timestamp="1604868091506">
-      <screen x="0" y="0" width="2048" height="1152" />
-    </state>
-    <state x="420" y="177" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1604868091506" />
-    <state x="2517" y="177" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601769965452" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_tutorial$find_all__1_.coverage" NAME="find_all (1) Coverage Results" MODIFIED="1605227889258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_04_flow_controls/matrix_mul" />
-    <SUITE FILE_PATH="coverage/python_tutorial$system_test.coverage" NAME="system_test Coverage Results" MODIFIED="1602654189363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io" />
-    <SUITE FILE_PATH="coverage/python_tutorial$klotski_test.coverage" NAME="klotski_test Coverage Results" MODIFIED="1602809732931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_07_classes/backtracking" />
-    <SUITE FILE_PATH="coverage/python_tutorial$find_all.coverage" NAME="find_all Coverage Results" MODIFIED="1605202890765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers/matrix_mul" />
-    <SUITE FILE_PATH="coverage/python_tutorial$chapter_10_system_and_io.coverage" NAME="chapter_10_system_and_io Coverage Results" MODIFIED="1604282640989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_10_system_and_io" />
-    <SUITE FILE_PATH="coverage/python_tutorial$chapter_7_classes.coverage" NAME="chapter_7_classes Coverage Results" MODIFIED="1603610948329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_07_classes" />
-    <SUITE FILE_PATH="coverage/python_tutorial$chapter_2_strings.coverage" NAME="chapter_2_strings Coverage Results" MODIFIED="1603081959717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_02_strings" />
-    <SUITE FILE_PATH="coverage/python_tutorial$chapter_1_numbers.coverage" NAME="chapter_1_numbers Coverage Results" MODIFIED="1601864458629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_01_numbers" />
-    <SUITE FILE_PATH="coverage/python_tutorial$chapter_6_more_functions.coverage" NAME="chapter_6_more_functions Coverage Results" MODIFIED="1604337216805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/tutorials/chapter_06_more_functions" />
   </component>
 </project>

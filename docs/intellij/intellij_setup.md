@@ -1,18 +1,18 @@
-### Set up IntelliJ Projects
+# Set up IntelliJ Projects
 
 We choose IntelliJ here, but PyCharm is similar. It's a great refactoring tool.
 When I move HTML/Markdown files, IntelliJ maintains the references. When I move
 code to different packages, IntelliJ moves the references as well. It's more
 than a coding tool.
 
-#### Python Plugin
+## Python Plugin
 First, download Python plugin for IntelliJ. Go to Settings from File menu
 (Windows) or Preferences(Mac), then click Plugins on the left. Find the Python
 plugin and install it.
 
 ![Plugin](intellij-plugin.png)
 
-#### Project Setup
+## Project Setup
 When we create new project, we have to deal with 2 major steps:
 - activate Python plugin
 - put all IntelliJ files in a folder so that it won't "pollute" the project 
@@ -52,7 +52,7 @@ well during module setup.
 
 Setup the source folder in each module(marked as blue color).
 
-#### Runtime Setup
+## Runtime Setup
 To run Python code, right mouse click anywhere in the Python file, the context
 menu shows several options:
 
@@ -72,16 +72,23 @@ The unit test context menu is similar to the above
 
 
 test background color: 3C3F41
-#### GIT repository
 
-Ignore the following in GIT:
-__pycache__
-.coverage
-/src/*.egg-info
-/build
-/dist
+## GIT repository
+
+Ignore the following in GIT:  
+__pycache__  
+.coverage  
+/src/*.egg-info  
+/build  
+/dist  
 
 IntelliJ has GIT functionalities built in. On windows, TortoiseGIT is a nice
 GUI. Another tool for github is: https://desktop.github.com/.
 
 Command line tool is for more experienced users.
+
+
+## Other Plugins
+IntelliJ is very versatile, with plugins. I have the following, for example,
+
+![other](intellij-other-plugins.png)

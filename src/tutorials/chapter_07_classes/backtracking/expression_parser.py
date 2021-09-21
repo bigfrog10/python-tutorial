@@ -1,5 +1,6 @@
 import queue
 import re
+
 # https://blog.csdn.net/iteye_15612/article/details/81725858
 # https://www.chris-j.co.uk/parsing.php
 # https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html
@@ -88,5 +89,25 @@ def _eval_postfix(postfix_queue):
     return operand_stack.pop()
 
 
-print(eval_str_expr('(81 * 6) / 42 + (3 - 1)'))
-print(eval('(81 * 6) / 42 + (3 - 1)'))
+# print(eval_str_expr('(81 * 6) / 42 + (3 - 1)'))
+# print(eval('(81 * 6) / 42 + (3 - 1)'))
+# print(eval_str_expr('3+2*2'))
+# print(eval_str_expr('3-(2-(1+2))'))
+# print(eval_str_expr('3+2*2'))
+print(eval_str_expr('3*2+2'))
+
+# LC1106. Parsing A Boolean Expression
+def parseBoolExpr(self, expression: str) -> bool:
+    func = {'&' : all, '|' : any, '!' : lambda x : not x[0]}
+    stack = []
+    for c in expression:
+        if c == 't': stack.append(True)
+        elif c == 'f': stack.append(False)
+        elif c in func: stack.append(func[c])
+        elif c == '(': stack.append('(')
+        elif c == ')':
+            ss = []
+            while stack[-1] != '(': ss.append(stack.pop())
+            stack.pop() # skip (
+            stack.append(stack.pop()(ss)) # operator
+    return stack.pop()
