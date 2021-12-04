@@ -151,6 +151,15 @@ class Solution:
             k = brr.bisect_left((arr[i]+1)//2)
             count += k
         return count
+    def reversePairs(self, nums: List[int]) -> int:
+        sorted_arr = SortedList() # O(nlogn)
+        rst = []
+        count = 0
+        for num in nums[::-1]:
+            idx = sorted_arr.bisect_left((num+1)//2)  # this is O(logn)
+            count += idx
+            sorted_arr.add(num)  # this is O(logn)
+        return count
 
 
 # LC1470. Shuffle the Array
@@ -184,6 +193,7 @@ def findShortestSubArray(self, nums: List[int]) -> int:
     for i, v in enumerate(nums): dt[v].append(i)
     degree = max(len(v) for v in dt.values())
     return min(v[-1] - v[0] + 1 for v in dt.values() if len(v) == degree)
+
 def findShortestSubArray(self, nums: List[int]) -> int:
     left = right = 0
     degree = max(collections.Counter(nums).values())
@@ -198,4 +208,39 @@ def findShortestSubArray(self, nums: List[int]) -> int:
             left += 1
             maxc = max(cnts.values())
         right += 1
+    return res
+
+
+# LC217. Contains Duplicate
+def containsDuplicate(self, nums: List[int]) -> bool:
+    showed = set()
+    for i in nums:
+        if i in showed: return True
+        showed.add(i)
+    return False
+def containsDuplicate(self, nums: List[int]):
+    return len(set(nums)) < len(nums)
+
+
+# LC350. Intersection of Two Arrays II
+def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+    import collections
+    counts1 = collections.Counter(nums1)
+    counts2 = collections.Counter(nums2)
+    # or we may just loop nums2 and manipulate counts.
+    res = []
+    for i, v in counts1.items():
+        v1 = counts2[i]
+        c = min(v, v1)
+        for k in range(c): res.append(i)
+    return res
+
+
+# LC1762. Buildings With an Ocean View - increasing stack
+def findBuildings(self, heights: List[int]) -> List[int]:
+    res = [len(heights) - 1]
+    for i in range(len(heights) - 2, -1, -1):
+        if heights[i] > heights[res[-1]]:
+            res.append(i)
+    res.reverse()
     return res
