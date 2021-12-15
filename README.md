@@ -109,5 +109,30 @@ ___
 - pillow
 - subprocess
 
+- tar file example: https://stackoverflow.com/questions/20135019/add-multiple-files-from-multiple-directories-to-unique-tar-gz-archives-using-py
+
+- Visualize code execution: https://pythontutor.com/
+
+- https://github.com/chinesehuazhou/python-whydo
+- https://github.com/zhiwehu/Python-programming-exercises
+
+### Others
+Parallel Computing:
+[Ray](https://github.com/ray-project/ray), Dask, Dispy, Pandaral-lel, Joblib
+- parallel computing: https://people.orie.cornell.edu/vc333/orie5270/lectures/weeks9-10/
+- https://www.infoworld.com/article/3542595/6-python-libraries-for-parallel-processing.html
+- https://www.infoworld.com/article/3526429/how-to-use-asyncio-in-python.html
+- https://www.infoworld.com/article/3454442/get-started-with-async-in-python.html
+- https://www.marktechpost.com/2020/03/29/uber-open-sources-fiber-a-python-distributed-computing-library-for-modern-computer-clusters/
+- 
 
 
+
+
+
+
+- Python 3.10 features: https://blog.csdn.net/cqcre/article/details/120714815?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.no_search_link&spm=1001.2101.3001.4242
+
+- https://www.infoworld.com/article/3600993/5-great-libraries-for-profiling-python-code.html
+
+- https://www.toutiao.com/a6838935202333458947/
