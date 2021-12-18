@@ -96,6 +96,10 @@ ___
 - Enums
 - Iterator
 - Decorator
+- Interfaces:
+  - https://hub.packtpub.com/interfaces/
+  - https://www.pmatiello.me/2012/03/implementing-interface-contracts-in-python-with-class-decorators.html
+  - https://stackoverflow.com/questions/2124190/how-do-i-implement-interfaces-in-python
 
 #### Chapter 9. Date and Time
 ___
@@ -124,9 +128,13 @@ Parallel Computing:
 - https://www.infoworld.com/article/3526429/how-to-use-asyncio-in-python.html
 - https://www.infoworld.com/article/3454442/get-started-with-async-in-python.html
 - https://www.marktechpost.com/2020/03/29/uber-open-sources-fiber-a-python-distributed-computing-library-for-modern-computer-clusters/
+
+Windows change background wallpaper
+- https://stackoverflow.com/questions/21715895/creating-a-background-changer-in-python-with-ctypes-not-working
 - 
 
-
+- https://www.toutiao.com/a6818362086939165188/
+- https://www.toutiao.com/a6740081099646435847/
 
 
 

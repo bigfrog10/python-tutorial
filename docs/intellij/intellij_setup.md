@@ -52,11 +52,20 @@ well during module setup.
 
 Setup the source folder in each module(marked as blue color).
 
+If a package appears in 2 source folders(source or test), only 1 will be effective.
+So the root package name in the test folder has to be different from the root
+package name in the source folder. One convention is to add _test at the end in
+the test package.
+
 ## Runtime Setup
 To run Python code, right mouse click anywhere in the Python file, the context
 menu shows several options:
 
 ![Plugin](intellij-app-run.png)
+
+Other settings can be found in the Run Configuration
+
+![Plugin](intellij-app-run1.png)
 
 Python has several testing frameworks, you may choose from preferences/settings:
 
