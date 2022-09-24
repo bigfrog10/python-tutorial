@@ -7,8 +7,8 @@
 # 现在已知我方共有n支部队，且知道每支部队的人数，请问，在最优方案下，我们暴露给敌人的部队数量有几支。
 # If we have 15, 9, 4, 2, if we hide 2 under 15, then we cannot hide 4 under 9.
 # So we need to hide largest possible under largest.
-# However, if we have 18, 6, 4, 2, if we hide 6 under 18, then we cannot hide 2 under 6.
-# So we need to scan troops with fewer soldiers first and hide it within another of smallest but qualified
+# However, if we have 18, 6, 5, 2, if we hide 6 under 18, then we cannot hide 2 under 6.
+# So we need to scan troops with fewer soldiers first and hide it within another of smallest size possible
 # assume that we can only hide one number under another.
 def hide(int_arr):
     arr = sorted(int_arr)
@@ -49,7 +49,7 @@ print(hide2([2, 5, 6, 18]))
 # above optimization is to minimize the total number of troops exposed
 
 # Further open question: 
-# if we want to miniize the total number of soldiers exposed, where assume 
+# if we want to minimize the total number of soldiers exposed, where assume 
 # the number of soldiers are hidden if and only if the troop is nested
 # i.e. 
 # If we have 15, 9, 4, 2, if we hide 4 under 15, 2 under 9, exposed soldiers are 24=18+9
