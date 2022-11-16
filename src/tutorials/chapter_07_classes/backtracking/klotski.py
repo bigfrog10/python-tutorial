@@ -5,21 +5,13 @@ import tutorials.chapter_07_classes.backtracking.stack_queue_impl as collections
 
 
 class Direction(enum.Enum):
-    UP = 0
-    LEFT = 1
-    RIGHT = 2
-    DOWN = 3
+    UP = (-1, 0)
+    LEFT = (0, -1)
+    RIGHT = (0, 1)
+    DOWN = (1, 0)
 
     def opposite(self):
-        if self == self.UP:
-            return self.DOWN
-        elif self == self.DOWN:
-            return self.UP
-        elif self == self.RIGHT:
-            return self.LEFT
-        elif self == self.LEFT:
-            return self.RIGHT
-
+        return Direction((-self.value[0], -self.value[1]))
 
 class SlidingBlock:
     def __init__(self, name, x_coord, y_coord, length, width):
@@ -32,14 +24,8 @@ class SlidingBlock:
         self.occupied = []  # cache for performance
 
     def move(self, direction):
-        if direction == Direction.UP:
-            self.x_coord -= 1
-        elif direction == Direction.LEFT:
-            self.y_coord -= 1
-        elif direction == Direction.RIGHT:
-            self.y_coord += 1
-        elif direction == Direction.DOWN:
-            self.x_coord += 1
+        self.x_coord += direction.value[0]
+        self.y_coord += direction.value[1]
 
         self.occupied = []
 
