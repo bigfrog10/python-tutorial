@@ -29,17 +29,19 @@ class SlidingBlock:
 
         self.occupied = []
 
-    def occupied_spaces(self):
+    def border(self):
         if not self.occupied:
-            self.occupied = [(self.x_coord + i, self.y_coord + j)
-                             for i in range(self.length) for j in range(self.width)]
+            self.occupied = [(self.x_coord + i, self.y_coord + j) 
+                             for i in range(self.length) for j in range(self.width) 
+                             if i == 0 or i + 1 == self.length or j == 0 or j + 1 == self.width
+                             ]
         return self.occupied
 
     def is_occupied(self, x, y):
         return self.x_coord <= x < self.x_coord + self.length and self.y_coord <= y < self.y_coord + self.width
 
     def __str__(self):
-        return '{name={}, x_coord={}, y_coord={}, length={}, width={}}'.format(
+        return '(name={}, x_coord={}, y_coord={}, length={}, width={})'.format(
             self.name, self.x_coord, self.y_coord, self.length, self.width)
 
     def __repr__(self):
@@ -48,33 +50,22 @@ class SlidingBlock:
 
 
 class SlidingGameBoard:
-    def __init__(self, length, width, sliding_blocks: list, finish_criteria):
+    def __init__(self, length, width, sliding_blocks: list, finish_criteria, shape_to_num = None, steps = None):
         self.length = length
         self.width = width
         self.sliding_blocks = sliding_blocks
         self.finish_criteria = finish_criteria
 
-        # Need to move these somewhere else, interfering with board copying.
-        # Need to keep board lightweight for copying
         self.name_to_block = {x.name: x for x in sliding_blocks}
-
-        self.shape_to_num = {}
-        counter = 0  # 0 indicates empty
-        for block in sliding_blocks:  # same shape should have same number, so reduce branches
-            exist_num = self.shape_to_num.get((block.length, block.width), None)
-            if not exist_num:
-                counter += 1
-                self.shape_to_num[(block.length, block.width)] = counter
-
-        self.steps = []
-
+        self.shape_to_num = shape_to_num if shape_to_num else {shape:i+1 for i, shape in enumerate(set([(block.length, block.width) for block in sliding_blocks]))}
+        self.steps = steps if steps else []
         self.layout = None
 
     def get_layout(self):
         if not self.layout:
             self.layout = [[0] * self.width for _ in range(self.length)]
             for b in self.sliding_blocks:
-                spaces = b.occupied_spaces()
+                spaces = b.border()
                 for (x, y) in spaces:
                     self.layout[x][y] = self.shape_to_num[(b.length, b.width)]
 
@@ -92,36 +83,16 @@ class SlidingGameBoard:
         # but rush hour game is not symmetric, so we leave this optimization out.
         return ret
 
-    # for performance reason, we spill out details, so lengthy
+    # since each move just has one step to one direction, collision can be detected by borders
     def is_movable(self, direction, block):
         layout = self.get_layout()
-        if direction == Direction.UP:
-            if block.x_coord == 0:  # out of bound check
+        for x,y in block.border():
+            x += direction.value[0]
+            y += direction.value[1]
+            if x<0 or x >= self.length or y<0 or y>=self.width:
                 return False
-            top_row = layout[block.x_coord-1]  # overlay check
-            for i in range(block.width):
-                if block.y_coord + i < self.width and top_row[block.y_coord + i] != 0:  # 0 means empty
-                    return False
-        elif direction == Direction.DOWN:
-            if block.x_coord + block.length == self.length:
+            if not block.is_occupied(x, y) and layout[x] and layout[x][y] and layout[x][y] != 0:
                 return False
-            bottom_row = layout[block.x_coord + block.length]
-            for i in range(block.width):
-                if block.y_coord + i < self.width and bottom_row[block.y_coord + i] != 0:
-                    return False
-        elif direction == Direction.LEFT:
-            if block.y_coord == 0:
-                return False
-            for i in range(block.length):
-                if block.x_coord + i < self.length and layout[block.x_coord + i][block.y_coord - 1] != 0:
-                    return False
-        elif direction == Direction.RIGHT:
-            if block.y_coord + block.width == self.width:
-                return False
-            for i in range(block.length):
-                if block.x_coord + i < self.length and layout[block.x_coord + i][block.y_coord + block.width] != 0:
-                    return False
-
         return True
 
     def __str__(self):
@@ -133,23 +104,11 @@ class SlidingGameBoard:
     def deep_clone(self):
         # copy.deepcopy and pickle are slow since we have internal states
         # return pickle.loads(pickle.dumps(self))
-        new_blocks = []
-        for b in self.sliding_blocks:
-            new_blocks.append(SlidingBlock(b.name, b.x_coord, b.y_coord, b.length, b.width))
-
-        cls = self.__class__
-        ret = cls.__new__(cls)
-        ret.length = self.length
-        ret.width = self.width
-        ret.sliding_blocks = new_blocks
-        ret.name_to_block = {x.name: x for x in new_blocks}
-        ret.finish_criteria = self.finish_criteria
-
-        ret.steps = self.steps.copy()
-        ret.shape_to_num = self.shape_to_num
-        ret.layout = None  # don't copy this field since block is moved.
-        return ret
-
+        return SlidingGameBoard(self.length, self.width,
+            [SlidingBlock(b.name, b.x_coord, b.y_coord, b.length, b.width) for b in self.sliding_blocks],
+            self.finish_criteria,
+            self.shape_to_num,
+            self.steps.copy())
 
 def solve(board: SlidingGameBoard):
     print("board shape: len={}, wid={}".format(board.length, board.width))
