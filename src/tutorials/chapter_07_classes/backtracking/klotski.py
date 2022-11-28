@@ -10,9 +10,6 @@ class Direction(enum.Enum):
     RIGHT = (0, 1)
     DOWN = (1, 0)
 
-    def opposite(self):
-        return Direction((-self.value[0], -self.value[1]))
-
 class SlidingBlock:
     def __init__(self, name, x_coord, y_coord, length, width):
         self.name = name
@@ -95,6 +92,11 @@ class SlidingGameBoard:
                 return False
         return True
 
+    def move(self, block_name, direction):
+        block = self.name_to_block[block_name]
+        block.move(direction)
+        self.steps.append((block.name, block.x_coord, block.y_coord, direction.name))
+
     def __str__(self):
         return str(self.steps) + ', ' + str(self.layout)
 
@@ -128,16 +130,14 @@ def solve(board: SlidingGameBoard):
         for block in board.sliding_blocks:
             for d in dirs:  # loop through UP, DOWN, LEFT and RIGHT in Direction
                 if board.is_movable(d, block):
-                    move_to(d, block, board, cache, queue, results, zobrist_tbl)
+                    move_to(d, block.name, board, cache, queue, results, zobrist_tbl)
 
     return results
 
 
-def move_to(direction, block, board, cache, queue, results, zobrist_tbl):
-    block.move(direction)
-
+def move_to(direction, block_name, board, cache, queue, results, zobrist_tbl):
     new_board = board.deep_clone()
-    new_board.steps.append((block.name, block.x_coord, block.y_coord, direction.name))
+    new_board.move(block_name, direction)
 
     if new_board.finish_criteria(new_board):  # if it is a solution, add to result and stop
         results.append(new_board)
@@ -147,7 +147,6 @@ def move_to(direction, block, board, cache, queue, results, zobrist_tbl):
             cache.add(hb)
             queue.enqueue(new_board)
 
-    block.move(direction.opposite())  # restore to last state for next try
 
 
 # https://github.com/jeantimex/klotski
